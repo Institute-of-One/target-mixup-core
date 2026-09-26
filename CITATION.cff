@@ -6,6 +6,14 @@ version: 0.1.0
 date-released: 2026-09-26
 license: MIT
 repository-code: "https://github.com/Institute-of-One/target-mixup-core"
+doi: 10.5281/zenodo.22978585
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22978585
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.22978586
+    description: Version DOI of v0.1.0 (cited in the manuscript)
 authors:
   - family-names: Yamamoto
     given-names: Shuji

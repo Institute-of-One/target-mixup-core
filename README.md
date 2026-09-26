@@ -1,5 +1,8 @@
 # target-mixup-core
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22978585.svg)](https://doi.org/10.5281/zenodo.22978585)
+[![CI](https://github.com/Institute-of-One/target-mixup-core/actions/workflows/ci.yml/badge.svg)](https://github.com/Institute-of-One/target-mixup-core/actions/workflows/ci.yml)
+
 Code, derived results and pre-specification records for the study
 
 > **Correct Reading, Wrong Lesion: Where Target Mix-Ups Arise in AI-Assisted Imaging Analysis — A Staged,
@@ -97,4 +100,5 @@ UIDs.
 
 ## Citation
 
-See `CITATION.cff`. The DOI will be added when the release is archived on Zenodo.
+See `CITATION.cff`. All versions: https://doi.org/10.5281/zenodo.22978585 (concept DOI). The version used in the
+manuscript, v0.1.0: https://doi.org/10.5281/zenodo.22978586.
