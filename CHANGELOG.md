@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Manuscript retitled; terminology aligned with it: the request-reading components are "parsers" and their agreement is "consensus". `paper/figures.py` labels the consensus gates accordingly. No analysis, frozen code or data changed.
+
 ## 0.1.1
 
 Additions requested by an independent review of the manuscript. No frozen code or data changed.

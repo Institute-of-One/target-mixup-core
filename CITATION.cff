@@ -13,8 +13,8 @@ abstract: >-
   adjudication. No images are included.
 type: software
 license: MIT
-version: 0.1.1
-date-released: 2026-09-26
+version: 0.1.2
+date-released: 2026-09-27
 authors:
   - given-names: Shuji
     family-names: Yamamoto

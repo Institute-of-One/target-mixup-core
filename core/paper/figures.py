@@ -141,10 +141,10 @@ def figure2(expa, out):
 
 
 READERS_B = [  # (key in paper_results.json, label); groups separated by a gap
-    [('R1', 'Rules, v1 (frozen)'), ('M1', 'Model, v1 (frozen)'), ('D1', 'Double reading, v1')],
+    [('R1', 'Rules, v1 (frozen)'), ('M1', 'Model, v1 (frozen)'), ('D1', 'Consensus, v1')],
     [('R2', 'Rules, v2'), ('M2', 'Model, v2'), ('A2', 'Author intent, v2 gate')],
     [('R3', 'Rules, v3 gate'), ('M3', 'Model, v3 gate'), ('A3', 'Author intent, v3 gate'),
-     ('D3t', 'Double reading, v3 (target)'), ('D3r', 'Double reading, v3 (reason)')],
+     ('D3t', 'Consensus, v3 (same target)'), ('D3r', 'Consensus, v3 (same fields)')],
 ]
 SETS_B = [(1, 'Set 1 · development'), (2, 'Set 2 · evaluation of v2'), (3, 'Set 3 · confirmatory, v3')]
 
