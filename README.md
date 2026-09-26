@@ -1,7 +1,7 @@
 # target-mixup-core
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22978585.svg)](https://doi.org/10.5281/zenodo.22978585)
 [![CI](https://github.com/Institute-of-One/target-mixup-core/actions/workflows/ci.yml/badge.svg)](https://github.com/Institute-of-One/target-mixup-core/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22978585.svg)](https://doi.org/10.5281/zenodo.22978585)
 
 Code, derived results and pre-specification records for the study
 

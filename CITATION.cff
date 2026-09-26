@@ -1,25 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this software or these results, please cite them as below."
-title: "target-mixup-core: code, derived results and pre-specification records for a staged study of target mix-ups in AI-assisted lung CT analysis"
+message: >-
+  If you use this software or the results it contains, please cite both the
+  software archive and the paper it accompanies.
+title: >-
+  target-mixup-core: code, derived results and pre-specification records for a
+  staged study of target mix-ups in AI-assisted lung CT analysis
+abstract: >-
+  Analysis code, derived results, freeze records and protocol documents for a
+  three-stage study of where target mix-ups arise in AI-assisted imaging
+  analysis: a census of public lung CT DICOM segmentations, a controlled gate
+  experiment, and expert requests in three hash-frozen sets with a blinded lobe
+  adjudication. No images are included.
 type: software
+license: MIT
 version: 0.1.0
 date-released: 2026-09-26
-license: MIT
-repository-code: "https://github.com/Institute-of-One/target-mixup-core"
-doi: 10.5281/zenodo.22978585
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22978585
-    description: Concept DOI (all versions)
-  - type: doi
-    value: 10.5281/zenodo.22978586
-    description: Version DOI of v0.1.0 (cited in the manuscript)
 authors:
-  - family-names: Yamamoto
-    given-names: Shuji
-    affiliation: "Institute of One, LISIT Co., Ltd., Tokyo 150-0044, Japan"
+  - given-names: Shuji
+    family-names: Yamamoto
     email: yamamoto@lisit.jp
     orcid: "https://orcid.org/0000-0001-9211-1071"
+    affiliation: "Institute of One, LISIT Co., Ltd., Tokyo 150-0044, Japan"
+repository-code: "https://github.com/Institute-of-One/target-mixup-core"
 keywords:
   - target identification
   - AI agents
@@ -27,7 +29,17 @@ keywords:
   - lung nodule
   - double reading
   - request verification
-abstract: >-
-  Analysis code, derived results, freeze records and protocol documents for a three-stage study of where target
-  mix-ups arise in AI-assisted imaging analysis: a census of public lung CT DICOM segmentations, a controlled gate
-  experiment, and expert requests in three hash-frozen sets with a blinded lobe adjudication. No images are included.
+  - IORN-015
+identifiers:
+  - type: other
+    value: IORN-015
+    description: Institute of One research note number for the accompanying paper.
+  - type: doi
+    value: 10.5281/zenodo.22978585
+    description: >-
+      Concept DOI, resolving to the latest archived version. Cite this one
+      unless a specific version is meant.
+  - type: doi
+    value: 10.5281/zenodo.22978586
+    description: Version DOI for v0.1.0, the release used in IORN-015.
+# TODO: add the paper's DOI under preferred-citation once it is accepted.
