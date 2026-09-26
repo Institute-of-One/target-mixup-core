@@ -5,8 +5,7 @@
 
 Code, derived results and pre-specification records for the study
 
-> **Correct Reading, Wrong Lesion: Where Target Mix-Ups Arise in AI-Assisted Imaging Analysis — A Staged,
-> Pre-Specified Study of Lung CT Nodule Requests** (Shuji Yamamoto; manuscript under review).
+> **Correct Reading, Wrong Lesion: Where Target Mix-Ups Arise in AI-Assisted Lung CT Analysis — A Staged Evaluation** (Shuji Yamamoto; manuscript under review).
 
 The study asks where an AI pipeline that measures a lesion on request can end up measuring the wrong lesion, and
 which safeguards stop which failures. It has three stages on public lung CT from The Cancer Imaging Archive (TCIA):
