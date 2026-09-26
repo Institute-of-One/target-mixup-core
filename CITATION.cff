@@ -8,12 +8,12 @@ title: >-
 abstract: >-
   Analysis code, derived results, freeze records and protocol documents for a
   three-stage study of where target mix-ups arise in AI-assisted imaging
-  analysis: a census of public lung CT DICOM segmentations, a controlled gate
-  experiment, and expert requests in three hash-frozen sets with a blinded lobe
+  analysis: a stratified audit of public lung CT DICOM segmentations, a controlled gate
+  experiment, and expert requests in three hash-frozen sets with a lobe
   adjudication. No images are included.
 type: software
 license: MIT
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-09-26
 authors:
   - given-names: Shuji
@@ -41,5 +41,5 @@ identifiers:
       unless a specific version is meant.
   - type: doi
     value: 10.5281/zenodo.22978586
-    description: Version DOI for v0.1.0, the release used in IORN-015.
+    description: Version DOI for v0.1.0, the first release.
 # TODO: add the paper's DOI under preferred-citation once it is accepted.

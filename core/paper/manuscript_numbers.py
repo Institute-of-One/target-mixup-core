@@ -184,6 +184,27 @@ def main(argv=None):
     put('lobe_fissure_min', lb['fissure_mm_disagree'][0], src_b)
     put('lobe_fissure_max', lb['fissure_mm_disagree'][-1], src_b)
     put('lobe_items', lb['disagree_n'] + lb['controls_n'], src_b)
+    # Post hoc (Codex review 2026-09-26): the v1 rules with only the rank removed, and first label versions.
+    ab = load(args.expb / 'rank_ablation.json')
+    src_ab = 'expB/rank_ablation.json'
+    put('b_r1_correct_kept_norank', sum(v['correct_kept'] for v in ab.values()), src_ab)
+    put('b_r1_wrong_kept_norank', sum(v['wrong_kept'] for v in ab.values()), src_ab)
+    put('b_r1_wrong_rank_dependent', sum(v['wrong_rank_dependent'] for v in ab.values()), src_ab)
+    put('b_d1_wrong_rank_dependent', sum(v['d1_wrong_rank_dependent'] for v in ab.values()), src_ab)
+    for s in ('1', '2', '3'):
+        for name in ('a2', 'a3'):
+            for ver in ('first', 'last'):
+                c, w = ab[s][f'{name}_{ver}']
+                put(f'b{s}_{name}_{ver}_c', c, src_ab)
+                put(f'b{s}_{name}_{ver}_w', w, src_ab)
+        put(f'b{s}_labels_changed', ab[s]['labels_changed'], src_ab)
+    for k in ('d3t_wrong_mislocalized', 'd3t_wrong_unassignable', 'd3t_wrong_other'):
+        put(f'lobe_{k}', lb[k], src_b)
+    items = lb['items']
+    put('lobe_q2_correct_raw', sum(x['q2'] == 'correct' for x in items), src_b)
+    put('lobe_q2_incorrect_raw', sum(x['q2'] == 'incorrect' for x in items), src_b)
+    ctl = sorted(x['fissure_mm'] for x in items if x['role'] == 'control')
+    put('lobe_control_mm', ', '.join(f'{d:.1f}' for d in ctl[:-1]) + f' and {ctl[-1]:.1f}', src_b)
     series_b = load(args.expb / 'series.json')
     put('b_series', len(series_b['chosen']), 'expB/series.json')
     put('b_eligible', series_b['eligible'], 'expB/series.json')

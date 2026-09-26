@@ -1,0 +1,86 @@
+{
+ "1": {
+  "r1_correct": 11,
+  "r1_wrong": 7,
+  "norank_correct": 3,
+  "norank_wrong": 0,
+  "correct_kept": 3,
+  "wrong_kept": 0,
+  "wrong_rank_dependent": 7,
+  "d1_wrong": 0,
+  "d1_wrong_rank_dependent": 0,
+  "a2_first": [
+   7,
+   0
+  ],
+  "a2_last": [
+   7,
+   0
+  ],
+  "a3_first": [
+   4,
+   0
+  ],
+  "a3_last": [
+   4,
+   0
+  ],
+  "labels_changed": 1
+ },
+ "2": {
+  "r1_correct": 13,
+  "r1_wrong": 6,
+  "norank_correct": 8,
+  "norank_wrong": 0,
+  "correct_kept": 8,
+  "wrong_kept": 0,
+  "wrong_rank_dependent": 6,
+  "d1_wrong": 0,
+  "d1_wrong_rank_dependent": 0,
+  "a2_first": [
+   6,
+   1
+  ],
+  "a2_last": [
+   8,
+   1
+  ],
+  "a3_first": [
+   8,
+   1
+  ],
+  "a3_last": [
+   9,
+   0
+  ],
+  "labels_changed": 3
+ },
+ "3": {
+  "r1_correct": 2,
+  "r1_wrong": 15,
+  "norank_correct": 2,
+  "norank_wrong": 3,
+  "correct_kept": 2,
+  "wrong_kept": 3,
+  "wrong_rank_dependent": 12,
+  "d1_wrong": 1,
+  "d1_wrong_rank_dependent": 0,
+  "a2_first": [
+   5,
+   3
+  ],
+  "a2_last": [
+   5,
+   3
+  ],
+  "a3_first": [
+   5,
+   2
+  ],
+  "a3_last": [
+   5,
+   2
+  ],
+  "labels_changed": 1
+ }
+}

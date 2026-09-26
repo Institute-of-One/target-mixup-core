@@ -11,11 +11,11 @@ Code, derived results and pre-specification records for the study
 The study asks where an AI pipeline that measures a lesion on request can end up measuring the wrong lesion, and
 which safeguards stop which failures. It has three stages on public lung CT from The Cancer Imaging Archive (TCIA):
 
-1. **Census** of public DICOM Segmentation (SEG) series: header checks (source references, Frame of Reference, plane
+1. **Stratified audit** (the code calls it the census) of public DICOM Segmentation (SEG) series: header checks (source references, Frame of Reference, plane
    placement) and whether recorded semantics distinguish targets (`seg_census*.py`, `series_integrity.py`).
 2. **Experiment A**: templated requests, gates G0–G3 (`expA_*.py`).
 3. **Experiment B**: 60 expert-written requests in three sets, each written after the design for it was frozen with
-   SHA-256 hashes (`expB_*.py`), plus a blinded lobe adjudication.
+   SHA-256 hashes (`expB_*.py`), plus a lobe adjudication.
 
 This repository contains no images, no DICOM objects and no segmentation masks. It identifies public TCIA objects by
 their UIDs and contains results derived from them.
@@ -26,8 +26,8 @@ their UIDs and contains results derived from them.
 |---|---|
 | `core/` | Analysis code (flat modules, run from this directory) and unit tests |
 | `core/imaging_tests/` | Tests of the DICOM checks on synthetic CT–SEG pairs |
-| `core/paper/` | `manuscript_numbers.py` (every number the manuscript quotes) and `figures.py` (Figures 1–3) |
-| `results/seg_census/` | Census records, summary, target-semantics analysis, visual spot-check answers |
+| `core/paper/` | `manuscript_numbers.py` (every number the manuscript quotes) and `figures.py` (the audit, Experiment A and Experiment B figures; Figures 2–4 of the manuscript) |
+| `results/seg_census/` | Audit records, summary, target-semantics analysis, visual spot-check answers |
 | `results/expA/` | Experiment A requests, model responses, results, freeze records |
 | `results/expB/` | Experiment B requests, author labels, model responses, lobes, positions, results, freeze records, lobe adjudication |
 | `results/numbers.json` | All numbers quoted in the manuscript, with their source files |
@@ -68,7 +68,7 @@ The following steps need data that this repository does not redistribute:
 - **Figure 4:** it is an image rendering from the private viewer.
 
 Visual judgements come from the author, recorded through a local viewer that is not part of this repository:
-- the census spot checks;
+- the audit spot checks;
 - the RIDER target review;
 - the Experiment B lobe adjudication.
 
@@ -101,4 +101,4 @@ UIDs.
 ## Citation
 
 See `CITATION.cff`. All versions: https://doi.org/10.5281/zenodo.22978585 (concept DOI). The version used in the
-manuscript, v0.1.0: https://doi.org/10.5281/zenodo.22978586.
+manuscript: v0.1.1 (version DOI added at release). First release, v0.1.0: https://doi.org/10.5281/zenodo.22978586.

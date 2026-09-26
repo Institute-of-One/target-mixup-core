@@ -52,7 +52,7 @@ def main(argv=None):
     m2 = {r['id']: r for r in load_jsonl(B / MODEL_V2)}
     author = {r['id']: r['spec'] for r in load_jsonl(B / 'author_specs.jsonl')}
     reqs = load_jsonl(B / 'requests_expert.jsonl')
-    rows, r1_rank = [], {}
+    rows, r1_rank, wrong_cases = [], {}, {}
     for q in reqs:
         s, sid, targets = q.get('set', 1), q['saved_utc'], table[q['ct_series']]['targets']
         g2 = {int(k): v for k, v in reg2[q['ct_series']].items()}
@@ -70,6 +70,8 @@ def main(argv=None):
             v = t[name]
             rows.append(dict(set=s, reader=name, series=q['ct_series'], correct=int(v == q['target']),
                              wrong=int(v is not None and v != q['target'])))
+            if v is not None and v != q['target']:
+                wrong_cases.setdefault(f'{s}:{name}', []).append(q['case'])
         c = r1_rank.setdefault(s, dict(correct=0, correct_by_rank=0, wrong=0, wrong_by_rank=0))
         if t['R1'] is not None:
             key = 'correct' if t['R1'] == q['target'] else 'wrong'
@@ -149,6 +151,14 @@ def main(argv=None):
         q2_applicable=sum(x['fissure_mm'] <= 10.0 for x in adj),
         q2_applicable_correct=sum(x['fissure_mm'] <= 10.0 and x['q2'] == 'correct' for x in adj),
         fissure_mm_disagree=sorted(x['fissure_mm'] for x in dis), items=sorted(adj, key=lambda x: int(x['item'][1:])))
+    # The set-3 wrong resolutions of the primary consensus gate, classified by the adjudication.
+    by_case = {x['case']: x for x in dis if x['set'] == 3}
+    d3t = wrong_cases.get('3:D3t', [])
+    out['lobes']['d3t_wrong_cases'] = d3t
+    out['lobes']['d3t_wrong_mislocalized'] = sum(c in by_case and by_case[c]['q1'] == by_case[c]['map_lobe'] for c in d3t)
+    out['lobes']['d3t_wrong_unassignable'] = sum(c in by_case and by_case[c]['q1'] == 'undecidable' for c in d3t)
+    out['lobes']['d3t_wrong_other'] = len(d3t) - out['lobes']['d3t_wrong_mislocalized'] - out['lobes']['d3t_wrong_unassignable']
+    out['wrong_cases'] = wrong_cases
     (B / 'paper_results.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
     print(json.dumps({k: v for k, v in out.items() if k not in ('sets',)}, ensure_ascii=False, indent=1)[:3000])
     for s, per in out['sets'].items():

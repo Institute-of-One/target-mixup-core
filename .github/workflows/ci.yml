@@ -52,11 +52,12 @@ jobs:
         run: |
           python expB_score_v3.py --expb ../results/expB --expa ../results/expA
           python expB_paper_results.py --expb ../results/expB --expa ../results/expA
+          python expB_rank_ablation.py --expb ../results/expB --expa ../results/expA
           python paper/manuscript_numbers.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../results
           python paper/figures.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../figures
       - name: Compare with the released results
         working-directory: core
-        run: python check_reproduced.py --released /tmp/released --regenerated ../results expB/results_v3.json expB/paper_results.json numbers.json
+        run: python check_reproduced.py --released /tmp/released --regenerated ../results expB/results_v3.json expB/paper_results.json expB/rank_ablation.json numbers.json
       - name: Qualitative claims
         working-directory: core
         run: python expB_claims_check.py --expb ../results/expB --expa ../results/expA

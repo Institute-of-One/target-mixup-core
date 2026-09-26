@@ -74,6 +74,22 @@ def main(argv=None):
                 if t is not None and t != q['target']:
                     bad.append((name, q['case']))
         claim(f'set {s}: no v3 rule or model resolution to another nodule', not bad, str(bad))
+    # Statements written for both consensus gates at once, and the post hoc rank ablation.
+    pr = json.loads((B / 'paper_results.json').read_text(encoding='utf-8'))
+    s3 = pr['sets']['3']
+    claim('set 3: D3t and D3r have the same nearest-other count ("each gate")',
+          s3['D3t']['episode_wrong'] == s3['D3r']['episode_wrong'], f"{s3['D3t']['episode_wrong']} vs {s3['D3r']['episode_wrong']}")
+    claim('set 3: D3t and D3r have the same any-other count ("each resolved")',
+          s3['D3t']['any_wrong'] == s3['D3r']['any_wrong'], f"{s3['D3t']['any_wrong']} vs {s3['D3r']['any_wrong']}")
+    claim('every set-3 D3t wrong resolution is either mislocalized or unassignable', pr['lobes']['d3t_wrong_other'] == 0)
+    ab_path = B / 'rank_ablation.json'
+    if ab_path.exists():
+        ab = json.loads(ab_path.read_text())
+        claim('rank ablation: wrong resolutions without the rank occur only in set 3',
+              ab['1']['wrong_kept'] == 0 and ab['2']['wrong_kept'] == 0 and ab['3']['wrong_kept'] > 0)
+        claim('D1 kept no rank-dependent wrong resolution', sum(v['d1_wrong_rank_dependent'] for v in ab.values()) == 0)
+        claim('labels: only set 2 results change between first and latest versions',
+              all(ab[s]['a2_first'] == ab[s]['a2_last'] and ab[s]['a3_first'] == ab[s]['a3_last'] for s in ('1', '3')))
     sys.exit(0 if all(results) else 1)
 
 
