@@ -1,0 +1,107 @@
+{
+ "planned": 1785,
+ "audited": 1785,
+ "not_yet_audited": 0,
+ "strata": {
+  "LIDC-IDRI | QIICR": {
+   "series": {
+    "match": 851,
+    "sops_resolved": 851
+   },
+   "patients": {
+    "match": 100
+   }
+  },
+  "LIDC-IDRI | QIN challenge alg01": {
+   "series": {
+    "mismatch": 21,
+    "sops_resolved": 30,
+    "match": 9
+   },
+   "patients": {
+    "mismatch": 7,
+    "match": 3
+   }
+  },
+  "LIDC-IDRI | QIN challenge alg02": {
+   "series": {
+    "mismatch": 21,
+    "sops_resolved": 30,
+    "match": 9
+   },
+   "patients": {
+    "mismatch": 7,
+    "match": 3
+   }
+  },
+  "LIDC-IDRI | QIN challenge alg03": {
+   "series": {
+    "mismatch": 21,
+    "sops_resolved": 30,
+    "match": 9
+   },
+   "patients": {
+    "mismatch": 7,
+    "match": 3
+   }
+  },
+  "RIDER Lung CT | QIICR": {
+   "series": {
+    "match": 59,
+    "sops_resolved": 59
+   },
+   "patients": {
+    "match": 31
+   }
+  },
+  "RIDER Lung CT | QIN challenge alg01": {
+   "series": {
+    "match": 30,
+    "sops_resolved": 30
+   },
+   "patients": {
+    "match": 10
+   }
+  },
+  "RIDER Lung CT | QIN challenge alg02": {
+   "series": {
+    "match": 30,
+    "sops_resolved": 30
+   },
+   "patients": {
+    "match": 10
+   }
+  },
+  "RIDER Lung CT | QIN challenge alg03": {
+   "series": {
+    "match": 30,
+    "sops_resolved": 30
+   },
+   "patients": {
+    "match": 10
+   }
+  },
+  "RIDER Lung CT | Siemens Corporate Research": {
+   "series": {
+    "no_referenced_series": 320,
+    "unreferenced_for_candidates_1": 310,
+    "unreferenced_for_candidates_2+": 10
+   },
+   "patients": {
+    "no_referenced_series": 32
+   }
+  },
+  "RIDER Lung CT | pydicom-seg": {
+   "series": {
+    "mismatch": 374,
+    "sops_resolved": 374,
+    "no_referenced_series": 1,
+    "unreferenced_for_candidates_0": 1
+   },
+   "patients": {
+    "mismatch": 32,
+    "no_referenced_series": 1
+   }
+  }
+ }
+}

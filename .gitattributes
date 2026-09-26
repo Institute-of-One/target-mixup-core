@@ -1,0 +1,4 @@
+# Store every file byte for byte: freeze records hash the exact bytes (several were written with CRLF).
+* -text
+*.png binary
+*.tif binary

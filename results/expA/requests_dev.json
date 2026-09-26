@@ -1,0 +1,3848 @@
+{
+ "seed": 20260925,
+ "templates_sha256": "1f2fcb143cf4eb14eb217bcd404ce41b263c62813adcd14342985e00d42bf42b",
+ "eval_pool": 1728,
+ "eval_sampled": 200,
+ "requests": [
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0000"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0001"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0002"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0003"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0004"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0005"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0006"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0007"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0008"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0009"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0010"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0011"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0012"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0013"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0014"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0015"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0016"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0017"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0018"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0019"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0020"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0021"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0022"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.153536305742006952753134773630",
+   "patient": "LIDC-IDRI-0016",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0023"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0024"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0025"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0026"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0027"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0028"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0029"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0030"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0031"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0032"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0033"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0034"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0035"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0036"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0037"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0038"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0039"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0040"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0041"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0042"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0043"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0044"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0045"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0046"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.154703816225841204080664115280",
+   "patient": "LIDC-IDRI-0241",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0047"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0048"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0049"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0050"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0051"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0052"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0053"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0054"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0055"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0056"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0057"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0058"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0059"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0060"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0061"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0062"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0063"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0064"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0065"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0066"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0067"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0068"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0069"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0070"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227707494413800460340110762069",
+   "patient": "LIDC-IDRI-0093",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0071"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0072"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0073"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0074"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0075"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0076"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0077"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0078"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "release",
+   "id": "dev0079"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0080"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "dev0081"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0082"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0083"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0084"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0085"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0086"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "release",
+   "id": "dev0087"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0088"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0089"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0090"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0091"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0092"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "release",
+   "id": "dev0093"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0094"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.254921765503801141457177972447",
+   "patient": "LIDC-IDRI-0707",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0095"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0096"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0097"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0098"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0099"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0100"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0101"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0102"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0103"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0104"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0105"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0106"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0107"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0108"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0109"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0110"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0111"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0112"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0113"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0114"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0115"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0116"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0117"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0118"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.272190966764020277652079081128",
+   "patient": "LIDC-IDRI-0063",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0119"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0120"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0121"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0122"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 10,
+    "unique": true
+   },
+   "offered_target": 10,
+   "correct_action": "release",
+   "id": "dev0123"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 8,
+   "correct_action": "defer",
+   "id": "dev0124"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0125"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0126"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 9,
+    "unique": true
+   },
+   "offered_target": 9,
+   "correct_action": "release",
+   "id": "dev0127"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0128"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0129"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0130"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 10,
+    "unique": true
+   },
+   "offered_target": 10,
+   "correct_action": "release",
+   "id": "dev0131"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "dev0132"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0133"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "dev0134"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 9,
+    "unique": true
+   },
+   "offered_target": 9,
+   "correct_action": "release",
+   "id": "dev0135"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "dev0136"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0137"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0138"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 10,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0139"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 9,
+   "correct_action": "defer",
+   "id": "dev0140"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0141"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 9,
+   "correct_action": "defer",
+   "id": "dev0142"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280125803152924778388346920341",
+   "patient": "LIDC-IDRI-0042",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 9,
+    "unique": true
+   },
+   "offered_target": 9,
+   "correct_action": "release",
+   "id": "dev0143"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0144"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0145"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0146"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0147"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0148"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0149"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0150"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0151"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0152"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0153"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0154"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0155"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0156"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0157"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0158"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0159"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0160"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0161"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0162"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0163"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0164"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "dev0165"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0166"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.295462530340364058116953738925",
+   "patient": "LIDC-IDRI-0377",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0167"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0168"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0169"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0170"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0171"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0172"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0173"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0174"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0175"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0176"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0177"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0178"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0179"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0180"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0181"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0182"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0183"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0184"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0185"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0186"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0187"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0188"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0189"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0190"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.301462380687644451483231621986",
+   "patient": "LIDC-IDRI-0507",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0191"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "dev0192"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0193"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0194"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0195"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0196"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0197"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0198"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0199"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0200"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0201"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0202"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0203"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0204"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0205"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0206"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0207"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0208"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "dev0209"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0210"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "dev0211"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0212"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0213"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0214"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.332829333783605240302521201463",
+   "patient": "LIDC-IDRI-0039",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0215"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0216"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0217"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0218"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "右肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0219"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も大きい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0220"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も小さい結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0221"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も頭側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0222"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D1",
+   "lang": "ja",
+   "text": "左肺で最も尾側の結節の体積と平均CT値を測ってください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0223"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0224"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0225"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0226"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "右の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0227"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番大きいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0228"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番小さいノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0229"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番上のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "dev0230"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D2",
+   "lang": "ja",
+   "text": "左の一番下のノジュールを計測して。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "dev0231"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0232"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0233"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "dev0234"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the right lung.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "dev0235"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the largest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0236"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the smallest nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "dev0237"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most cranial nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0238"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.397522780537301776672854630421",
+   "patient": "LIDC-IDRI-0651",
+   "family": "D3",
+   "lang": "en",
+   "text": "Measure the volume and mean HU of the most caudal nodule in the left lung.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "dev0239"
+  }
+ ]
+}

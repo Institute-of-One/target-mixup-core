@@ -1,0 +1,764 @@
+[
+ {
+  "set": 1,
+  "case": "B01",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 59.5,
+   "RLL": 66.5
+  },
+  "size_mm": 6.1,
+  "text": "右肺のマーキングした結節の最大径を計測してください"
+ },
+ {
+  "set": 1,
+  "case": "B03",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 10.6,
+   "RML": 31.3
+  },
+  "size_mm": 21.0,
+  "text": "右肺の背側のマーキングした結節の最大径を計測してください。"
+ },
+ {
+  "set": 1,
+  "case": "B02",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 58.2,
+   "RML": 103.2
+  },
+  "size_mm": 6.7,
+  "text": "右肺のマーキングした結節の最大径を計測してください。"
+ },
+ {
+  "set": 1,
+  "case": "B04",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 65.5,
+   "RML": 66.8
+  },
+  "size_mm": 8.5,
+  "text": "右肺の椎体に隣接する、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B05",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 96.5,
+   "RLL": 53.4
+  },
+  "size_mm": 7.6,
+  "text": "右肺尖部背側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B06",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 41.9,
+   "RLL": 23.7
+  },
+  "size_mm": 12.9,
+  "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B07",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 6.7,
+   "RLL": 60.6
+  },
+  "size_mm": 13.4,
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B08",
+  "ts_lobe": "LUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 3.8
+  },
+  "size_mm": 7.6,
+  "text": "左肺背側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B09",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 28.9,
+   "RLL": 70.0
+  },
+  "size_mm": 5.8,
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B10",
+  "ts_lobe": "LLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 40.7
+  },
+  "size_mm": 5.3,
+  "text": "左肺底部の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B11",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 2.0,
+   "RML": 57.9
+  },
+  "size_mm": 7.8,
+  "text": "右肺背側の、椎体に近いマーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B12",
+  "ts_lobe": "LUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 12.2
+  },
+  "size_mm": 5.7,
+  "text": "左肺外側のマーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B13",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 8.3,
+   "RLL": 40.6
+  },
+  "size_mm": 10.0,
+  "text": "右肺前方のマーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B14",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 58.3,
+   "RML": 18.4
+  },
+  "size_mm": 5.0,
+  "text": "右肺外側のマーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B15",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 68.9,
+   "RML": 78.7
+  },
+  "size_mm": 21.0,
+  "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B16",
+  "ts_lobe": "LLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 16.3
+  },
+  "size_mm": 9.0,
+  "text": "左肺背外側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B17",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 61.7,
+   "RLL": 75.4
+  },
+  "size_mm": 10.0,
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B18",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 45.2,
+   "RLL": 7.0
+  },
+  "size_mm": 7.9,
+  "text": "右肺前外側の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B19",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 16.7,
+   "RLL": 36.6
+  },
+  "size_mm": 4.4,
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 1,
+  "case": "B20",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 14.0,
+   "RLL": 32.4
+  },
+  "size_mm": 6.0,
+  "text": "右肺の肺血管分岐部に接する結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B01",
+  "ts_lobe": "RLL",
+  "text_lobe": "RLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 85.4,
+   "RML": 84.4
+  },
+  "size_mm": 4.7,
+  "text": "右下葉背側の胸膜近傍にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B02",
+  "ts_lobe": "LUL",
+  "text_lobe": "LUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 75.2
+  },
+  "size_mm": 5.0,
+  "text": "左上葉外側の胸膜近傍にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B03",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 4.4,
+   "RLL": 1.8
+  },
+  "size_mm": 13.4,
+  "text": "右肺外側の、背側胸膜から離れた結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B04",
+  "ts_lobe": "RLL",
+  "text_lobe": "RLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 89.7,
+   "RML": 94.8
+  },
+  "size_mm": 5.6,
+  "text": "右下葉背側の胸膜直下にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B20",
+  "ts_lobe": "RUL",
+  "text_lobe": "RUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 79.3,
+   "RLL": 42.0
+  },
+  "size_mm": 17.7,
+  "text": "右上葉背側の縦隔寄りにある不整形結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B05",
+  "ts_lobe": "LLL",
+  "text_lobe": "LLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 4.4
+  },
+  "size_mm": 5.6,
+  "text": "左下葉の背外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B06",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 60.6,
+   "RML": 58.0
+  },
+  "size_mm": 5.3,
+  "text": "右肺底部の肝ドーム外側に接する小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B07",
+  "ts_lobe": "LUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 20.0
+  },
+  "size_mm": 13.6,
+  "text": "左肺門の外側、左肺動脈に隣接する結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B08",
+  "ts_lobe": "RLL",
+  "text_lobe": "RLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 33.0,
+   "RML": 65.6
+  },
+  "size_mm": 7.4,
+  "text": "右下葉背外側、胸膜直下にある円形の小結節の最大径の計測をお願いします。同断面で右下葉の末梢血管がY字状に分岐して見える部分より背側に位置し、背外側の胸壁との間に薄く肺野が残る結節です。"
+ },
+ {
+  "set": 2,
+  "case": "B09",
+  "ts_lobe": "RUL",
+  "text_lobe": "RUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 71.4,
+   "RLL": 47.6
+  },
+  "size_mm": 9.9,
+  "text": "大動脈弓の高さで、気管の右外側、上大静脈の背外側にある右上葉の小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B10",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 63.1,
+   "RLL": 44.4
+  },
+  "size_mm": 6.2,
+  "text": "大動脈弓の高さで、右肺背外側の胸膜近傍にあり、末梢血管の先端に接する小結節の最大径の計測をお願いします"
+ },
+ {
+  "set": 2,
+  "case": "B11",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 87.1,
+   "RLL": 63.7
+  },
+  "size_mm": 14.7,
+  "text": "右肺尖部の背外側で、胸壁に接する結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B12",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 41.5,
+   "RML": 32.4
+  },
+  "size_mm": 12.0,
+  "text": "右肺外側の肝ドームより背側にあり、胸壁へ向かう線状影に沿った横長の小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B13",
+  "ts_lobe": "RLL",
+  "text_lobe": "RLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 73.1,
+   "RML": 84.4
+  },
+  "size_mm": 6.8,
+  "text": "右下葉背外側の胸膜直下にある、円形の小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B14",
+  "ts_lobe": "LLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 33.8
+  },
+  "size_mm": 2.6,
+  "text": "左右の主気管支が見える断面で、左肺の背側胸膜に接し、下行大動脈より外側で末梢血管影が集まる部分の最も背側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B15",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 109.8,
+   "RML": 98.6
+  },
+  "size_mm": 17.7,
+  "text": "右肺底部の背側、肝右葉の後方で胸膜から少し離れた位置にある結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B16",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 29.0,
+   "RLL": 12.6
+  },
+  "size_mm": 8.2,
+  "text": "心室が描出される高さで、右肺外側の胸膜から少し離れ、外側胸壁から肺門へ延びる線状影のすぐ腹側にある円形結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B17",
+  "ts_lobe": "LUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 61.7
+  },
+  "size_mm": 4.7,
+  "text": "左肺尖部の前外側、前胸壁の胸膜直下にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B18",
+  "ts_lobe": "LLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 6.7
+  },
+  "size_mm": 9.3,
+  "text": "左肺の心左縁近傍で、心膜から少し外側に離れた位置にある縦長の小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 2,
+  "case": "B19",
+  "ts_lobe": "LLL",
+  "text_lobe": "LLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 42.0
+  },
+  "size_mm": 3.5,
+  "text": "左下葉背側で、下行大動脈の後外側、背側胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B01",
+  "ts_lobe": "LUL",
+  "text_lobe": "LLL",
+  "disagree": true,
+  "dist_to_other_lobes_mm": {
+   "LLL": 44.8
+  },
+  "size_mm": 4.4,
+  "text": "左下葉S6の気管分岐部より頭側の断面で、左肺の中央より背外側、肺門側から外側へ延びる細い血管影の先端に接する小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B02",
+  "ts_lobe": "LUL",
+  "text_lobe": "LUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 81.8
+  },
+  "size_mm": 5.4,
+  "text": "左上葉S3（前区域）の前外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B03",
+  "ts_lobe": "LLL",
+  "text_lobe": "LLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 41.9
+  },
+  "size_mm": 3.2,
+  "text": "左下葉の後肺底部（S10相当）、背外側の胸膜直下にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B04",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 41.0,
+   "RML": 39.7
+  },
+  "size_mm": 5.2,
+  "text": "右肺外側の、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B05",
+  "ts_lobe": "RUL",
+  "text_lobe": "RUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 60.6,
+   "RLL": 67.5
+  },
+  "size_mm": 2.7,
+  "text": "大動脈弓の高さで、右上葉の前方（S3相当）、前胸壁と縦隔の間の肺野にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B06",
+  "ts_lobe": "RLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 16.7,
+   "RML": 15.6
+  },
+  "size_mm": 4.8,
+  "text": "左右の肺動脈と主気管支が描出される断面で、右肺門の外側やや背側、外側胸膜と肺門の間の胸膜寄りにある小結節の最大径の計測をお願いします。右下葉へ向かって背側に延びる太い血管影より外側にあり、胸膜との間に肺野が残る結節です。"
+ },
+ {
+  "set": 3,
+  "case": "B07",
+  "ts_lobe": "LUL",
+  "text_lobe": "LUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LLL": 42.4
+  },
+  "size_mm": 4.6,
+  "text": "左舌区の心尖部外側で、前胸壁の胸膜直下にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B08",
+  "ts_lobe": "RUL",
+  "text_lobe": "RLL",
+  "disagree": true,
+  "dist_to_other_lobes_mm": {
+   "RML": 76.9,
+   "RLL": 5.0
+  },
+  "size_mm": 8.2,
+  "text": "気管分岐部の高さで、右下葉背側（S6相当）の胸膜に接し、肺内へ突出する結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B09",
+  "ts_lobe": "RUL",
+  "text_lobe": "RUL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 2.1,
+   "RLL": 46.8
+  },
+  "size_mm": 4.5,
+  "text": "右上葉の前方（S3相当）で、前胸壁から少し離れ、Y字状に分岐する肺血管影のすぐ外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B10",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 10.7,
+   "RLL": 55.9
+  },
+  "size_mm": 3.6,
+  "text": "右肺動脈が描出される高さで、右肺外側の胸膜直下、肺門よりやや腹側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B11",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 28.3,
+   "RLL": 19.4
+  },
+  "size_mm": 5.8,
+  "text": "気管分岐部直上の高さで、右肺の最外側、側胸壁の胸膜に接する小結節の最大径の計測をお願いします。右肺門とほぼ同じ前後位置にある結節です。"
+ },
+ {
+  "set": 3,
+  "case": "B12",
+  "ts_lobe": "LLL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "LUL": 1.5
+  },
+  "size_mm": 10.0,
+  "text": "大動脈弓の高さで、左下葉背側（S6相当）の胸膜直下、椎体より外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B13",
+  "ts_lobe": "RML",
+  "text_lobe": "RML",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 33.1,
+   "RLL": 33.4
+  },
+  "size_mm": 9.5,
+  "text": "右中葉の内側（S5相当）、心臓の右前方で縦隔脂肪に接する小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B14",
+  "ts_lobe": "RML",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 29.2,
+   "RLL": 19.8
+  },
+  "size_mm": 4.8,
+  "text": "右肺の前方、心右縁から外側に離れ、前胸壁と肺門の間にある小結節の最大径の計測をお願いします。同断面で外側から心臓側へ延びる線状影より腹側に位置する結節です。"
+ },
+ {
+  "set": 3,
+  "case": "B15",
+  "ts_lobe": "RLL",
+  "text_lobe": "RLL",
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RUL": 75.1,
+   "RML": 48.3
+  },
+  "size_mm": 8.8,
+  "text": "右下葉の外側肺底部（S9相当）、肝右葉の後外側で、弧状に走る末梢血管影のすぐ外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B16",
+  "ts_lobe": "LUL",
+  "text_lobe": "LLL",
+  "disagree": true,
+  "dist_to_other_lobes_mm": {
+   "LLL": 1.7
+  },
+  "size_mm": 7.0,
+  "text": "左肺門の後外側、左下葉S6相当で、外側胸膜から少し離れた位置にある円形の小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B17",
+  "ts_lobe": "RML",
+  "text_lobe": "RUL",
+  "disagree": true,
+  "dist_to_other_lobes_mm": {
+   "RUL": 2.9,
+   "RLL": 50.5
+  },
+  "size_mm": 6.5,
+  "text": "右肺の前外側（右上葉S3相当）、前胸壁から少し離れ、肺門から前方へ伸びる太い血管影より外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B18",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 4.0,
+   "RLL": 53.5
+  },
+  "size_mm": 3.8,
+  "text": "右肺前方の胸膜直下、胸骨右縁より外側にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B19",
+  "ts_lobe": "LUL",
+  "text_lobe": "LLL",
+  "disagree": true,
+  "dist_to_other_lobes_mm": {
+   "LLL": 21.7
+  },
+  "size_mm": 8.1,
+  "text": "大動脈弓の高さで、左肺背外側（左下葉S6相当）、肺門から背側へ伸びる血管影より外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。"
+ },
+ {
+  "set": 3,
+  "case": "B20",
+  "ts_lobe": "RUL",
+  "text_lobe": null,
+  "disagree": false,
+  "dist_to_other_lobes_mm": {
+   "RML": 19.3,
+   "RLL": 25.3
+  },
+  "size_mm": 8.0,
+  "text": "気管分岐部の高さで、右肺門から外側へ横走する太い血管影のすぐ背側、外側胸膜寄りにある円形の小結節の最大径の計測をお願いします。"
+ }
+]

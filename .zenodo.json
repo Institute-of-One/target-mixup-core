@@ -1,0 +1,13 @@
+{
+  "title": "target-mixup-core: code, derived results and pre-specification records for a staged study of target mix-ups in AI-assisted lung CT analysis",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "description": "Analysis code, derived results, freeze records and protocol documents for a three-stage study of where target mix-ups arise in AI-assisted imaging analysis: a census of public lung CT DICOM segmentations from The Cancer Imaging Archive, a controlled gate experiment, and expert requests in three hash-frozen sets with a blinded lobe adjudication. No images, DICOM objects or segmentation masks are included.",
+  "creators": [
+    {"name": "Yamamoto, Shuji", "affiliation": "Institute of One, LISIT Co., Ltd.", "orcid": "0000-0001-9211-1071"}
+  ],
+  "license": "MIT",
+  "keywords": ["target identification", "AI agents", "DICOM segmentation", "lung nodule", "double reading",
+               "request verification"],
+  "access_right": "open"
+}

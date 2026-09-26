@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite them as below."
+title: "target-mixup-core: code, derived results and pre-specification records for a staged study of target mix-ups in AI-assisted lung CT analysis"
+type: software
+version: 0.1.0
+date-released: 2026-09-26
+license: MIT
+repository-code: "https://github.com/Institute-of-One/target-mixup-core"
+authors:
+  - family-names: Yamamoto
+    given-names: Shuji
+    affiliation: "Institute of One, LISIT Co., Ltd., Tokyo 150-0044, Japan"
+    email: yamamoto@lisit.jp
+    orcid: "https://orcid.org/0000-0001-9211-1071"
+keywords:
+  - target identification
+  - AI agents
+  - DICOM segmentation
+  - lung nodule
+  - double reading
+  - request verification
+abstract: >-
+  Analysis code, derived results, freeze records and protocol documents for a three-stage study of where target
+  mix-ups arise in AI-assisted imaging analysis: a census of public lung CT DICOM segmentations, a controlled gate
+  experiment, and expert requests in three hash-frozen sets with a blinded lobe adjudication. No images are included.

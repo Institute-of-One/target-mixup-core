@@ -1,0 +1,765 @@
+{
+ "note": "post hoc, development set only; not an evaluation result",
+ "n": 20,
+ "tally": {
+  "R2": {
+   "correct": 7,
+   "inappropriate": 0,
+   "defer_intended": 13
+  },
+  "M2": {
+   "correct": 7,
+   "inappropriate": 0,
+   "defer_intended": 13
+  }
+ },
+ "field_agreement_R2_M2": {
+  "side": 19,
+  "lobe": 20,
+  "ordinal": 20,
+  "size": 20,
+  "regions": 19,
+  "measurement": 19,
+  "marker": 19,
+  "unverifiable": 18
+ },
+ "rows": [
+  {
+   "n": 1,
+   "text": "右肺のマーキングした結節の最大径を計測してください",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 2,
+   "text": "右肺の背側のマーキングした結節の最大径を計測してください。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 3,
+   "text": "右肺のマーキングした結節の最大径を計測してください。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 4,
+   "text": "右肺の椎体に隣接する、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 5,
+   "text": "右肺尖部背側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 6,
+   "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 7,
+   "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 8,
+   "text": "左肺背側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 9,
+   "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 10,
+   "text": "左肺底部の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 11,
+   "text": "右肺背側の、椎体に近いマーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": [
+    "unverifiable"
+   ]
+  },
+  {
+   "n": 12,
+   "text": "左肺外側のマーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 13,
+   "text": "右肺前方のマーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 14,
+   "text": "右肺外側のマーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 15,
+   "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 16,
+   "text": "左肺背外側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 17,
+   "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 18,
+   "text": "右肺前外側の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 19,
+   "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "disagree": []
+  },
+  {
+   "n": 20,
+   "text": "右肺の肺血管分岐部に接する結節の最大径の計測をお願いします。",
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "disagree": [
+    "side",
+    "regions",
+    "measurement",
+    "marker",
+    "unverifiable"
+   ]
+  }
+ ]
+}

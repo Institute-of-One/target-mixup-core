@@ -1,0 +1,3056 @@
+{
+ "summary": [
+  {
+   "mark": "mark1",
+   "slices": [
+    90,
+    95
+   ],
+   "lps_mm": [
+    -7.11,
+    102.51,
+    -559.7
+   ],
+   "inside_nodules": [
+    "Nodule 10"
+   ],
+   "nearest_nodule": "Nodule 10",
+   "nearest_centroid_mm": 1.09,
+   "nearest_annotation": "Segmentation of Nodule 10 - Annotation 3120"
+  },
+  {
+   "mark": "mark2",
+   "slices": [
+    154,
+    161
+   ],
+   "lps_mm": [
+    -104.85,
+    250.4,
+    -624.7
+   ],
+   "inside_nodules": [
+    "Nodule 6"
+   ],
+   "nearest_nodule": "Nodule 6",
+   "nearest_centroid_mm": 0.76,
+   "nearest_annotation": "Segmentation of Nodule 6 - Annotation 3099"
+  },
+  {
+   "mark": "mark3",
+   "slices": [
+    176,
+    184
+   ],
+   "lps_mm": [
+    58.51,
+    269.07,
+    -646.7
+   ],
+   "inside_nodules": [
+    "Nodule 4"
+   ],
+   "nearest_nodule": "Nodule 4",
+   "nearest_centroid_mm": 0.51,
+   "nearest_annotation": "Segmentation of Nodule 4 - Annotation 13142"
+  },
+  {
+   "mark": "mark4",
+   "slices": [
+    165,
+    173
+   ],
+   "lps_mm": [
+    -53.36,
+    238.22,
+    -635.7
+   ],
+   "inside_nodules": [
+    "Nodule 5"
+   ],
+   "nearest_nodule": "Nodule 5",
+   "nearest_centroid_mm": 0.95,
+   "nearest_annotation": "Segmentation of Nodule 5 - Annotation 13154"
+  },
+  {
+   "mark": "mark5",
+   "slices": [
+    207,
+    213
+   ],
+   "lps_mm": [
+    32.81,
+    191.89,
+    -677.7
+   ],
+   "inside_nodules": [],
+   "nearest_nodule": "Nodule 3",
+   "nearest_centroid_mm": 78.72,
+   "nearest_annotation": "Segmentation of Nodule 3 - Annotation Nodule 004"
+  },
+  {
+   "mark": "mark6",
+   "slices": [
+    208,
+    214
+   ],
+   "lps_mm": [
+    19.3,
+    268.45,
+    -678.7
+   ],
+   "inside_nodules": [
+    "Nodule 3"
+   ],
+   "nearest_nodule": "Nodule 3",
+   "nearest_centroid_mm": 1.18,
+   "nearest_annotation": "Segmentation of Nodule 3 - Annotation Nodule 004"
+  },
+  {
+   "mark": "mark7",
+   "slices": [
+    221,
+    229
+   ],
+   "lps_mm": [
+    36.64,
+    271.65,
+    -691.7
+   ],
+   "inside_nodules": [
+    "Nodule 1"
+   ],
+   "nearest_nodule": "Nodule 1",
+   "nearest_centroid_mm": 0.87,
+   "nearest_annotation": "Segmentation of Nodule 1 - Annotation 3087"
+  }
+ ],
+ "rows": [
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 218.31,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 157.28,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 49.41,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 110.39,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 80.87,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 21.08,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34268.1553318179.951263.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 13134",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 13134",
+   "inside": true,
+   "nearest_inplane_mm": 0.31,
+   "centroid_distance_mm": 1.0,
+   "centroid_lps_mm": [
+    36.3,
+    271.62,
+    -690.76
+   ],
+   "z_range_mm": [
+    -694.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 217.53,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 156.75,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 49.46,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 109.75,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 80.04,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 20.57,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34270.1553318186.145439.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation Nodule 003",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation Nodule 003",
+   "inside": true,
+   "nearest_inplane_mm": 0.31,
+   "centroid_distance_mm": 1.54,
+   "centroid_lps_mm": [
+    35.88,
+    270.81,
+    -690.64
+   ],
+   "z_range_mm": [
+    -694.7,
+    -686.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 218.36,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 157.28,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 49.6,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 110.4,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 80.84,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 21.11,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34309.1553318192.315767.zip",
+   "series_description": "Segmentation of Nodule 1 - Annotation 3087",
+   "segment": 1,
+   "label": "Nodule 1 - Annotation 3087",
+   "inside": true,
+   "nearest_inplane_mm": 0.31,
+   "centroid_distance_mm": 0.87,
+   "centroid_lps_mm": [
+    36.22,
+    271.56,
+    -690.94
+   ],
+   "z_range_mm": [
+    -695.7,
+    -687.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.84,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 249.58,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 127.14,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 196.09,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 93.53,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 145.77,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34311.1553318198.414384.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 13162",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 13162",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 136.72,
+   "centroid_lps_mm": [
+    122.34,
+    165.45,
+    -683.47
+   ],
+   "z_range_mm": [
+    -687.7,
+    -680.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.79,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 249.12,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 126.39,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 195.61,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 93.16,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 145.14,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34313.1553318204.533326.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation Nodule 006",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation Nodule 006",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 136.07,
+   "centroid_lps_mm": [
+    122.19,
+    166.17,
+    -683.19
+   ],
+   "z_range_mm": [
+    -687.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 190.06,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 249.98,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 127.4,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 196.48,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 93.97,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 146.13,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34315.1553318210.740460.zip",
+   "series_description": "Segmentation of Nodule 2 - Annotation 3115",
+   "segment": 1,
+   "label": "Nodule 2 - Annotation 3115",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 137.05,
+   "centroid_lps_mm": [
+    122.78,
+    165.37,
+    -683.39
+   ],
+   "z_range_mm": [
+    -688.7,
+    -679.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 206.31,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 135.89,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 51.0,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 89.21,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": 76.34,
+   "centroid_distance_mm": 78.72,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": true,
+   "nearest_inplane_mm": 0.28,
+   "centroid_distance_mm": 1.18,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34317.1553318216.816228.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation Nodule 004",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation Nodule 004",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 22.59,
+   "centroid_lps_mm": [
+    18.55,
+    269.3,
+    -678.38
+   ],
+   "z_range_mm": [
+    -680.7,
+    -675.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 206.33,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 136.26,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.42,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 89.54,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": 76.86,
+   "centroid_distance_mm": 78.78,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": true,
+   "nearest_inplane_mm": 0.28,
+   "centroid_distance_mm": 1.2,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34319.1553318222.807068.zip",
+   "series_description": "Segmentation of Nodule 3 - Annotation 3091",
+   "segment": 1,
+   "label": "Nodule 3 - Annotation 3091",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 22.34,
+   "centroid_lps_mm": [
+    19.06,
+    269.45,
+    -678.09
+   ],
+   "z_range_mm": [
+    -680.7,
+    -674.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.69,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 165.4,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": true,
+   "nearest_inplane_mm": 0.07,
+   "centroid_distance_mm": 0.51,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 116.06,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 86.82,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.34,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34321.1553318228.933723.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 13142",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 13142",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.02,
+   "centroid_lps_mm": [
+    58.05,
+    268.91,
+    -646.57
+   ],
+   "z_range_mm": [
+    -650.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.29,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 164.93,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": true,
+   "nearest_inplane_mm": 0.07,
+   "centroid_distance_mm": 1.03,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 115.6,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 86.67,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.22,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34323.1553318235.106840.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation Nodule 002",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation Nodule 002",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.14,
+   "centroid_lps_mm": [
+    57.64,
+    268.75,
+    -646.26
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.58,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 164.95,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": true,
+   "nearest_inplane_mm": 0.07,
+   "centroid_distance_mm": 0.95,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 115.65,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 86.82,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 50.07,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34326.1553318241.508871.zip",
+   "series_description": "Segmentation of Nodule 4 - Annotation 3095",
+   "segment": 1,
+   "label": "Nodule 4 - Annotation 3095",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 49.93,
+   "centroid_lps_mm": [
+    57.6,
+    269.01,
+    -646.46
+   ],
+   "z_range_mm": [
+    -649.7,
+    -642.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 162.96,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 53.8,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 116.34,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": true,
+   "nearest_inplane_mm": 0.34,
+   "centroid_distance_mm": 0.95,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 106.95,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 89.46,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34328.1553318247.593491.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 13154",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 13154",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 110.97,
+   "centroid_lps_mm": [
+    -53.36,
+    239.15,
+    -635.51
+   ],
+   "z_range_mm": [
+    -639.7,
+    -631.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 163.68,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 53.47,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 116.35,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": true,
+   "nearest_inplane_mm": 0.34,
+   "centroid_distance_mm": 1.68,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 107.41,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 89.35,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34367.1553318253.783040.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation Nodule 007",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation Nodule 007",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 110.88,
+   "centroid_lps_mm": [
+    -53.57,
+    239.88,
+    -635.6
+   ],
+   "z_range_mm": [
+    -640.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 163.28,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 53.69,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 116.23,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": true,
+   "nearest_inplane_mm": 0.34,
+   "centroid_distance_mm": 1.43,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 107.21,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 89.38,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34369.1553318260.10348.zip",
+   "series_description": "Segmentation of Nodule 5 - Annotation 3107",
+   "segment": 1,
+   "label": "Nodule 5 - Annotation 3107",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 110.9,
+   "centroid_lps_mm": [
+    -53.35,
+    239.61,
+    -635.36
+   ],
+   "z_range_mm": [
+    -639.7,
+    -630.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.5,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": true,
+   "nearest_inplane_mm": 0.17,
+   "centroid_distance_mm": 1.02,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 166.42,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 54.83,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 159.59,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 137.18,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34371.1553318266.181158.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 13146",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 13146",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 158.59,
+   "centroid_lps_mm": [
+    -105.4,
+    251.12,
+    -624.23
+   ],
+   "z_range_mm": [
+    -627.7,
+    -620.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.22,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": true,
+   "nearest_inplane_mm": 0.17,
+   "centroid_distance_mm": 0.87,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 166.65,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 54.88,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 159.55,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 137.39,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34374.1553318272.575242.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation Nodule 001",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation Nodule 001",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 158.8,
+   "centroid_lps_mm": [
+    -105.6,
+    250.6,
+    -624.3
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 188.85,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": true,
+   "nearest_inplane_mm": 0.17,
+   "centroid_distance_mm": 0.76,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 166.39,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 54.59,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 159.29,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 137.22,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34376.1553318278.745615.zip",
+   "series_description": "Segmentation of Nodule 6 - Annotation 3099",
+   "segment": 1,
+   "label": "Nodule 6 - Annotation 3099",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 158.63,
+   "centroid_lps_mm": [
+    -105.28,
+    250.44,
+    -624.08
+   ],
+   "z_range_mm": [
+    -627.7,
+    -619.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 61.36,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 176.62,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 208.96,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 153.63,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 143.13,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 201.84,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34378.1553318284.813814.zip",
+   "series_description": "Segmentation of Nodule 7 - Annotation 3128",
+   "segment": 1,
+   "label": "Nodule 7 - Annotation 3128",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 214.82,
+   "centroid_lps_mm": [
+    -38.24,
+    87.45,
+    -610.38
+   ],
+   "z_range_mm": [
+    -611.7,
+    -608.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 160.39,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 124.04,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 72.13,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 83.6,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 111.01,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 88.63,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34380.1553318290.816450.zip",
+   "series_description": "Segmentation of Nodule 8 - Annotation 1708",
+   "segment": 1,
+   "label": "Nodule 8 - Annotation 1708",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 104.22,
+   "centroid_lps_mm": [
+    14.2,
+    258.41,
+    -590.79
+   ],
+   "z_range_mm": [
+    -592.7,
+    -588.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 88.52,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 232.72,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 169.81,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.58,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 134.47,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 193.02,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34382.1553318296.836028.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation Nodule 005",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation Nodule 005",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.24,
+   "centroid_lps_mm": [
+    78.72,
+    115.57,
+    -576.96
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 88.52,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 232.77,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 169.86,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 189.65,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 134.66,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 193.12,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34385.1553318302.780104.zip",
+   "series_description": "Segmentation of Nodule 9 - Annotation 3103",
+   "segment": 1,
+   "label": "Nodule 9 - Annotation 3103",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.36,
+   "centroid_lps_mm": [
+    78.77,
+    115.65,
+    -576.66
+   ],
+   "z_range_mm": [
+    -578.7,
+    -574.7
+   ]
+  },
+  {
+   "point": "mark1",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": true,
+   "nearest_inplane_mm": 0.08,
+   "centroid_distance_mm": 1.09,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark2",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 187.95,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark3",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 198.44,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark4",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 161.47,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark5",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 153.04,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark6",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 205.3,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  },
+  {
+   "point": "mark7",
+   "seg": "seg_census/cache\\seg\\1.2.276.0.7230010.3.1.3.0.34387.1553318308.806408.zip",
+   "series_description": "Segmentation of Nodule 10 - Annotation 3120",
+   "segment": 1,
+   "label": "Nodule 10 - Annotation 3120",
+   "inside": false,
+   "nearest_inplane_mm": null,
+   "centroid_distance_mm": 218.43,
+   "centroid_lps_mm": [
+    -7.44,
+    103.51,
+    -559.42
+   ],
+   "z_range_mm": [
+    -562.7,
+    -556.7
+   ]
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "set1": {
+  "role": "development (v2 designed on it; v2 results post hoc)",
+  "n_requests": 20,
+  "readers": {
+   "R1": {
+    "n": 20,
+    "correct_authorization": 11,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.3,
+     0.75
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ],
+    "used_unverifiable": {
+     "n": 2,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 18,
+     "correct_authorization": 10,
+     "inappropriate_authorization": 2
+    }
+   },
+   "M1": {
+    "n": 20,
+    "correct_authorization": 0,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.0,
+     0.0
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 2,
+     "correct_authorization": 0,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 18,
+     "correct_authorization": 0,
+     "inappropriate_authorization": 0
+    }
+   },
+   "R2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 2,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 18,
+     "correct_authorization": 6,
+     "inappropriate_authorization": 0
+    }
+   },
+   "M2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 2,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 18,
+     "correct_authorization": 6,
+     "inappropriate_authorization": 0
+    }
+   },
+   "A2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 2,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 18,
+     "correct_authorization": 6,
+     "inappropriate_authorization": 0
+    }
+   }
+  }
+ },
+ "set2": {
+  "role": "evaluation",
+  "n_requests": 20,
+  "readers": {
+   "R1": {
+    "n": 20,
+    "correct_authorization": 13,
+    "inappropriate_authorization": 3,
+    "correct_ci": [
+     0.45,
+     0.85
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.3
+    ],
+    "used_unverifiable": {
+     "n": 19,
+     "correct_authorization": 12,
+     "inappropriate_authorization": 3
+    },
+    "no_unverifiable": {
+     "n": 1,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    }
+   },
+   "M1": {
+    "n": 20,
+    "correct_authorization": 6,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 19,
+     "correct_authorization": 5,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 1,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    }
+   },
+   "R2": {
+    "n": 20,
+    "correct_authorization": 9,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 19,
+     "correct_authorization": 8,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 1,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    }
+   },
+   "M2": {
+    "n": 20,
+    "correct_authorization": 3,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ],
+    "used_unverifiable": {
+     "n": 19,
+     "correct_authorization": 3,
+     "inappropriate_authorization": 0
+    },
+    "no_unverifiable": {
+     "n": 1,
+     "correct_authorization": 0,
+     "inappropriate_authorization": 0
+    }
+   },
+   "A2": {
+    "n": 20,
+    "correct_authorization": 8,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.2,
+     0.6
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ],
+    "used_unverifiable": {
+     "n": 19,
+     "correct_authorization": 7,
+     "inappropriate_authorization": 1
+    },
+    "no_unverifiable": {
+     "n": 1,
+     "correct_authorization": 1,
+     "inappropriate_authorization": 0
+    }
+   }
+  }
+ }
+}

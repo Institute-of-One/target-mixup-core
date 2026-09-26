@@ -1,0 +1,17 @@
+{
+ "frozen_utc": "2026-09-25T02:19:12.951099+00:00",
+ "stage": "before any expert request was written",
+ "files": {
+  "expB_readers.py": "734c25f61d37d60d43ed1ed0390ee650ee170ab18bbe23d7e278c1e871f6f702",
+  "expB_select.py": "e6516e35a5a8ed2f2d158d63f8a156f9a421030c782a92827bb9d77a69f6a3aa",
+  "test_expB_readers.py": "de7c5228e009b3d788e6a62e01a4e2e97e502248701b9e2b2ec8c8d10c95906b",
+  "seg_point_match.py": "b9261af85977142a034e9ce0f646c59b578fd2a7d822f5ce004d993a0d4b4cb6"
+ },
+ "design": {
+  "EXPERIMENT_B_DESIGN_v1_20260925.md": "4a37ba297ade800ffe45888f544ea8363fc290733af0df2307f4b3c345af1b46"
+ },
+ "data": {
+  "series.json": "1ee8e764d455d1275a1b84e26fe0ed429acca29d3be4127dfb66828fdce22807"
+ },
+ "approved_by": "Shuji Yamamoto (chat, 2026-09-25: proceed with Experiment B)"
+}

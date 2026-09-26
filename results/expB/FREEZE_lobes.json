@@ -1,0 +1,9 @@
+{
+ "frozen_utc": "2026-09-25T02:58:48.418701+00:00",
+ "stage": "lobes computed; requests file present: False",
+ "files": {
+  "lobes.json": "29dfb1ce41b431a4c164f71a75b01ea95bd4e1c8bc357185d9b25ddf88bc6d42",
+  "expB_lobes.py": "e965da2573cea3235e01f3a837d4c668e4227bf6dc96141657a99a66d9340fd3"
+ },
+ "checks": "lobe side vs midline side 121/121 agree (2 indeterminate excluded); 0 targets outside lungs"
+}

@@ -1,0 +1,7 @@
+# Pinned: verified in a fresh Python 3.12 environment (unit, imaging, freeze and reproduction checks).
+numpy==2.5.3
+pydicom==3.0.2
+highdicom==0.28.1
+nibabel==5.4.2
+matplotlib==3.11.2
+pillow==12.3.0

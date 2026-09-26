@@ -1,0 +1,40 @@
+{
+ "frozen_utc": "2026-09-25T16:06:05.156453+00:00",
+ "stage": "v3 gates frozen after sets 1-2 were scored, before any set-3 request",
+ "requests_by_set": {
+  "1": 20,
+  "2": 20
+ },
+ "files": {
+  "expB_readers.py": "734c25f61d37d60d43ed1ed0390ee650ee170ab18bbe23d7e278c1e871f6f702",
+  "expB_readers_v2.py": "7ec25865631ea1df1cab66da4913ecb03d75750bc59147fff1a1236d47d7f841",
+  "expB_readers_v3.py": "fe4a6320baf33aa522988874274828098549df59d7d63408cd9dedbe35803a68",
+  "expB_regions_v3.py": "d9ccf8d6f12f7d5cac747c5c142650e24a6da0027d20748eb569249b82c4fa4d",
+  "expB_score_v2.py": "ff8288148f9b0b92d29349b9f795d0aa3a6b7916435539ee68732d160057c608",
+  "expB_score_v3.py": "c15e56a8792f6c62eb5881f0c264948b01c1084b23d456db6bf26c353302a1ed",
+  "expB_jev.py": "b75fd17071d55ae5017f6b4b009640ef3d50c96d89e6145393cd49606c13725d",
+  "expB_diag.py": "8f26da0aab1e2a198b74e56cf63137a247f1eeb5f135f28204b20100ab060a76",
+  "test_expB_v3.py": "8a9de9154a6f02ae67f29a858f28e210d4c5c17d92ed76bfaf5cd66b1afd0f2d",
+  "test_expB_readers_v2.py": "a462b519f2175abf76f6404db7b53153f4f1113217a5555a4f5500b9a51caac7",
+  "test_expB_score_v2.py": "1a8cdad1ca44ed9d13be04fe433707e85c5942eaf908027450bd2d8c88582c19"
+ },
+ "gui": {
+  "authoring_service.py": "da5e767eea55d1dcfdbc93fcf14e7af5832cede2319e0e65df2c21c33d7419f7",
+  "src/Authoring.jsx": "f172cae4da25a7479ad8ea64106fefcc4dc8b8b945b0b0224e4dac60a3dd4e76",
+  "src/Labelling.jsx": "f907520fd46e450f3db560954f94aa401c3f1636511e5c4f058f122d427b5f15"
+ },
+ "design": {
+  "EXPERIMENT_B_AMENDMENT_v3_20260926.md": "9b974c7d3848d258af6760e7e56ff379765994a119eebbbde9fc0a83bb7a05f9"
+ },
+ "data": {
+  "regions.json": "ebe1a0388da2565334003eb0d72cca47ee2ec5880d8859e084b33573c6f41448",
+  "regions_v3.json": "ab01a3a11345f42d346dfca718765e480fc2fe407208736cf11e217c8ae6ca1f",
+  "lobes.json": "29dfb1ce41b431a4c164f71a75b01ea95bd4e1c8bc357185d9b25ddf88bc6d42",
+  "series.json": "1ee8e764d455d1275a1b84e26fe0ed429acca29d3be4127dfb66828fdce22807",
+  "requests_expert.jsonl": "65f9d0daa2f00ef2408d12f550887062a55ea26ae81f9c2aa0b4616f68d54956",
+  "model_responses.jsonl": "2950f0e576ef5c625c429ff9ef2b5e44400713a7361d292326061780daee6120",
+  "model_responses_v2b.jsonl": "63a222a10fc36541ae2a07d585097fc66d4f7cbd83d9715717640bd9edaa6299",
+  "author_specs.jsonl": "9ef1ed2d81addc980bb56ecd929bbacbd5d09e046f9548294e30ab65b4a7ab4f"
+ },
+ "approved_by": "Shuji Yamamoto (chat, 2026-09-26: freeze and prepare set 3)"
+}

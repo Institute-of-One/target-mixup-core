@@ -1,0 +1,10 @@
+{
+  "results/expB/FREEZE_v2_before_set2.json::files/expB_score_v2.py": "Amendment v2.1 (protocol/EXPERIMENT_B_AMENDMENT_v2_20260925.md): the 'relied on a marking' label was removed after set 2 was written and before any set-2 score; the file was re-frozen in FREEZE_v2_1_labels.json, where it matches.",
+  "results/expB/FREEZE_v2_before_set2.json::files/test_expB_score_v2.py": "Amendment v2.1: test updated with the removal of the marking label; re-frozen in FREEZE_v2_1_labels.json, where it matches.",
+  "results/expB/FREEZE_v2_before_set2.json::design/EXPERIMENT_B_AMENDMENT_v2_20260925.md": "Amendment v2.1 section added to this document; the amended document was re-frozen in FREEZE_v2_1_labels.json, where it matches.",
+  "results/expB/FREEZE_v2_1_labels.json::gui/authoring_service.py": "Private authoring GUI (not released). The hash records the labelling screen used for the author's labels.",
+  "results/expB/FREEZE_v2_1_labels.json::gui/src/Labelling.jsx": "Private authoring GUI (not released). The hash records the labelling screen used for the author's labels.",
+  "results/expB/FREEZE_v3_before_set3.json::gui/authoring_service.py": "Private authoring GUI (not released). The hash records the authoring and labelling screens used for set 3.",
+  "results/expB/FREEZE_v3_before_set3.json::gui/src/Authoring.jsx": "Private authoring GUI (not released). The hash records the authoring screen used for set 3.",
+  "results/expB/FREEZE_v3_before_set3.json::gui/src/Labelling.jsx": "Private authoring GUI (not released). The hash records the labelling screen used for set 3."
+}

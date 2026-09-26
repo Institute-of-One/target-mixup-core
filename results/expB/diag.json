@@ -1,0 +1,8791 @@
+[
+ {
+  "set": 1,
+  "case": "B01",
+  "text": "右肺のマーキングした結節の最大径を計測してください",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.556,
+    "ml": 0.756,
+    "cc": 0.309
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 4.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.906,
+    "ml": 0.339,
+    "cc": 0.756
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "unspecified",
+    1.0
+   ],
+   "ml": [
+    "unspecified",
+    1.0
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B03",
+  "text": "右肺の背側のマーキングした結節の最大径を計測してください。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 21.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.579,
+    "cc": 0.447
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 13.4,
+   "frac": {
+    "side": "right",
+    "ap": 0.637,
+    "ml": 0.767,
+    "cc": 0.453
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.32
+   ],
+   "cc": [
+    "unspecified",
+    0.96
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B02",
+  "text": "右肺のマーキングした結節の最大径を計測してください。",
+  "n_targets": 9,
+  "intended": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 6.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.961,
+    "ml": 0.367,
+    "cc": 0.508
+   }
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 6.9,
+   "frac": {
+    "side": "right",
+    "ap": 0.964,
+    "ml": 0.328,
+    "cc": 0.621
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    1.0
+   ],
+   "ap": [
+    "unspecified",
+    1.0
+   ],
+   "ml": [
+    "unspecified",
+    1.0
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B04",
+  "text": "右肺の椎体に隣接する、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 2,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 8.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.867,
+    "ml": 0.374,
+    "cc": 0.542
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.963,
+    "ml": 0.617,
+    "cc": 0.628
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "medial",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "medial",
+    0.97
+   ],
+   "cc": [
+    "unspecified",
+    0.96
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.02
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B05",
+  "text": "右肺尖部背側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.799,
+    "ml": 0.392,
+    "cc": 0.079
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 2.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.327,
+    "ml": 0.31,
+    "cc": 0.194
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.97
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.26
+   ],
+   "cc": [
+    "apex",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B06",
+  "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 13,
+  "intended": {
+   "target": 3,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 12.9,
+   "frac": {
+    "side": "right",
+    "ap": 0.75,
+    "ml": 0.447,
+    "cc": 0.245
+   }
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 2.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.724,
+    "ml": 0.592,
+    "cc": 0.505
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.97
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.47
+   ],
+   "cc": [
+    "unspecified",
+    0.89
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B07",
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 13.4,
+   "frac": {
+    "side": "right",
+    "ap": 0.175,
+    "ml": 0.513,
+    "cc": 0.566
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.044,
+    "ml": 0.558,
+    "cc": 0.73
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "anterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.47
+   ],
+   "cc": [
+    "unspecified",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B08",
+  "text": "左肺背側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 9,
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 7.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.723,
+    "ml": 0.555,
+    "cc": 0.332
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 7.3,
+   "frac": {
+    "side": "left",
+    "ap": 0.776,
+    "ml": 0.607,
+    "cc": 0.218
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.35
+   ],
+   "cc": [
+    "unspecified",
+    0.96
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B09",
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 11,
+  "intended": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.163,
+    "ml": 0.549,
+    "cc": 0.409
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 4.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.177,
+    "ml": 0.475,
+    "cc": 0.51
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "anterior",
+    0.98
+   ],
+   "ml": [
+    "unspecified",
+    0.48
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B10",
+  "text": "左肺底部の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 5.3,
+   "frac": {
+    "side": "left",
+    "ap": 0.455,
+    "ml": 0.486,
+    "cc": 0.7
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.451,
+    "ml": 0.828,
+    "cc": 0.359
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "cc": "base",
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.85
+   ],
+   "ap": [
+    "unspecified",
+    0.96
+   ],
+   "ml": [
+    "unspecified",
+    0.99
+   ],
+   "cc": [
+    "base",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    0.92
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B11",
+  "text": "右肺背側の、椎体に近いマーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 14,
+  "intended": {
+   "target": 5,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 7.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.759,
+    "ml": 0.137,
+    "cc": 0.311
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.785,
+    "ml": 0.697,
+    "cc": 0.276
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.93
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "medial",
+    1.0
+   ],
+   "cc": [
+    "unspecified",
+    0.98
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    0.99
+   ],
+   "unverifiable": [
+    "yes",
+    0.01
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B12",
+  "text": "左肺外側のマーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.7,
+   "frac": {
+    "side": "left",
+    "ap": 0.478,
+    "ml": 0.686,
+    "cc": 0.517
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.917,
+    "ml": 0.357,
+    "cc": 0.216
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.8
+   ],
+   "ap": [
+    "unspecified",
+    0.74
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.96
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B13",
+  "text": "右肺前方のマーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 8,
+  "intended": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.218,
+    "ml": 0.522,
+    "cc": 0.587
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 5.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.085,
+    "ml": 0.567,
+    "cc": 0.686
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.98
+   ],
+   "ml": [
+    "unspecified",
+    0.54
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B14",
+  "text": "右肺外側のマーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 6,
+  "intended": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.484,
+    "ml": 0.704,
+    "cc": 0.653
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 6.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.573,
+    "ml": 0.582,
+    "cc": 0.475
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "unspecified",
+    0.76
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B15",
+  "text": "右肺背側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 5,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 21.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.948,
+    "ml": 0.392,
+    "cc": 0.636
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 17.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.443,
+    "cc": 0.902
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.94
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.43
+   ],
+   "cc": [
+    "unspecified",
+    0.85
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B16",
+  "text": "左肺背外側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 6,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 9.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.775,
+    "ml": 0.635,
+    "cc": 0.38
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 7.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.645,
+    "ml": 0.662,
+    "cc": 0.438
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.87
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.93
+   ],
+   "cc": [
+    "unspecified",
+    0.94
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B17",
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.235,
+    "ml": 0.504,
+    "cc": 0.184
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 6.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.164,
+    "ml": 0.627,
+    "cc": 0.49
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.64
+   ],
+   "cc": [
+    "unspecified",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B18",
+  "text": "右肺前外側の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 7.9,
+   "frac": {
+    "side": "right",
+    "ap": 0.277,
+    "ml": 0.834,
+    "cc": 0.618
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.096,
+    "ml": 0.405,
+    "cc": 0.5
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "anterior",
+    0.95
+   ],
+   "ml": [
+    "lateral",
+    0.87
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B19",
+  "text": "右肺前方の、マーキングした結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 4.4,
+   "frac": {
+    "side": "right",
+    "ap": 0.304,
+    "ml": 0.591,
+    "cc": 0.43
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.5,
+   "frac": {
+    "side": "left",
+    "ap": 0.893,
+    "ml": 0.346,
+    "cc": 0.462
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": "anterior",
+   "ml": null,
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": true,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.99
+   ],
+   "ml": [
+    "unspecified",
+    0.52
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "yes",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 1,
+  "case": "B20",
+  "text": "右肺の肺血管分岐部に接する結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.417,
+    "ml": 0.477,
+    "cc": 0.375
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 8.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.511,
+    "ml": 0.684,
+    "cc": 0.363
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.99
+   ],
+   "ap": [
+    "unspecified",
+    1.0
+   ],
+   "ml": [
+    "medial",
+    0.31
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B01",
+  "text": "右下葉背側の胸膜近傍にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 4.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.906,
+    "ml": 0.339,
+    "cc": 0.756
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.556,
+    "ml": 0.756,
+    "cc": 0.309
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.98
+   ],
+   "lobe": [
+    "RLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.44
+   ],
+   "cc": [
+    "base",
+    0.51
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.92
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B02",
+  "text": "左上葉外側の胸膜近傍にある小結節の最大径の計測をお願いします。",
+  "n_targets": 9,
+  "intended": {
+   "target": 3,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.417,
+    "ml": 0.632,
+    "cc": 0.147
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.4,
+   "frac": {
+    "side": "left",
+    "ap": 0.282,
+    "ml": 0.549,
+    "cc": 0.233
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LUL",
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LUL",
+    1.0
+   ],
+   "ap": [
+    "unspecified",
+    0.88
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "apex",
+    0.62
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.92
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B03",
+  "text": "右肺外側の、背側胸膜から離れた結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 13.4,
+   "frac": {
+    "side": "right",
+    "ap": 0.637,
+    "ml": 0.767,
+    "cc": 0.453
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 21.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.579,
+    "cc": 0.447
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ml": "lateral",
+   "ap": "posterior",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "posterior",
+    0.88
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "unspecified",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.93
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B04",
+  "text": "右下葉背側の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 4,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.963,
+    "ml": 0.617,
+    "cc": 0.628
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 8.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.867,
+    "ml": 0.374,
+    "cc": 0.542
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ap": "posterior",
+   "ml": "lateral",
+   "ordinal": null,
+   "size": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.98
+   ],
+   "lobe": [
+    "RLL",
+    0.98
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.19
+   ],
+   "cc": [
+    "base",
+    0.72
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.9
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B20",
+  "text": "右上葉背側の縦隔寄りにある不整形結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 17.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.695,
+    "ml": 0.245,
+    "cc": 0.133
+   }
+  },
+  "other": {
+   "target": 5,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.631,
+    "ml": 0.503,
+    "cc": 0.369
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": "medial",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.94
+   ],
+   "lobe": [
+    "RUL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "medial",
+    0.99
+   ],
+   "cc": [
+    "apex",
+    0.39
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.48
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B05",
+  "text": "左下葉の背外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 5.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.722,
+    "ml": 0.706,
+    "cc": 0.494
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 2.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.327,
+    "ml": 0.31,
+    "cc": 0.194
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.89
+   ],
+   "cc": [
+    "base",
+    0.82
+   ],
+   "ordinal": [
+    "none",
+    0.94
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.86
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B06",
+  "text": "右肺底部の肝ドーム外側に接する小結節の最大径の計測をお願いします。",
+  "n_targets": 13,
+  "intended": {
+   "target": 12,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.3,
+   "frac": {
+    "side": "right",
+    "ap": 0.775,
+    "ml": 0.826,
+    "cc": 0.67
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 4.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.697,
+    "ml": 0.716,
+    "cc": 0.479
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "lateral",
+   "cc": "base",
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.65
+   ],
+   "ap": [
+    "unspecified",
+    0.75
+   ],
+   "ml": [
+    "lateral",
+    0.82
+   ],
+   "cc": [
+    "base",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    0.93
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.32
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B07",
+  "text": "左肺門の外側、左肺動脈に隣接する結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 13.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.577,
+    "ml": 0.494,
+    "cc": 0.406
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.5,
+   "frac": {
+    "side": "left",
+    "ap": 0.936,
+    "ml": 0.37,
+    "cc": 0.375
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": "medial",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "medial"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "unspecified",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.9
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.96
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B08",
+  "text": "右下葉背外側、胸膜直下にある円形の小結節の最大径の計測をお願いします。同断面で右下葉の末梢血管がY字状に分岐して見える部分より背側に位置し、背外側の胸壁との間に薄く肺野が残る結節です。",
+  "n_targets": 9,
+  "intended": {
+   "target": 9,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 7.4,
+   "frac": {
+    "side": "right",
+    "ap": 0.92,
+    "ml": 0.594,
+    "cc": 0.536
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.773,
+    "ml": 0.755,
+    "cc": 0.434
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ordinal": null,
+   "size": null,
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RLL",
+    1.0
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.92
+   ],
+   "cc": [
+    "base",
+    0.46
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.97
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B09",
+  "text": "大動脈弓の高さで、気管の右外側、上大静脈の背外側にある右上葉の小結節の最大径の計測をお願いします。",
+  "n_targets": 11,
+  "intended": {
+   "target": 3,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 9.9,
+   "frac": {
+    "side": "right",
+    "ap": 0.534,
+    "ml": 0.253,
+    "cc": 0.222
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.258,
+    "ml": 0.482,
+    "cc": 0.175
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RUL",
+    1.0
+   ],
+   "ap": [
+    "posterior",
+    0.32
+   ],
+   "ml": [
+    "lateral",
+    0.44
+   ],
+   "cc": [
+    "unspecified",
+    0.33
+   ],
+   "ordinal": [
+    "none",
+    0.95
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.92
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B10",
+  "text": "大動脈弓の高さで、右肺背外側の胸膜近傍にあり、末梢血管の先端に接する小結節の最大径の計測をお願いします",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.797,
+    "ml": 0.63,
+    "cc": 0.198
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.451,
+    "ml": 0.828,
+    "cc": 0.359
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.9
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.83
+   ],
+   "cc": [
+    "unspecified",
+    0.4
+   ],
+   "ordinal": [
+    "none",
+    0.9
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B11",
+  "text": "右肺尖部の背外側で、胸壁に接する結節の最大径の計測をお願いします。",
+  "n_targets": 14,
+  "intended": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 14.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.645,
+    "ml": 0.471,
+    "cc": 0.057
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.785,
+    "ml": 0.697,
+    "cc": 0.276
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "cc": "apex",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": "LLL",
+   "ordinal": null,
+   "size": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "apex",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.89
+   ],
+   "ap": [
+    "posterior",
+    0.98
+   ],
+   "ml": [
+    "lateral",
+    0.8
+   ],
+   "cc": [
+    "apex",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.96
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "no",
+    0.48
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B12",
+  "text": "右肺外側の肝ドームより背側にあり、胸壁へ向かう線状影に沿った横長の小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 12.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.59,
+    "ml": 0.768,
+    "cc": 0.622
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.917,
+    "ml": 0.357,
+    "cc": 0.216
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": "RLL",
+   "ordinal": null,
+   "size": null,
+   "unverifiable": true,
+   "cc": "base"
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.81
+   ],
+   "ap": [
+    "posterior",
+    0.89
+   ],
+   "ml": [
+    "lateral",
+    0.9
+   ],
+   "cc": [
+    "unspecified",
+    0.38
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    0.97
+   ],
+   "measurement": [
+    "longest_diameter",
+    0.99
+   ],
+   "marker": [
+    "no",
+    0.94
+   ],
+   "unverifiable": [
+    "yes",
+    0.7
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B13",
+  "text": "右下葉背外側の胸膜直下にある、円形の小結節の最大径の計測をお願いします。",
+  "n_targets": 8,
+  "intended": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 6.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.894,
+    "ml": 0.664,
+    "cc": 0.773
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "midline",
+   "size_mm": 5.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.716,
+    "ml": 0.116,
+    "cc": 0.333
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ap": "posterior",
+   "ml": "lateral",
+   "ordinal": null,
+   "size": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.99
+   ],
+   "lobe": [
+    "RLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    0.98
+   ],
+   "ml": [
+    "lateral",
+    0.93
+   ],
+   "cc": [
+    "base",
+    0.75
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    0.98
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.88
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B14",
+  "text": "左右の主気管支が見える断面で、左肺の背側胸膜に接し、下行大動脈より外側で末梢血管影が集まる部分の最も背側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 6,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 2.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.993,
+    "ml": 0.505,
+    "cc": 0.407
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 2.7,
+   "frac": {
+    "side": "left",
+    "ap": 0.507,
+    "ml": 0.959,
+    "cc": 0.382
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "unverifiable": true,
+   "cc": null
+  },
+  "readers": {
+   "R1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.86
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.44
+   ],
+   "cc": [
+    "unspecified",
+    0.83
+   ],
+   "ordinal": [
+    "none",
+    0.71
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B15",
+  "text": "右肺底部の背側、肝右葉の後方で胸膜から少し離れた位置にある結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 17.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.443,
+    "cc": 0.902
+   }
+  },
+  "other": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 8.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.664,
+    "ml": 0.873,
+    "cc": 0.817
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ap": "posterior",
+   "cc": "base",
+   "ml": "lateral",
+   "unverifiable": true,
+   "ordinal": null,
+   "size": null
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.55
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "medial",
+    0.67
+   ],
+   "cc": [
+    "base",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.92
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B16",
+  "text": "心室が描出される高さで、右肺外側の胸膜から少し離れ、外側胸壁から肺門へ延びる線状影のすぐ腹側にある円形結節の最大径の計測をお願いします。",
+  "n_targets": 6,
+  "intended": {
+   "target": 5,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 8.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.41,
+    "ml": 0.697,
+    "cc": 0.692
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 10.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.587,
+    "ml": 0.264,
+    "cc": 0.079
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": null,
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.96
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "anterior",
+    0.81
+   ],
+   "ml": [
+    "lateral",
+    0.23
+   ],
+   "cc": [
+    "unspecified",
+    0.38
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    0.98
+   ],
+   "unverifiable": [
+    "yes",
+    0.96
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B17",
+  "text": "左肺尖部の前外側、前胸壁の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.7,
+   "frac": {
+    "side": "left",
+    "ap": 0.342,
+    "ml": 0.484,
+    "cc": 0.134
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.235,
+    "ml": 0.504,
+    "cc": 0.184
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "ap": "anterior",
+   "ml": "lateral",
+   "lobe": "LUL",
+   "ordinal": null,
+   "size": null,
+   "cc": "apex",
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "apex",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "apex",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "apex",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.78
+   ],
+   "ap": [
+    "anterior",
+    0.97
+   ],
+   "ml": [
+    "lateral",
+    0.91
+   ],
+   "cc": [
+    "apex",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.88
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B18",
+  "text": "左肺の心左縁近傍で、心膜から少し外側に離れた位置にある縦長の小結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 4,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 9.3,
+   "frac": {
+    "side": "left",
+    "ap": 0.319,
+    "ml": 0.634,
+    "cc": 0.642
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.096,
+    "ml": 0.405,
+    "cc": 0.5
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": null,
+   "ordinal": null,
+   "size": null,
+   "ap": null,
+   "ml": null,
+   "unverifiable": true,
+   "cc": null
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.91
+   ],
+   "ap": [
+    "unspecified",
+    0.74
+   ],
+   "ml": [
+    "lateral",
+    0.75
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.6
+   ]
+  }
+ },
+ {
+  "set": 2,
+  "case": "B19",
+  "text": "左下葉背側で、下行大動脈の後外側、背側胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.5,
+   "frac": {
+    "side": "left",
+    "ap": 0.893,
+    "ml": 0.346,
+    "cc": 0.462
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 8.1,
+   "frac": {
+    "side": "left",
+    "ap": 0.789,
+    "ml": 0.558,
+    "cc": 0.207
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "ordinal": null,
+   "size": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.27
+   ],
+   "cc": [
+    "base",
+    0.75
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.95
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B01",
+  "text": "左下葉S6の気管分岐部より頭側の断面で、左肺の中央より背外側、肺門側から外側へ延びる細い血管影の先端に接する小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.4,
+   "frac": {
+    "side": "left",
+    "ap": 0.676,
+    "ml": 0.444,
+    "cc": 0.238
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.556,
+    "ml": 0.756,
+    "cc": 0.309
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ordinal": null,
+   "size": "lt5",
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.92
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.83
+   ],
+   "cc": [
+    "unspecified",
+    0.26
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B02",
+  "text": "左上葉S3（前区域）の前外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "n_targets": 9,
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.4,
+   "frac": {
+    "side": "left",
+    "ap": 0.282,
+    "ml": 0.549,
+    "cc": 0.233
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.417,
+    "ml": 0.632,
+    "cc": 0.147
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ap": "anterior",
+   "ml": "lateral",
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    0.99
+   ],
+   "lobe": [
+    "LUL",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.91
+   ],
+   "ml": [
+    "lateral",
+    0.91
+   ],
+   "cc": [
+    "apex",
+    0.42
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B03",
+  "text": "左下葉の後肺底部（S10相当）、背外側の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.2,
+   "frac": {
+    "side": "left",
+    "ap": 0.867,
+    "ml": 0.702,
+    "cc": 0.569
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 21.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.579,
+    "cc": 0.447
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": "base",
+   "ordinal": null,
+   "size": "lt5",
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.84
+   ],
+   "cc": [
+    "base",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B04",
+  "text": "右肺外側の、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 3,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.618,
+    "ml": 0.929,
+    "cc": 0.592
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.963,
+    "ml": 0.617,
+    "cc": 0.628
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ml": "lateral",
+   "lobe": null,
+   "ap": null,
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": false
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.97
+   ],
+   "ap": [
+    "unspecified",
+    0.82
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.91
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B05",
+  "text": "大動脈弓の高さで、右上葉の前方（S3相当）、前胸壁と縦隔の間の肺野にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 2.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.327,
+    "ml": 0.31,
+    "cc": 0.194
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.799,
+    "ml": 0.392,
+    "cc": 0.079
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ap": "anterior",
+   "size": "lt5",
+   "ordinal": null,
+   "cc": null,
+   "ml": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.99
+   ],
+   "lobe": [
+    "RUL",
+    1.0
+   ],
+   "ap": [
+    "anterior",
+    1.0
+   ],
+   "ml": [
+    "medial",
+    0.86
+   ],
+   "cc": [
+    "apex",
+    0.28
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.98
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B06",
+  "text": "左右の肺動脈と主気管支が描出される断面で、右肺門の外側やや背側、外側胸膜と肺門の間の胸膜寄りにある小結節の最大径の計測をお願いします。右下葉へ向かって背側に延びる太い血管影より外側にあり、胸膜との間に肺野が残る結節です。",
+  "n_targets": 13,
+  "intended": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 4.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.697,
+    "ml": 0.716,
+    "cc": 0.479
+   }
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 2.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.724,
+    "ml": 0.592,
+    "cc": 0.505
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": "RLL",
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RLL",
+    0.85
+   ],
+   "ap": [
+    "posterior",
+    0.97
+   ],
+   "ml": [
+    "lateral",
+    0.98
+   ],
+   "cc": [
+    "base",
+    0.32
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B07",
+  "text": "左舌区の心尖部外側で、前胸壁の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.044,
+    "ml": 0.558,
+    "cc": 0.73
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 13.6,
+   "frac": {
+    "side": "left",
+    "ap": 0.577,
+    "ml": 0.494,
+    "cc": 0.406
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LUL",
+   "ordinal": null,
+   "size": "lt5",
+   "ml": "lateral",
+   "ap": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LUL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LUL",
+    0.54
+   ],
+   "ap": [
+    "anterior",
+    0.81
+   ],
+   "ml": [
+    "lateral",
+    0.99
+   ],
+   "cc": [
+    "base",
+    0.49
+   ],
+   "ordinal": [
+    "none",
+    0.95
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.79
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B08",
+  "text": "気管分岐部の高さで、右下葉背側（S6相当）の胸膜に接し、肺内へ突出する結節の最大径の計測をお願いします。",
+  "n_targets": 9,
+  "intended": {
+   "target": 5,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 8.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.895,
+    "ml": 0.597,
+    "cc": 0.344
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "frac": {
+    "side": "right",
+    "ap": 0.773,
+    "ml": 0.755,
+    "cc": 0.434
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ap": "posterior",
+   "ml": "lateral",
+   "cc": null,
+   "size": null,
+   "ordinal": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RLL",
+    0.98
+   ],
+   "ap": [
+    "posterior",
+    0.96
+   ],
+   "ml": [
+    "medial",
+    0.31
+   ],
+   "cc": [
+    "base",
+    0.36
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B09",
+  "text": "右上葉の前方（S3相当）で、前胸壁から少し離れ、Y字状に分岐する肺血管影のすぐ外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 11,
+  "intended": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 4.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.177,
+    "ml": 0.475,
+    "cc": 0.51
+   }
+  },
+  "other": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.163,
+    "ml": 0.549,
+    "cc": 0.409
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RUL",
+   "ap": "anterior",
+   "ml": "lateral",
+   "cc": null,
+   "size": "lt5",
+   "ordinal": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.84
+   ],
+   "lobe": [
+    "RUL",
+    0.95
+   ],
+   "ap": [
+    "anterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.96
+   ],
+   "cc": [
+    "apex",
+    0.28
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B10",
+  "text": "右肺動脈が描出される高さで、右肺外側の胸膜直下、肺門よりやや腹側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.6,
+   "frac": {
+    "side": "right",
+    "ap": 0.451,
+    "ml": 0.828,
+    "cc": 0.359
+   }
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.797,
+    "ml": 0.63,
+    "cc": 0.198
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": "lt5",
+   "ap": "anterior",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.98
+   ],
+   "ap": [
+    "anterior",
+    0.98
+   ],
+   "ml": [
+    "lateral",
+    1.0
+   ],
+   "cc": [
+    "unspecified",
+    0.75
+   ],
+   "ordinal": [
+    "none",
+    0.96
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B11",
+  "text": "気管分岐部直上の高さで、右肺の最外側、側胸壁の胸膜に接する小結節の最大径の計測をお願いします。右肺門とほぼ同じ前後位置にある結節です。",
+  "n_targets": 14,
+  "intended": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.528,
+    "ml": 0.852,
+    "cc": 0.315
+   }
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.2,
+   "frac": {
+    "side": "right",
+    "ap": 0.51,
+    "ml": 0.756,
+    "cc": 0.397
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": "lt5",
+   "ap": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "unspecified",
+    0.74
+   ],
+   "ml": [
+    "lateral",
+    1.0
+   ],
+   "cc": [
+    "unspecified",
+    0.72
+   ],
+   "ordinal": [
+    "none",
+    0.92
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.97
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B12",
+  "text": "大動脈弓の高さで、左下葉背側（S6相当）の胸膜直下、椎体より外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.917,
+    "ml": 0.357,
+    "cc": 0.216
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.7,
+   "frac": {
+    "side": "left",
+    "ap": 0.478,
+    "ml": 0.686,
+    "cc": 0.517
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "lobe": "LLL",
+   "ap": "posterior",
+   "ml": "medial",
+   "cc": null,
+   "size": "lt5",
+   "ordinal": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "medial",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    1.0
+   ],
+   "ml": [
+    "lateral",
+    0.63
+   ],
+   "cc": [
+    "base",
+    0.64
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B13",
+  "text": "右中葉の内側（S5相当）、心臓の右前方で縦隔脂肪に接する小結節の最大径の計測をお願いします。",
+  "n_targets": 8,
+  "intended": {
+   "target": 5,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 9.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.082,
+    "ml": 0.264,
+    "cc": 0.719
+   }
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 5.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.085,
+    "ml": 0.567,
+    "cc": 0.686
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RML",
+   "ml": "medial",
+   "ap": "anterior",
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RML",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RML",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RML",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "medial"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RML",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "medial"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RML",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "medial"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RML",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.86
+   ],
+   "ml": [
+    "medial",
+    0.99
+   ],
+   "cc": [
+    "unspecified",
+    0.58
+   ],
+   "ordinal": [
+    "none",
+    0.98
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B14",
+  "text": "右肺の前方、心右縁から外側に離れ、前胸壁と肺門の間にある小結節の最大径の計測をお願いします。同断面で外側から心臓側へ延びる線状影より腹側に位置する結節です。",
+  "n_targets": 6,
+  "intended": {
+   "target": 5,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 4.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.229,
+    "ml": 0.495,
+    "cc": 0.595
+   }
+  },
+  "other": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.484,
+    "ml": 0.704,
+    "cc": 0.653
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "anterior",
+   "size": "lt5",
+   "ordinal": null,
+   "lobe": null,
+   "ml": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": false
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.96
+   ],
+   "ap": [
+    "anterior",
+    0.98
+   ],
+   "ml": [
+    "lateral",
+    0.35
+   ],
+   "cc": [
+    "unspecified",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    0.98
+   ],
+   "unverifiable": [
+    "yes",
+    0.41
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B15",
+  "text": "右下葉の外側肺底部（S9相当）、肝右葉の後外側で、弧状に走る末梢血管影のすぐ外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 8.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.664,
+    "ml": 0.873,
+    "cc": 0.817
+   }
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 17.7,
+   "frac": {
+    "side": "right",
+    "ap": 0.826,
+    "ml": 0.443,
+    "cc": 0.902
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": "RLL",
+   "ml": "lateral",
+   "ap": "posterior",
+   "cc": null,
+   "size": "lt5",
+   "ordinal": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "authorize",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.96
+   ],
+   "lobe": [
+    "RLL",
+    0.92
+   ],
+   "ap": [
+    "posterior",
+    0.53
+   ],
+   "ml": [
+    "lateral",
+    0.98
+   ],
+   "cc": [
+    "base",
+    1.0
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B16",
+  "text": "左肺門の後外側、左下葉S6相当で、外側胸膜から少し離れた位置にある円形の小結節の最大径の計測をお願いします。",
+  "n_targets": 6,
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 7.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.645,
+    "ml": 0.662,
+    "cc": 0.438
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 9.0,
+   "frac": {
+    "side": "left",
+    "ap": 0.775,
+    "ml": 0.635,
+    "cc": 0.38
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": "RLL",
+   "size": "lt5",
+   "ordinal": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "base",
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    0.91
+   ],
+   "ml": [
+    "lateral",
+    0.81
+   ],
+   "cc": [
+    "base",
+    0.87
+   ],
+   "ordinal": [
+    "none",
+    1.0
+   ],
+   "size": [
+    "unspecified",
+    0.98
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B17",
+  "text": "右肺の前外側（右上葉S3相当）、前胸壁から少し離れ、肺門から前方へ伸びる太い血管影より外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 6.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.164,
+    "ml": 0.627,
+    "cc": 0.49
+   }
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 10.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.235,
+    "ml": 0.504,
+    "cc": 0.184
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "anterior",
+   "ml": "lateral",
+   "lobe": "RUL",
+   "size": "lt5",
+   "ordinal": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": "RUL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "RUL",
+    0.99
+   ],
+   "ap": [
+    "anterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.98
+   ],
+   "cc": [
+    "unspecified",
+    0.34
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B18",
+  "text": "右肺前方の胸膜直下、胸骨右縁より外側にある小結節の最大径の計測をお願いします。",
+  "n_targets": 4,
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.8,
+   "frac": {
+    "side": "right",
+    "ap": 0.096,
+    "ml": 0.405,
+    "cc": 0.5
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 7.9,
+   "frac": {
+    "side": "right",
+    "ap": 0.277,
+    "ml": 0.834,
+    "cc": 0.618
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "ap": "anterior",
+   "ml": "lateral",
+   "lobe": null,
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "anterior",
+      "lateral"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    1.0
+   ],
+   "lobe": [
+    "unspecified",
+    0.97
+   ],
+   "ap": [
+    "anterior",
+    0.97
+   ],
+   "ml": [
+    "lateral",
+    0.67
+   ],
+   "cc": [
+    "unspecified",
+    0.99
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    1.0
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.9
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B19",
+  "text": "大動脈弓の高さで、左肺背外側（左下葉S6相当）、肺門から背側へ伸びる血管影より外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "n_targets": 3,
+  "intended": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 8.1,
+   "frac": {
+    "side": "left",
+    "ap": 0.789,
+    "ml": 0.558,
+    "cc": 0.207
+   }
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.5,
+   "frac": {
+    "side": "left",
+    "ap": 0.893,
+    "ml": 0.346,
+    "cc": 0.462
+   }
+  },
+  "author_label": {
+   "side": "left",
+   "ap": "posterior",
+   "ml": "lateral",
+   "lobe": "LLL",
+   "ordinal": null,
+   "size": "lt5",
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "M1": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "authorize"
+   },
+   "R2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "left",
+     "lobe": "LLL",
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "left",
+    1.0
+   ],
+   "lobe": [
+    "LLL",
+    0.99
+   ],
+   "ap": [
+    "posterior",
+    0.99
+   ],
+   "ml": [
+    "lateral",
+    0.95
+   ],
+   "cc": [
+    "base",
+    0.59
+   ],
+   "ordinal": [
+    "none",
+    0.99
+   ],
+   "size": [
+    "unspecified",
+    0.99
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    1.0
+   ]
+  }
+ },
+ {
+  "set": 3,
+  "case": "B20",
+  "text": "気管分岐部の高さで、右肺門から外側へ横走する太い血管影のすぐ背側、外側胸膜寄りにある円形の小結節の最大径の計測をお願いします。",
+  "n_targets": 7,
+  "intended": {
+   "target": 4,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 8.0,
+   "frac": {
+    "side": "right",
+    "ap": 0.511,
+    "ml": 0.684,
+    "cc": 0.363
+   }
+  },
+  "other": {
+   "target": 5,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.5,
+   "frac": {
+    "side": "right",
+    "ap": 0.631,
+    "ml": 0.503,
+    "cc": 0.369
+   }
+  },
+  "author_label": {
+   "side": "right",
+   "lobe": null,
+   "ml": "lateral",
+   "ap": "posterior",
+   "size": "lt5",
+   "ordinal": null,
+   "cc": null,
+   "unverifiable": true
+  },
+  "readers": {
+   "R1": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": "largest",
+     "size": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M1": {
+    "spec": null,
+    "intended": "defer",
+    "other": "defer"
+   },
+   "R2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "M2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": null,
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": "longest_diameter",
+     "marker": false,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   },
+   "A2": {
+    "spec": {
+     "side": "right",
+     "lobe": null,
+     "ordinal": null,
+     "size": "lt5",
+     "regions": [
+      "lateral",
+      "posterior"
+     ],
+     "measurement": null,
+     "marker": null,
+     "unverifiable": true
+    },
+    "intended": "defer",
+    "other": "defer"
+   }
+  },
+  "m2_raw": {
+   "side": [
+    "right",
+    0.8
+   ],
+   "lobe": [
+    "unspecified",
+    0.95
+   ],
+   "ap": [
+    "posterior",
+    0.94
+   ],
+   "ml": [
+    "lateral",
+    0.86
+   ],
+   "cc": [
+    "unspecified",
+    0.92
+   ],
+   "ordinal": [
+    "none",
+    0.97
+   ],
+   "size": [
+    "unspecified",
+    0.98
+   ],
+   "measurement": [
+    "longest_diameter",
+    1.0
+   ],
+   "marker": [
+    "no",
+    1.0
+   ],
+   "unverifiable": [
+    "yes",
+    0.99
+   ]
+  }
+ }
+]

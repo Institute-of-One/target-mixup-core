@@ -1,0 +1,449 @@
+{
+ "set1": {
+  "role": "development (v2 designed on it); v3 post hoc",
+  "n_requests": 20,
+  "readers": {
+   "D3t": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct_authorization": 0,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.0,
+     0.0
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R1": {
+    "n": 20,
+    "correct_authorization": 11,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.3,
+     0.75
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct_authorization": 0,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.0,
+     0.0
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct_authorization": 7,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct_authorization": 4,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.05,
+     0.4
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "set2": {
+  "role": "evaluation of v2; v3 designed on it (post hoc)",
+  "n_requests": 20,
+  "readers": {
+   "D3t": {
+    "n": 20,
+    "correct_authorization": 9,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct_authorization": 6,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct_authorization": 6,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R1": {
+    "n": 20,
+    "correct_authorization": 13,
+    "inappropriate_authorization": 3,
+    "correct_ci": [
+     0.45,
+     0.85
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.3
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct_authorization": 6,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct_authorization": 9,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct_authorization": 3,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct_authorization": 8,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.2,
+     0.6
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct_authorization": 10,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.3,
+     0.7
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct_authorization": 9,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct_authorization": 9,
+    "inappropriate_authorization": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "set3": {
+  "role": "confirmatory evaluation of v3",
+  "n_requests": 20,
+  "readers": {
+   "D3t": {
+    "n": 20,
+    "correct_authorization": 3,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct_authorization": 2,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct_authorization": 1,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.0,
+     0.15
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "R1": {
+    "n": 20,
+    "correct_authorization": 2,
+    "inappropriate_authorization": 6,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "inappropriate_ci": [
+     0.1,
+     0.5
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct_authorization": 1,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.0,
+     0.15
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 4,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.05,
+     0.4
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct_authorization": 2,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct_authorization": 3,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct_authorization": 4,
+    "inappropriate_authorization": 2,
+    "correct_ci": [
+     0.05,
+     0.4
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct_authorization": 5,
+    "inappropriate_authorization": 1,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "inappropriate_ci": [
+     0.0,
+     0.15
+    ]
+   }
+  }
+ }
+}

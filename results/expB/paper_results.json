@@ -1,0 +1,792 @@
+{
+ "note": "sets 1-2 development/evaluation of v2, set 3 confirmatory evaluation of v3; any-wrong counts are post hoc",
+ "sets": {
+  "1": {
+   "R1": {
+    "n": 20,
+    "correct": 11,
+    "any_wrong": 7,
+    "correct_ci": [
+     0.3,
+     0.75
+    ],
+    "any_wrong_ci": [
+     0.15,
+     0.55
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct": 0,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.0,
+     0.0
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct": 0,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.0,
+     0.0
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct": 7,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct": 7,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct": 7,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.15,
+     0.55
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct": 4,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.05,
+     0.4
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3t": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "2": {
+   "R1": {
+    "n": 20,
+    "correct": 13,
+    "any_wrong": 6,
+    "correct_ci": [
+     0.45,
+     0.85
+    ],
+    "any_wrong_ci": [
+     0.1,
+     0.5
+    ],
+    "episode_wrong": 3,
+    "episode_wrong_ci": [
+     0.0,
+     0.3
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct": 6,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct": 6,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct": 9,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct": 3,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct": 8,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.2,
+     0.6
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 1,
+    "episode_wrong_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct": 10,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.3,
+     0.7
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct": 9,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct": 9,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3t": {
+    "n": 20,
+    "correct": 9,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.25,
+     0.65
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct": 6,
+    "any_wrong": 0,
+    "correct_ci": [
+     0.1,
+     0.5
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.0
+    ],
+    "episode_wrong": 0,
+    "episode_wrong_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "3": {
+   "R1": {
+    "n": 20,
+    "correct": 2,
+    "any_wrong": 15,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "any_wrong_ci": [
+     0.55,
+     0.9
+    ],
+    "episode_wrong": 6,
+    "episode_wrong_ci": [
+     0.1,
+     0.5
+    ]
+   },
+   "M1": {
+    "n": 20,
+    "correct": 1,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.0,
+     0.15
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 1,
+    "episode_wrong_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "D1": {
+    "n": 20,
+    "correct": 1,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.0,
+     0.15
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 1,
+    "episode_wrong_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "R2": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 5,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.1,
+     0.45
+    ],
+    "episode_wrong": 4,
+    "episode_wrong_ci": [
+     0.05,
+     0.4
+    ]
+   },
+   "M2": {
+    "n": 20,
+    "correct": 2,
+    "any_wrong": 1,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.15
+    ],
+    "episode_wrong": 1,
+    "episode_wrong_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "A2": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 3,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.3
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "R3": {
+    "n": 20,
+    "correct": 3,
+    "any_wrong": 3,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.3
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "M3": {
+    "n": 20,
+    "correct": 4,
+    "any_wrong": 4,
+    "correct_ci": [
+     0.05,
+     0.4
+    ],
+    "any_wrong_ci": [
+     0.05,
+     0.4
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "A3": {
+    "n": 20,
+    "correct": 5,
+    "any_wrong": 2,
+    "correct_ci": [
+     0.1,
+     0.45
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.25
+    ],
+    "episode_wrong": 1,
+    "episode_wrong_ci": [
+     0.0,
+     0.15
+    ]
+   },
+   "D3t": {
+    "n": 20,
+    "correct": 3,
+    "any_wrong": 3,
+    "correct_ci": [
+     0.0,
+     0.3
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.3
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   },
+   "D3r": {
+    "n": 20,
+    "correct": 2,
+    "any_wrong": 3,
+    "correct_ci": [
+     0.0,
+     0.25
+    ],
+    "any_wrong_ci": [
+     0.0,
+     0.3
+    ],
+    "episode_wrong": 2,
+    "episode_wrong_ci": [
+     0.0,
+     0.25
+    ]
+   }
+  }
+ },
+ "r1_rank_misreading": {
+  "1": {
+   "correct": 11,
+   "correct_by_rank": 11,
+   "wrong": 7,
+   "wrong_by_rank": 7
+  },
+  "2": {
+   "correct": 13,
+   "correct_by_rank": 13,
+   "wrong": 6,
+   "wrong_by_rank": 6
+  },
+  "3": {
+   "correct": 2,
+   "correct_by_rank": 2,
+   "wrong": 15,
+   "wrong_by_rank": 15
+  }
+ },
+ "language": {
+  "1": {
+   "n": 20,
+   "marking": 19,
+   "segment": 0,
+   "longest_diameter": 20
+  },
+  "2": {
+   "n": 20,
+   "marking": 0,
+   "segment": 0,
+   "longest_diameter": 20
+  },
+  "3": {
+   "n": 20,
+   "marking": 0,
+   "segment": 12,
+   "longest_diameter": 20
+  }
+ },
+ "author_labels": {
+  "1": {
+   "unverifiable": 2,
+   "ordinal_none": 20,
+   "n": 20
+  },
+  "2": {
+   "unverifiable": 19,
+   "ordinal_none": 20,
+   "n": 20
+  },
+  "3": {
+   "unverifiable": 19,
+   "ordinal_none": 20,
+   "n": 20
+  }
+ },
+ "author_label_corrections": 5,
+ "model_calls": {
+  "n": 140,
+  "ok": 140,
+  "median_latency_s": 0.48,
+  "max_latency_s": 0.68
+ },
+ "b15": {
+  "ml_whole_lung": 0.443,
+  "ml_slice_local": 0.394
+ },
+ "lobes": {
+  "named_lobe_requests": 21,
+  "named_lobe_disagree": 5,
+  "disagree_n": 5,
+  "disagree_expert_agrees_map": 3,
+  "disagree_expert_agrees_text": 0,
+  "disagree_undecidable": 2,
+  "controls_n": 3,
+  "controls_undecidable": 2,
+  "controls_agree": 1,
+  "q2_near_threshold_mm": 10.0,
+  "q2_applicable": 5,
+  "q2_applicable_correct": 5,
+  "fissure_mm_disagree": [
+   1.7,
+   2.9,
+   5.0,
+   21.7,
+   44.8
+  ],
+  "items": [
+   {
+    "item": "L1",
+    "role": "disagree",
+    "set": 3,
+    "case": "B17",
+    "text_lobe": "RUL",
+    "map_lobe": "RML",
+    "fissure_mm": 2.9,
+    "q1": "RML",
+    "q2": "correct",
+    "note": "矢状断で結節の一部が葉間裂に接しており、結節近傍の自動肺葉境界は同裂と整合する。"
+   },
+   {
+    "item": "L2",
+    "role": "control",
+    "set": 3,
+    "case": "B09",
+    "text_lobe": "RUL",
+    "map_lobe": "RUL",
+    "fissure_mm": 2.1,
+    "q1": "undecidable",
+    "q2": "correct",
+    "note": "結節は、葉間裂上にあります。"
+   },
+   {
+    "item": "L3",
+    "role": "disagree",
+    "set": 3,
+    "case": "B16",
+    "text_lobe": "LLL",
+    "map_lobe": "LUL",
+    "fissure_mm": 1.7,
+    "q1": "undecidable",
+    "q2": "correct",
+    "note": "スライス厚が厚く、冠状断でも矢状断でも葉間裂が同定できない。自動の肺葉の境界は、葉間裂上にあります。"
+   },
+   {
+    "item": "L4",
+    "role": "control",
+    "set": 2,
+    "case": "B08",
+    "text_lobe": "RLL",
+    "map_lobe": "RLL",
+    "fissure_mm": 33.0,
+    "q1": "RLL",
+    "q2": "incorrect",
+    "note": "葉間裂と結節は付近とはいえない。"
+   },
+   {
+    "item": "L5",
+    "role": "disagree",
+    "set": 3,
+    "case": "B19",
+    "text_lobe": "LLL",
+    "map_lobe": "LUL",
+    "fissure_mm": 21.7,
+    "q1": "undecidable",
+    "q2": "incorrect",
+    "note": "結節は、左上葉S1＋2と左下葉S6の区別が必要な位置だが、スライス厚が厚すぎて、矢状断や冠状断で葉間裂が同定できない。\n自動の葉間裂と結節は付近であると言えない。"
+   },
+   {
+    "item": "L6",
+    "role": "control",
+    "set": 2,
+    "case": "B05",
+    "text_lobe": "LLL",
+    "map_lobe": "LLL",
+    "fissure_mm": 4.4,
+    "q1": "undecidable",
+    "q2": "correct",
+    "note": "結節は葉間裂上にあります。"
+   },
+   {
+    "item": "L7",
+    "role": "disagree",
+    "set": 3,
+    "case": "B01",
+    "text_lobe": "LLL",
+    "map_lobe": "LUL",
+    "fissure_mm": 44.8,
+    "q1": "LUL",
+    "q2": "incorrect",
+    "note": "自動の肺葉の境界が結節の付近とはいえません。"
+   },
+   {
+    "item": "L8",
+    "role": "disagree",
+    "set": 3,
+    "case": "B08",
+    "text_lobe": "RLL",
+    "map_lobe": "RUL",
+    "fissure_mm": 5.0,
+    "q1": "RUL",
+    "q2": "correct",
+    "note": null
+   }
+  ]
+ }
+}

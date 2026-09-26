@@ -1,0 +1,2390 @@
+[
+ {
+  "case": "B01",
+  "text": "左下葉S6の気管分岐部より頭側の断面で、左肺の中央より背外側、肺門側から外側へ延びる細い血管影の先端に接する小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.4,
+   "ap": 0.638,
+   "ml": 0.614,
+   "cc": 0.238
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "ap": 0.46,
+   "ml": 0.961,
+   "cc": 0.309
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.4,
+    "ap": 0.638,
+    "ml": 0.614,
+    "cc": 0.238
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 6.1,
+    "ap": 0.46,
+    "ml": 0.961,
+    "cc": 0.309
+   },
+   {
+    "target": 3,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 4.7,
+    "ap": 0.929,
+    "ml": 0.32,
+    "cc": 0.756
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B02",
+  "text": "左上葉S3（前区域）の前外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.4,
+   "ap": 0.19,
+   "ml": 0.684,
+   "cc": 0.233
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.0,
+   "ap": 0.338,
+   "ml": 0.896,
+   "cc": 0.147
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "midline",
+    "size_mm": 7.7,
+    "ap": 0.483,
+    "ml": 0.002,
+    "cc": 0.047
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.6,
+    "ap": 0.805,
+    "ml": 0.35,
+    "cc": 0.044
+   },
+   {
+    "target": 3,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.0,
+    "ap": 0.338,
+    "ml": 0.896,
+    "cc": 0.147
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.4,
+    "ap": 0.19,
+    "ml": 0.684,
+    "cc": 0.233
+   },
+   {
+    "target": 5,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 4.1,
+    "ap": 0.402,
+    "ml": 0.589,
+    "cc": 0.451
+   },
+   {
+    "target": 6,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 6.7,
+    "ap": 0.972,
+    "ml": 0.415,
+    "cc": 0.508
+   },
+   {
+    "target": 7,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 6.1,
+    "ap": 0.947,
+    "ml": 0.476,
+    "cc": 0.614
+   },
+   {
+    "target": 8,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 6.9,
+    "ap": 0.975,
+    "ml": 0.355,
+    "cc": 0.621
+   },
+   {
+    "target": 9,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 7.1,
+    "ap": 0.119,
+    "ml": 0.593,
+    "cc": 0.661
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B03",
+  "text": "左下葉の後肺底部（S10相当）、背外側の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.2,
+   "ap": 0.868,
+   "ml": 0.75,
+   "cc": 0.569
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 21.0,
+   "ap": 0.853,
+   "ml": 0.595,
+   "cc": 0.447
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 21.0,
+    "ap": 0.853,
+    "ml": 0.595,
+    "cc": 0.447
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 13.4,
+    "ap": 0.643,
+    "ml": 0.785,
+    "cc": 0.453
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 3.2,
+    "ap": 0.868,
+    "ml": 0.75,
+    "cc": 0.569
+   }
+  ],
+  "R3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "base",
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "base",
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "base",
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": 3,
+  "D3r": 3
+ },
+ {
+  "case": "B04",
+  "text": "右肺外側の、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 3,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.2,
+   "ap": 0.612,
+   "ml": 0.929,
+   "cc": 0.592
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.6,
+   "ap": 0.979,
+   "ml": 0.617,
+   "cc": 0.628
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 4.8,
+    "ap": 0.349,
+    "ml": 0.825,
+    "cc": 0.319
+   },
+   {
+    "target": 2,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 8.5,
+    "ap": 0.863,
+    "ml": 0.374,
+    "cc": 0.542
+   },
+   {
+    "target": 3,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 5.2,
+    "ap": 0.612,
+    "ml": 0.929,
+    "cc": 0.592
+   },
+   {
+    "target": 4,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 5.6,
+    "ap": 0.979,
+    "ml": 0.617,
+    "cc": 0.628
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B05",
+  "text": "大動脈弓の高さで、右上葉の前方（S3相当）、前胸壁と縦隔の間の肺野にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 2.7,
+   "ap": 0.251,
+   "ml": 0.429,
+   "cc": 0.194
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.6,
+   "ap": 0.897,
+   "ml": 0.663,
+   "cc": 0.079
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 7.6,
+    "ap": 0.897,
+    "ml": 0.663,
+    "cc": 0.079
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 2.7,
+    "ap": 0.251,
+    "ml": 0.429,
+    "cc": 0.194
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 5.6,
+    "ap": 0.722,
+    "ml": 0.747,
+    "cc": 0.494
+   }
+  ],
+  "R3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "medial"
+    ]
+   }
+  },
+  "A3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior"
+    ]
+   }
+  },
+  "D3t": 2,
+  "D3r": null
+ },
+ {
+  "case": "B06",
+  "text": "左右の肺動脈と主気管支が描出される断面で、右肺門の外側やや背側、外側胸膜と肺門の間の胸膜寄りにある小結節の最大径の計測をお願いします。右下葉へ向かって背側に延びる太い血管影より外側にあり、胸膜との間に肺野が残る結節です。",
+  "intended": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 4.8,
+   "ap": 0.7,
+   "ml": 0.771,
+   "cc": 0.479
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 2.8,
+   "ap": 0.729,
+   "ml": 0.621,
+   "cc": 0.505
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.0,
+    "ap": 0.208,
+    "ml": 0.512,
+    "cc": 0.13
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 2.8,
+    "ap": 0.306,
+    "ml": 0.17,
+    "cc": 0.191
+   },
+   {
+    "target": 3,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 12.9,
+    "ap": 0.791,
+    "ml": 0.575,
+    "cc": 0.245
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 2.8,
+    "ap": 0.371,
+    "ml": 0.763,
+    "cc": 0.276
+   },
+   {
+    "target": 5,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 2.8,
+    "ap": 0.073,
+    "ml": 0.081,
+    "cc": 0.358
+   },
+   {
+    "target": 6,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 2.5,
+    "ap": 0.311,
+    "ml": 0.552,
+    "cc": 0.385
+   },
+   {
+    "target": 7,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 4.8,
+    "ap": 0.7,
+    "ml": 0.771,
+    "cc": 0.479
+   },
+   {
+    "target": 8,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 2.8,
+    "ap": 0.729,
+    "ml": 0.621,
+    "cc": 0.505
+   },
+   {
+    "target": 9,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 3.9,
+    "ap": 0.211,
+    "ml": 0.658,
+    "cc": 0.514
+   },
+   {
+    "target": 10,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 6.2,
+    "ap": 0.93,
+    "ml": 0.503,
+    "cc": 0.526
+   },
+   {
+    "target": 11,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 3.9,
+    "ap": 0.808,
+    "ml": 0.42,
+    "cc": 0.575
+   },
+   {
+    "target": 12,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 5.3,
+    "ap": 0.788,
+    "ml": 0.826,
+    "cc": 0.67
+   },
+   {
+    "target": 13,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 4.6,
+    "ap": 0.62,
+    "ml": 0.834,
+    "cc": 0.71
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": null,
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": null
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B07",
+  "text": "左舌区の心尖部外側で、前胸壁の胸膜直下にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 4.6,
+   "ap": 0.048,
+   "ml": 0.449,
+   "cc": 0.73
+  },
+  "other": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 13.6,
+   "ap": 0.52,
+   "ml": 0.552,
+   "cc": 0.406
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 3.5,
+    "ap": 0.938,
+    "ml": 0.424,
+    "cc": 0.375
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 13.6,
+    "ap": 0.52,
+    "ml": 0.552,
+    "cc": 0.406
+   },
+   {
+    "target": 3,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 13.4,
+    "ap": 0.103,
+    "ml": 0.537,
+    "cc": 0.566
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.6,
+    "ap": 0.048,
+    "ml": 0.449,
+    "cc": 0.73
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": 4,
+   "spec": {
+    "side": "left",
+    "lobe": "LUL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B08",
+  "text": "気管分岐部の高さで、右下葉背側（S6相当）の胸膜に接し、肺内へ突出する結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 5,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 8.2,
+   "ap": 0.935,
+   "ml": 0.643,
+   "cc": 0.344
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.1,
+   "ap": 0.781,
+   "ml": 0.814,
+   "cc": 0.434
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 7.3,
+    "ap": 0.807,
+    "ml": 0.799,
+    "cc": 0.218
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 12.2,
+    "ap": 0.589,
+    "ml": 0.867,
+    "cc": 0.274
+   },
+   {
+    "target": 3,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 8.0,
+    "ap": 0.398,
+    "ml": 0.932,
+    "cc": 0.299
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 7.6,
+    "ap": 0.74,
+    "ml": 0.688,
+    "cc": 0.332
+   },
+   {
+    "target": 5,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 8.2,
+    "ap": 0.935,
+    "ml": 0.643,
+    "cc": 0.344
+   },
+   {
+    "target": 6,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.9,
+    "ap": 0.137,
+    "ml": 0.585,
+    "cc": 0.442
+   },
+   {
+    "target": 7,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 6.1,
+    "ap": 0.781,
+    "ml": 0.814,
+    "cc": 0.434
+   },
+   {
+    "target": 8,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 4.8,
+    "ap": 0.631,
+    "ml": 0.86,
+    "cc": 0.454
+   },
+   {
+    "target": 9,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 7.4,
+    "ap": 0.933,
+    "ml": 0.613,
+    "cc": 0.536
+   }
+  ],
+  "R3": {
+   "target": 9,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "posterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": 9,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": 9,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": 9,
+  "D3r": 9
+ },
+ {
+  "case": "B09",
+  "text": "右上葉の前方（S3相当）で、前胸壁から少し離れ、Y字状に分岐する肺血管影のすぐ外側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 7,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 4.5,
+   "ap": 0.156,
+   "ml": 0.558,
+   "cc": 0.51
+  },
+  "other": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.8,
+   "ap": 0.128,
+   "ml": 0.705,
+   "cc": 0.409
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.5,
+    "ap": 0.129,
+    "ml": 0.692,
+    "cc": 0.175
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 6.8,
+    "ap": 0.611,
+    "ml": 0.871,
+    "cc": 0.184
+   },
+   {
+    "target": 3,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 9.9,
+    "ap": 0.495,
+    "ml": 0.342,
+    "cc": 0.222
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.9,
+    "ap": 0.881,
+    "ml": 0.496,
+    "cc": 0.216
+   },
+   {
+    "target": 5,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.0,
+    "ap": 0.402,
+    "ml": 0.876,
+    "cc": 0.246
+   },
+   {
+    "target": 6,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.8,
+    "ap": 0.128,
+    "ml": 0.705,
+    "cc": 0.409
+   },
+   {
+    "target": 7,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 4.5,
+    "ap": 0.156,
+    "ml": 0.558,
+    "cc": 0.51
+   },
+   {
+    "target": 8,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.1,
+    "ap": 0.107,
+    "ml": 0.521,
+    "cc": 0.529
+   },
+   {
+    "target": 9,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.1,
+    "ap": 0.194,
+    "ml": 0.754,
+    "cc": 0.537
+   },
+   {
+    "target": 10,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 7.1,
+    "ap": 0.517,
+    "ml": 0.976,
+    "cc": 0.66
+   },
+   {
+    "target": 11,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 5.5,
+    "ap": 0.606,
+    "ml": 0.894,
+    "cc": 0.718
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B10",
+  "text": "右肺動脈が描出される高さで、右肺外側の胸膜直下、肺門よりやや腹側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.6,
+   "ap": 0.445,
+   "ml": 0.967,
+   "cc": 0.359
+  },
+  "other": {
+   "target": 1,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 6.2,
+   "ap": 0.841,
+   "ml": 0.808,
+   "cc": 0.198
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 6.2,
+    "ap": 0.841,
+    "ml": 0.808,
+    "cc": 0.198
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 3.6,
+    "ap": 0.445,
+    "ml": 0.967,
+    "cc": 0.359
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 5.3,
+    "ap": 0.471,
+    "ml": 0.434,
+    "cc": 0.7
+   }
+  ],
+  "R3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "D3t": 2,
+  "D3r": 2
+ },
+ {
+  "case": "B11",
+  "text": "気管分岐部直上の高さで、右肺の最外側、側胸壁の胸膜に接する小結節の最大径の計測をお願いします。右肺門とほぼ同じ前後位置にある結節です。",
+  "intended": {
+   "target": 6,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 5.8,
+   "ap": 0.551,
+   "ml": 0.988,
+   "cc": 0.315
+  },
+  "other": {
+   "target": 8,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.2,
+   "ap": 0.51,
+   "ml": 0.852,
+   "cc": 0.397
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 14.7,
+    "ap": 0.812,
+    "ml": 0.951,
+    "cc": 0.057
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 3.2,
+    "ap": 0.336,
+    "ml": 0.92,
+    "cc": 0.201
+   },
+   {
+    "target": 3,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.0,
+    "ap": 0.84,
+    "ml": 0.834,
+    "cc": 0.276
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 3.2,
+    "ap": 0.323,
+    "ml": 0.834,
+    "cc": 0.302
+   },
+   {
+    "target": 5,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 7.8,
+    "ap": 0.799,
+    "ml": 0.122,
+    "cc": 0.311
+   },
+   {
+    "target": 6,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.8,
+    "ap": 0.551,
+    "ml": 0.988,
+    "cc": 0.315
+   },
+   {
+    "target": 7,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 2.8,
+    "ap": 0.482,
+    "ml": 0.958,
+    "cc": 0.342
+   },
+   {
+    "target": 8,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 3.2,
+    "ap": 0.51,
+    "ml": 0.852,
+    "cc": 0.397
+   },
+   {
+    "target": 9,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 4.0,
+    "ap": 0.962,
+    "ml": 0.53,
+    "cc": 0.399
+   },
+   {
+    "target": 10,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 12.2,
+    "ap": 0.463,
+    "ml": 0.966,
+    "cc": 0.487
+   },
+   {
+    "target": 11,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 5.0,
+    "ap": 0.598,
+    "ml": 0.955,
+    "cc": 0.49
+   },
+   {
+    "target": 12,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 3.4,
+    "ap": 0.486,
+    "ml": 0.843,
+    "cc": 0.492
+   },
+   {
+    "target": 13,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 3.2,
+    "ap": 0.923,
+    "ml": 0.103,
+    "cc": 0.62
+   },
+   {
+    "target": 14,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 4.5,
+    "ap": 0.496,
+    "ml": 0.986,
+    "cc": 0.714
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B12",
+  "text": "大動脈弓の高さで、左下葉背側（S6相当）の胸膜直下、椎体より外側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 1,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 10.0,
+   "ap": 0.972,
+   "ml": 0.409,
+   "cc": 0.216
+  },
+  "other": {
+   "target": 2,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 5.7,
+   "ap": 0.442,
+   "ml": 0.757,
+   "cc": 0.517
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 10.0,
+    "ap": 0.972,
+    "ml": 0.409,
+    "cc": 0.216
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 5.7,
+    "ap": 0.442,
+    "ml": 0.757,
+    "cc": 0.517
+   },
+   {
+    "target": 3,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 12.0,
+    "ap": 0.577,
+    "ml": 0.826,
+    "cc": 0.622
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": null,
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": null
+   }
+  },
+  "M3": {
+   "target": 1,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "medial",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B13",
+  "text": "右中葉の内側（S5相当）、心臓の右前方で縦隔脂肪に接する小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 5,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 9.5,
+   "ap": 0.073,
+   "ml": 0.272,
+   "cc": 0.719
+  },
+  "other": {
+   "target": 4,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 5.8,
+   "ap": 0.061,
+   "ml": 0.623,
+   "cc": 0.686
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "midline",
+    "size_mm": 5.5,
+    "ap": 0.717,
+    "ml": 0.083,
+    "cc": 0.333
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 3.4,
+    "ap": 0.039,
+    "ml": 0.407,
+    "cc": 0.465
+   },
+   {
+    "target": 3,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 10.0,
+    "ap": 0.197,
+    "ml": 0.612,
+    "cc": 0.587
+   },
+   {
+    "target": 4,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 5.8,
+    "ap": 0.061,
+    "ml": 0.623,
+    "cc": 0.686
+   },
+   {
+    "target": 5,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 9.5,
+    "ap": 0.073,
+    "ml": 0.272,
+    "cc": 0.719
+   },
+   {
+    "target": 6,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 9.0,
+    "ap": 0.743,
+    "ml": 0.752,
+    "cc": 0.775
+   },
+   {
+    "target": 7,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 6.8,
+    "ap": 0.908,
+    "ml": 0.696,
+    "cc": 0.773
+   },
+   {
+    "target": 8,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 5.1,
+    "ap": 0.802,
+    "ml": 0.659,
+    "cc": 0.899
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RML",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "medial"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RML",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "medial"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RML",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "medial"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B14",
+  "text": "右肺の前方、心右縁から外側に離れ、前胸壁と肺門の間にある小結節の最大径の計測をお願いします。同断面で外側から心臓側へ延びる線状影より腹側に位置する結節です。",
+  "intended": {
+   "target": 5,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 4.8,
+   "ap": 0.201,
+   "ml": 0.474,
+   "cc": 0.595
+  },
+  "other": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 5.0,
+   "ap": 0.48,
+   "ml": 0.725,
+   "cc": 0.653
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 2.0,
+    "ap": 0.476,
+    "ml": 0.874,
+    "cc": 0.363
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 2.7,
+    "ap": 0.44,
+    "ml": 0.942,
+    "cc": 0.382
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 2.6,
+    "ap": 0.987,
+    "ml": 0.386,
+    "cc": 0.407
+   },
+   {
+    "target": 4,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 6.6,
+    "ap": 0.542,
+    "ml": 0.642,
+    "cc": 0.475
+   },
+   {
+    "target": 5,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 4.8,
+    "ap": 0.201,
+    "ml": 0.474,
+    "cc": 0.595
+   },
+   {
+    "target": 6,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 5.0,
+    "ap": 0.48,
+    "ml": 0.725,
+    "cc": 0.653
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B15",
+  "text": "右下葉の外側肺底部（S9相当）、肝右葉の後外側で、弧状に走る末梢血管影のすぐ外側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 6,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 8.8,
+   "ap": 0.649,
+   "ml": 0.894,
+   "cc": 0.817
+  },
+  "other": {
+   "target": 7,
+   "lobe": "RLL",
+   "side": "right",
+   "size_mm": 17.7,
+   "ap": 0.841,
+   "ml": 0.394,
+   "cc": 0.902
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 17.4,
+    "ap": 0.761,
+    "ml": 0.866,
+    "cc": 0.459
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.2,
+    "ap": 0.275,
+    "ml": 0.674,
+    "cc": 0.413
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 9.5,
+    "ap": 0.367,
+    "ml": 0.872,
+    "cc": 0.672
+   },
+   {
+    "target": 4,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 7.2,
+    "ap": 0.34,
+    "ml": 0.627,
+    "cc": 0.685
+   },
+   {
+    "target": 5,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 21.0,
+    "ap": 0.957,
+    "ml": 0.412,
+    "cc": 0.636
+   },
+   {
+    "target": 6,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 8.8,
+    "ap": 0.649,
+    "ml": 0.894,
+    "cc": 0.817
+   },
+   {
+    "target": 7,
+    "lobe": "RLL",
+    "side": "right",
+    "size_mm": 17.7,
+    "ap": 0.841,
+    "ml": 0.394,
+    "cc": 0.902
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "base",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "base",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": 6,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B16",
+  "text": "左肺門の後外側、左下葉S6相当で、外側胸膜から少し離れた位置にある円形の小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 4,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 7.0,
+   "ap": 0.696,
+   "ml": 0.761,
+   "cc": 0.438
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 9.0,
+   "ap": 0.871,
+   "ml": 0.757,
+   "cc": 0.38
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 10.1,
+    "ap": 0.718,
+    "ml": 0.339,
+    "cc": 0.079
+   },
+   {
+    "target": 2,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 23.2,
+    "ap": 0.579,
+    "ml": 0.93,
+    "cc": 0.309
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 9.0,
+    "ap": 0.871,
+    "ml": 0.757,
+    "cc": 0.38
+   },
+   {
+    "target": 4,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 7.0,
+    "ap": 0.696,
+    "ml": 0.761,
+    "cc": 0.438
+   },
+   {
+    "target": 5,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 8.2,
+    "ap": 0.415,
+    "ml": 0.745,
+    "cc": 0.692
+   },
+   {
+    "target": 6,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 18.6,
+    "ap": 0.399,
+    "ml": 0.904,
+    "cc": 0.803
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": 6,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "base",
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B17",
+  "text": "右肺の前外側（右上葉S3相当）、前胸壁から少し離れ、肺門から前方へ伸びる太い血管影より外側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 6.5,
+   "ap": 0.17,
+   "ml": 0.673,
+   "cc": 0.49
+  },
+  "other": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 10.0,
+   "ap": 0.138,
+   "ml": 0.581,
+   "cc": 0.184
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.7,
+    "ap": 0.118,
+    "ml": 0.663,
+    "cc": 0.134
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 10.0,
+    "ap": 0.138,
+    "ml": 0.581,
+    "cc": 0.184
+   },
+   {
+    "target": 3,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 6.5,
+    "ap": 0.17,
+    "ml": 0.673,
+    "cc": 0.49
+   }
+  ],
+  "R3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": 2,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": "RUL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "D3t": 2,
+  "D3r": 2
+ },
+ {
+  "case": "B18",
+  "text": "右肺前方の胸膜直下、胸骨右縁より外側にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 2,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 3.8,
+   "ap": 0.049,
+   "ml": 0.442,
+   "cc": 0.5
+  },
+  "other": {
+   "target": 3,
+   "lobe": "RML",
+   "side": "right",
+   "size_mm": 7.9,
+   "ap": 0.267,
+   "ml": 0.88,
+   "cc": 0.618
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 5.6,
+    "ap": 0.672,
+    "ml": 0.779,
+    "cc": 0.3
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 3.8,
+    "ap": 0.049,
+    "ml": 0.442,
+    "cc": 0.5
+   },
+   {
+    "target": 3,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 7.9,
+    "ap": 0.267,
+    "ml": 0.88,
+    "cc": 0.618
+   },
+   {
+    "target": 4,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 9.3,
+    "ap": 0.337,
+    "ml": 0.659,
+    "cc": 0.642
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "anterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "anterior",
+     "lateral"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ },
+ {
+  "case": "B19",
+  "text": "大動脈弓の高さで、左肺背外側（左下葉S6相当）、肺門から背側へ伸びる血管影より外側、胸膜から少し離れた位置にある小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 1,
+   "lobe": "LUL",
+   "side": "left",
+   "size_mm": 8.1,
+   "ap": 0.814,
+   "ml": 0.752,
+   "cc": 0.207
+  },
+  "other": {
+   "target": 3,
+   "lobe": "LLL",
+   "side": "left",
+   "size_mm": 3.5,
+   "ap": 0.887,
+   "ml": 0.369,
+   "cc": 0.462
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 8.1,
+    "ap": 0.814,
+    "ml": 0.752,
+    "cc": 0.207
+   },
+   {
+    "target": 2,
+    "lobe": "RML",
+    "side": "right",
+    "size_mm": 4.4,
+    "ap": 0.29,
+    "ml": 0.655,
+    "cc": 0.43
+   },
+   {
+    "target": 3,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 3.5,
+    "ap": 0.887,
+    "ml": 0.369,
+    "cc": 0.462
+   }
+  ],
+  "R3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": 3,
+   "spec": {
+    "side": "left",
+    "lobe": "LLL",
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": 3,
+  "D3r": 3
+ },
+ {
+  "case": "B20",
+  "text": "気管分岐部の高さで、右肺門から外側へ横走する太い血管影のすぐ背側、外側胸膜寄りにある円形の小結節の最大径の計測をお願いします。",
+  "intended": {
+   "target": 4,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 8.0,
+   "ap": 0.497,
+   "ml": 0.829,
+   "cc": 0.363
+  },
+  "other": {
+   "target": 5,
+   "lobe": "RUL",
+   "side": "right",
+   "size_mm": 7.5,
+   "ap": 0.62,
+   "ml": 0.61,
+   "cc": 0.369
+  },
+  "all_targets": [
+   {
+    "target": 1,
+    "lobe": "LUL",
+    "side": "left",
+    "size_mm": 4.7,
+    "ap": 0.511,
+    "ml": 0.826,
+    "cc": 0.084
+   },
+   {
+    "target": 2,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 17.7,
+    "ap": 0.746,
+    "ml": 0.354,
+    "cc": 0.133
+   },
+   {
+    "target": 3,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 3.7,
+    "ap": 0.285,
+    "ml": 0.89,
+    "cc": 0.234
+   },
+   {
+    "target": 4,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 8.0,
+    "ap": 0.497,
+    "ml": 0.829,
+    "cc": 0.363
+   },
+   {
+    "target": 5,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 7.5,
+    "ap": 0.62,
+    "ml": 0.61,
+    "cc": 0.369
+   },
+   {
+    "target": 6,
+    "lobe": "RUL",
+    "side": "right",
+    "size_mm": 6.0,
+    "ap": 0.4,
+    "ml": 0.579,
+    "cc": 0.375
+   },
+   {
+    "target": 7,
+    "lobe": "LLL",
+    "side": "left",
+    "size_mm": 5.3,
+    "ap": 0.724,
+    "ml": 0.104,
+    "cc": 0.558
+   }
+  ],
+  "R3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "M3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": null,
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "A3": {
+   "target": null,
+   "spec": {
+    "side": "right",
+    "lobe": null,
+    "ordinal": null,
+    "size": "lt5",
+    "regions": [
+     "lateral",
+     "posterior"
+    ]
+   }
+  },
+  "D3t": null,
+  "D3r": null
+ }
+]

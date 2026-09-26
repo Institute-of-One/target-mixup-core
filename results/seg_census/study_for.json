@@ -1,0 +1,1722 @@
+[
+ {
+  "patient": "LIDC-IDRI-0314",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265704884949271879044145982159",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.156380297768584255442505755027",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 1",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 34969",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 8170",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180843757525639733691947797641",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 1 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 34969 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 8170 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0325",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.815399168774050638734383723372",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.823722777582891485108386252636",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 54667",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 9268",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.127810771463884377342968369332",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 54667 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 9268 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-22 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0580",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.173480979711457247360986415860",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "GE MEDICAL SYSTEMS",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.180967845679353173966837260273",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 39470",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 55582",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.269849279208588310379687197292",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 39470 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 55582 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0766",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.267013157670921984098319605661",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316637203157156165190231409231",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 10717",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 87247",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.640769042120968783498457788881",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 10717 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 87247 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0771",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.721161755719965069770622927051",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.164066228331149234741558025312",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 13348",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 13632",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.223334044864018981697052853352",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 13348 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 13632 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0811",
+  "status": "match",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.694589790483267758352592215517",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 1746",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 5056",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 6",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.453717208793294561834630218205",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 1746 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 5056 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 6 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0905",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.135354380632609557236443907760",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "GE MEDICAL SYSTEMS",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.174787339509263627772230319814",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 35097",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 54987",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.162218324996295633090050480502",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 35097 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 54987 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0963",
+  "status": "mismatch",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.732422099119935556160069769037",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "GE MEDICAL SYSTEMS",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324460756850600071296260371616",
+    "shares_seg_for": true,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 12614",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation CA006_29719",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.191116906669113786347695838062",
+    "shares_seg_for": false,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 12614 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation CA006_29719 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-0965",
+  "status": "match",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.283747814329309197645868691560",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "Philips",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 1574",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 5230",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.278550731504023792114703118105",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 1574 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 5230 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ },
+ {
+  "patient": "LIDC-IDRI-1012",
+  "status": "match",
+  "study": "1.3.6.1.4.1.14519.5.2.1.6279.6001.676549258486738448212921834668",
+  "seg_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+  "ct_for": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+  "same_seg_for_across_algorithms": true,
+  "series": [
+   {
+    "modality": "CT",
+    "description": "",
+    "manufacturer": "GE MEDICAL SYSTEMS",
+    "series_date": "2000-01-01 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg01 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg02 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run1segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run2segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "QIN CT challenge: alg03 run3segmentation result",
+    "manufacturer": "3D Slicer Community",
+    "series_date": "2014-11-07 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 0",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 157143",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation 201255",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SEG",
+    "description": "Segmentation of Nodule 1 - Annotation Nodule 001",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229072600544741903539077398963",
+    "shares_seg_for": true,
+    "shares_ct_for": true
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 0 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 157143 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation 201255 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   },
+   {
+    "modality": "SR",
+    "description": "Nodule 1 - Annotation Nodule 001 evaluations",
+    "manufacturer": "QIICR",
+    "series_date": "2019-03-23 00:00:00.0",
+    "frame_of_reference": "",
+    "shares_seg_for": false,
+    "shares_ct_for": false
+   }
+  ]
+ }
+]

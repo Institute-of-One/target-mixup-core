@@ -1,0 +1,3208 @@
+{
+ "seed": 20260925,
+ "templates_sha256": "1f2fcb143cf4eb14eb217bcd404ce41b263c62813adcd14342985e00d42bf42b",
+ "eval_pool": 1728,
+ "eval_sampled": 200,
+ "requests": [
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.206028343897359374907954580114",
+   "patient": "LIDC-IDRI-0024",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0000"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.206028343897359374907954580114",
+   "patient": "LIDC-IDRI-0024",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "eval0001"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.206028343897359374907954580114",
+   "patient": "LIDC-IDRI-0024",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0002"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.206028343897359374907954580114",
+   "patient": "LIDC-IDRI-0024",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0003"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.206028343897359374907954580114",
+   "patient": "LIDC-IDRI-0024",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "eval0004"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0005"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0006"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0007"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0008"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "eval0009"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0010"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0011"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.287966244644280690737019247886",
+   "patient": "LIDC-IDRI-0061",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0012"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.454273545863197752384437758130",
+   "patient": "LIDC-IDRI-0126",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0013"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.454273545863197752384437758130",
+   "patient": "LIDC-IDRI-0126",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0014"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0015"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0016"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "release",
+   "id": "eval0017"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0018"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 8,
+    "unique": true
+   },
+   "offered_target": 8,
+   "correct_action": "release",
+   "id": "eval0019"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.207201727479884428632451006739",
+   "patient": "LIDC-IDRI-0136",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0020"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.128881800399702510818644205032",
+   "patient": "LIDC-IDRI-0148",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0021"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.128881800399702510818644205032",
+   "patient": "LIDC-IDRI-0148",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0022"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.128881800399702510818644205032",
+   "patient": "LIDC-IDRI-0148",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0023"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.939216568327879462530496768794",
+   "patient": "LIDC-IDRI-0243",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0024"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.939216568327879462530496768794",
+   "patient": "LIDC-IDRI-0243",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0025"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.939216568327879462530496768794",
+   "patient": "LIDC-IDRI-0243",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0026"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.939216568327879462530496768794",
+   "patient": "LIDC-IDRI-0243",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0027"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.939216568327879462530496768794",
+   "patient": "LIDC-IDRI-0243",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0028"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257840703452266097926250569223",
+   "patient": "LIDC-IDRI-0282",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0029"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257840703452266097926250569223",
+   "patient": "LIDC-IDRI-0282",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0030"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257840703452266097926250569223",
+   "patient": "LIDC-IDRI-0282",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0031"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257840703452266097926250569223",
+   "patient": "LIDC-IDRI-0282",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0032"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.211051626197585058967163339846",
+   "patient": "LIDC-IDRI-0294",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0033"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.270215889102603268207599305185",
+   "patient": "LIDC-IDRI-0308",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0034"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.270215889102603268207599305185",
+   "patient": "LIDC-IDRI-0308",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0035"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.270215889102603268207599305185",
+   "patient": "LIDC-IDRI-0308",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0036"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.270215889102603268207599305185",
+   "patient": "LIDC-IDRI-0308",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0037"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.270215889102603268207599305185",
+   "patient": "LIDC-IDRI-0308",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0038"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199261544234308780356714831537",
+   "patient": "LIDC-IDRI-0309",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0039"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0040"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0041"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0042"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0043"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0044"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.236452051640243530449001532111",
+   "patient": "LIDC-IDRI-0351",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0045"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.326084450802794941185111945926",
+   "patient": "LIDC-IDRI-0368",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, largest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0046"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.326084450802794941185111945926",
+   "patient": "LIDC-IDRI-0368",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0047"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.188376349804761988217597754952",
+   "patient": "LIDC-IDRI-0398",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0048"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.188376349804761988217597754952",
+   "patient": "LIDC-IDRI-0398",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 12,
+   "correct_action": "defer",
+   "id": "eval0049"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.188376349804761988217597754952",
+   "patient": "LIDC-IDRI-0398",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0050"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.188376349804761988217597754952",
+   "patient": "LIDC-IDRI-0398",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 13,
+    "unique": true
+   },
+   "offered_target": 13,
+   "correct_action": "release",
+   "id": "eval0051"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.188376349804761988217597754952",
+   "patient": "LIDC-IDRI-0398",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0052"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276556509002726404418399209377",
+   "patient": "LIDC-IDRI-0420",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0053"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276556509002726404418399209377",
+   "patient": "LIDC-IDRI-0420",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0054"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276556509002726404418399209377",
+   "patient": "LIDC-IDRI-0420",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0055"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276556509002726404418399209377",
+   "patient": "LIDC-IDRI-0420",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0056"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.392861216720727557882279374324",
+   "patient": "LIDC-IDRI-0429",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0057"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.392861216720727557882279374324",
+   "patient": "LIDC-IDRI-0429",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0058"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.392861216720727557882279374324",
+   "patient": "LIDC-IDRI-0429",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0059"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.392861216720727557882279374324",
+   "patient": "LIDC-IDRI-0429",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0060"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.168985655485163461062675655739",
+   "patient": "LIDC-IDRI-0433",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "eval0061"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.168985655485163461062675655739",
+   "patient": "LIDC-IDRI-0433",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0062"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.168985655485163461062675655739",
+   "patient": "LIDC-IDRI-0433",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "eval0063"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.168985655485163461062675655739",
+   "patient": "LIDC-IDRI-0433",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0064"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.168985655485163461062675655739",
+   "patient": "LIDC-IDRI-0433",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0065"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.215640837032688688030770057224",
+   "patient": "LIDC-IDRI-0450",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0066"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.969607480572818589276327766720",
+   "patient": "LIDC-IDRI-0474",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0067"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.969607480572818589276327766720",
+   "patient": "LIDC-IDRI-0474",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "eval0068"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.969607480572818589276327766720",
+   "patient": "LIDC-IDRI-0474",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, largest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0069"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.969607480572818589276327766720",
+   "patient": "LIDC-IDRI-0474",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0070"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.969607480572818589276327766720",
+   "patient": "LIDC-IDRI-0474",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "release",
+   "id": "eval0071"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.250397690690072950000431855143",
+   "patient": "LIDC-IDRI-0476",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0072"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.250397690690072950000431855143",
+   "patient": "LIDC-IDRI-0476",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0073"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.250397690690072950000431855143",
+   "patient": "LIDC-IDRI-0476",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0074"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.250397690690072950000431855143",
+   "patient": "LIDC-IDRI-0476",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0075"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0076"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "eval0077"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0078"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0079"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0080"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.290135156874098366424871975734",
+   "patient": "LIDC-IDRI-0489",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0081"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.504845428620607044098514803031",
+   "patient": "LIDC-IDRI-0496",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0082"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.504845428620607044098514803031",
+   "patient": "LIDC-IDRI-0496",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0083"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.504845428620607044098514803031",
+   "patient": "LIDC-IDRI-0496",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0084"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.504845428620607044098514803031",
+   "patient": "LIDC-IDRI-0496",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "eval0085"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.504845428620607044098514803031",
+   "patient": "LIDC-IDRI-0496",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0086"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.314789075871001236641548593165",
+   "patient": "LIDC-IDRI-0505",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0087"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.314789075871001236641548593165",
+   "patient": "LIDC-IDRI-0505",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0088"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0089"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0090"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0091"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0092"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0093"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.716498695101447665580610403574",
+   "patient": "LIDC-IDRI-0525",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0094"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.561458563853929400124470098603",
+   "patient": "LIDC-IDRI-0530",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0095"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.561458563853929400124470098603",
+   "patient": "LIDC-IDRI-0530",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0096"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.561458563853929400124470098603",
+   "patient": "LIDC-IDRI-0530",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0097"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.561458563853929400124470098603",
+   "patient": "LIDC-IDRI-0530",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0098"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.561458563853929400124470098603",
+   "patient": "LIDC-IDRI-0530",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0099"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275986221854423197884953496664",
+   "patient": "LIDC-IDRI-0535",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0100"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275986221854423197884953496664",
+   "patient": "LIDC-IDRI-0535",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0101"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275986221854423197884953496664",
+   "patient": "LIDC-IDRI-0535",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0102"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275986221854423197884953496664",
+   "patient": "LIDC-IDRI-0535",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0103"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.248425363469507808613979846863",
+   "patient": "LIDC-IDRI-0545",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0104"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.248425363469507808613979846863",
+   "patient": "LIDC-IDRI-0545",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0105"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.248425363469507808613979846863",
+   "patient": "LIDC-IDRI-0545",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0106"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.248425363469507808613979846863",
+   "patient": "LIDC-IDRI-0545",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0107"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.248425363469507808613979846863",
+   "patient": "LIDC-IDRI-0545",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0108"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0109"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0110"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0111"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0112"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0113"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.219087313261026510628926082729",
+   "patient": "LIDC-IDRI-0562",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0114"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0115"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0116"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0117"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0118"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0119"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0120"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "patient": "LIDC-IDRI-0569",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0121"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.124822907934319930841506266464",
+   "patient": "LIDC-IDRI-0582",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "eval0122"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.124822907934319930841506266464",
+   "patient": "LIDC-IDRI-0582",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 8,
+   "correct_action": "defer",
+   "id": "eval0123"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.124822907934319930841506266464",
+   "patient": "LIDC-IDRI-0582",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0124"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.955688628308192728558382581802",
+   "patient": "LIDC-IDRI-0583",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 12,
+   "correct_action": "defer",
+   "id": "eval0125"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.955688628308192728558382581802",
+   "patient": "LIDC-IDRI-0583",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 22,
+   "correct_action": "defer",
+   "id": "eval0126"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.955688628308192728558382581802",
+   "patient": "LIDC-IDRI-0583",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 23,
+   "correct_action": "defer",
+   "id": "eval0127"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.299476369290630280560355838785",
+   "patient": "LIDC-IDRI-0628",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0128"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.299476369290630280560355838785",
+   "patient": "LIDC-IDRI-0628",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0129"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.299476369290630280560355838785",
+   "patient": "LIDC-IDRI-0628",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0130"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.299476369290630280560355838785",
+   "patient": "LIDC-IDRI-0628",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 6,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "eval0131"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0132"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 10,
+   "correct_action": "defer",
+   "id": "eval0133"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 7,
+   "correct_action": "defer",
+   "id": "eval0134"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0135"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0136"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "patient": "LIDC-IDRI-0637",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 8,
+   "correct_action": "defer",
+   "id": "eval0137"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175773779529863791864938329989",
+   "patient": "LIDC-IDRI-0640",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0138"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175773779529863791864938329989",
+   "patient": "LIDC-IDRI-0640",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0139"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175773779529863791864938329989",
+   "patient": "LIDC-IDRI-0640",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0140"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175773779529863791864938329989",
+   "patient": "LIDC-IDRI-0640",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0141"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.226564372605239604660221582288",
+   "patient": "LIDC-IDRI-0662",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0142"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.226564372605239604660221582288",
+   "patient": "LIDC-IDRI-0662",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "eval0143"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.308655308958459380153492314021",
+   "patient": "LIDC-IDRI-0674",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0144"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.308655308958459380153492314021",
+   "patient": "LIDC-IDRI-0674",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0145"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.308655308958459380153492314021",
+   "patient": "LIDC-IDRI-0674",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, largest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0146"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.205993750485568250373835565680",
+   "patient": "LIDC-IDRI-0701",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0147"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.205993750485568250373835565680",
+   "patient": "LIDC-IDRI-0701",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 5,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "release",
+   "id": "eval0148"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.205993750485568250373835565680",
+   "patient": "LIDC-IDRI-0701",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0149"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265775376735520890308424143898",
+   "patient": "LIDC-IDRI-0742",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0150"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265775376735520890308424143898",
+   "patient": "LIDC-IDRI-0742",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "eval0151"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265775376735520890308424143898",
+   "patient": "LIDC-IDRI-0742",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 14,
+    "unique": true
+   },
+   "offered_target": 6,
+   "correct_action": "defer",
+   "id": "eval0152"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0153"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0154"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0155"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0156"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0157"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0158"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0159"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119515474430718803379832249911",
+   "patient": "LIDC-IDRI-0743",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0160"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.148935306123327835217659769212",
+   "patient": "LIDC-IDRI-0757",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0161"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.148935306123327835217659769212",
+   "patient": "LIDC-IDRI-0757",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0162"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.148935306123327835217659769212",
+   "patient": "LIDC-IDRI-0757",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0163"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.148935306123327835217659769212",
+   "patient": "LIDC-IDRI-0757",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, largest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0164"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.112740418331256326754121315800",
+   "patient": "LIDC-IDRI-0772",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0165"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.112740418331256326754121315800",
+   "patient": "LIDC-IDRI-0772",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0166"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.112740418331256326754121315800",
+   "patient": "LIDC-IDRI-0772",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0167"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 8,
+    "unique": true
+   },
+   "offered_target": 8,
+   "correct_action": "release",
+   "id": "eval0168"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0169"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0170"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0171"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, lowest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_caudal",
+    "intended_target": 7,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0172"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.275755514659958628040305922764",
+   "patient": "LIDC-IDRI-0843",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も小さい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 5,
+   "correct_action": "defer",
+   "id": "eval0173"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も小さい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 4,
+   "correct_action": "release",
+   "id": "eval0174"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0175"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番小さい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0176"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most cranial right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0177"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the smallest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0178"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 4,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0179"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.199171741859530285887752432478",
+   "patient": "LIDC-IDRI-0851",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0180"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.300146276266881736689307479986",
+   "patient": "LIDC-IDRI-0852",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も尾側の左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0181"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.300146276266881736689307479986",
+   "patient": "LIDC-IDRI-0852",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the largest right-sided nodule.",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0182"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.300146276266881736689307479986",
+   "patient": "LIDC-IDRI-0852",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, largest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0183"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.300146276266881736689307479986",
+   "patient": "LIDC-IDRI-0852",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "smallest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0184"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.141345499716190654505508410197",
+   "patient": "LIDC-IDRI-0880",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "release",
+   "id": "eval0185"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.141345499716190654505508410197",
+   "patient": "LIDC-IDRI-0880",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も頭側の右側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0186"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.141345499716190654505508410197",
+   "patient": "LIDC-IDRI-0880",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0187"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.141345499716190654505508410197",
+   "patient": "LIDC-IDRI-0880",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": null,
+    "unique": false
+   },
+   "offered_target": 4,
+   "correct_action": "defer",
+   "id": "eval0188"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.244447966386688625240438849169",
+   "patient": "LIDC-IDRI-0898",
+   "family": "E1",
+   "lang": "ja",
+   "text": "最も大きい左側病変のボリュームをお願いします。",
+   "truth": {
+    "side": "left",
+    "ordinal": "largest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0189"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.244447966386688625240438849169",
+   "patient": "LIDC-IDRI-0898",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0190"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.244447966386688625240438849169",
+   "patient": "LIDC-IDRI-0898",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番下の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0191"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265133389948279331857097127422",
+   "patient": "LIDC-IDRI-0922",
+   "family": "E3",
+   "lang": "en",
+   "text": "Please quantify the most caudal left-sided nodule.",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0192"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265133389948279331857097127422",
+   "patient": "LIDC-IDRI-0922",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も大きい結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0193"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.317087518531899043292346860596",
+   "patient": "LIDC-IDRI-0940",
+   "family": "E2",
+   "lang": "ja",
+   "text": "右の一番大きい結節、測っといてください。",
+   "truth": {
+    "side": "right",
+    "ordinal": "largest",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0194"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.317087518531899043292346860596",
+   "patient": "LIDC-IDRI-0940",
+   "family": "E2",
+   "lang": "ja",
+   "text": "左の一番上の結節、測っといてください。",
+   "truth": {
+    "side": "left",
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "release",
+   "id": "eval0195"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.317087518531899043292346860596",
+   "patient": "LIDC-IDRI-0940",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も尾側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_caudal",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 1,
+   "correct_action": "defer",
+   "id": "eval0196"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.317087518531899043292346860596",
+   "patient": "LIDC-IDRI-0940",
+   "family": "E5",
+   "lang": "ja",
+   "text": "最も頭側の結節を測定してください。",
+   "truth": {
+    "side": null,
+    "ordinal": "most_cranial",
+    "intended_target": 1,
+    "unique": true
+   },
+   "offered_target": 2,
+   "correct_action": "defer",
+   "id": "eval0197"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.881807066375601978080868510714",
+   "patient": "LIDC-IDRI-0972",
+   "family": "E4",
+   "lang": "en",
+   "text": "Left lung, smallest lesion — volume please.",
+   "truth": {
+    "side": "left",
+    "ordinal": "smallest",
+    "intended_target": 3,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "release",
+   "id": "eval0198"
+  },
+  {
+   "ct_series": "1.3.6.1.4.1.14519.5.2.1.6279.6001.881807066375601978080868510714",
+   "patient": "LIDC-IDRI-0972",
+   "family": "E4",
+   "lang": "en",
+   "text": "Right lung, uppermost lesion — volume please.",
+   "truth": {
+    "side": "right",
+    "ordinal": "most_cranial",
+    "intended_target": 2,
+    "unique": true
+   },
+   "offered_target": 3,
+   "correct_action": "defer",
+   "id": "eval0199"
+  }
+ ]
+}

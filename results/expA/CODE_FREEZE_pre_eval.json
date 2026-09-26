@@ -1,0 +1,18 @@
+{
+ "frozen_utc": "2026-09-25T00:26:20.260360+00:00",
+ "stage": "before evaluation split was scored",
+ "files": {
+  "expA_targets.py": "226542a8f01b45f605d943aa5c57ac93ad73187f08444ee3fcd6ddf10a5cf65d",
+  "expA_requests.py": "652267e7f81e2eb28a51a07845d060841de2542b02932f897023df42a7fb8eb5",
+  "expA_gate.py": "6f3e25b58739fb2d62a519b20cfdc09eac5ff3d55bbd5a67958c24ffbf5a85ec",
+  "series_integrity.py": "03f0d1d6f2b9469a394d29fa86986d02152a39da1673d645b125ae922724b227",
+  "seg_census_targets.py": "3d8eebca59327038852d4917efb986092e1f7e3e4c7b189e257feff6495afbc7",
+  "seg_point_match.py": "b9261af85977142a034e9ce0f646c59b578fd2a7d822f5ce004d993a0d4b4cb6"
+ },
+ "data": {
+  "targets.json": "b438f176d51b643841e84d8852d511145f8cd01f7a0dc8d2baa498e26ecc7854",
+  "requests_dev.json": "0be0bc043f6e4321874d949627e8a20fea9c4c2e85fbfcfd045ee1a2ba49d8f4",
+  "requests_eval.json": "b3738843b5b8208b5f68e9f122d284d75485f62f915affc5a0273e8b5a63a81d"
+ },
+ "note": "G1 rules and G2 request/threshold frozen from development families only. Evaluation not yet scored."
+}

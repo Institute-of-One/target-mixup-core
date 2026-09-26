@@ -1,0 +1,7 @@
+# Only for recomputing lobes (expB_lobes.py, expB_regions*.py); not needed to reproduce the reported numbers.
+# Versions used in the study (CPU, Windows, Python 3.12). TotalSegmentator downloads its model weights on first use.
+TotalSegmentator==2.18.0
+torch==2.14.0
+nibabel==5.4.2
+numpy==2.5.3
+SimpleITK==2.5.6

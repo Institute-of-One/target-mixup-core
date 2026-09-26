@@ -1,0 +1,23 @@
+{
+ "readers": {
+  "R": {
+   "n": 20,
+   "correct_authorization": 11,
+   "inappropriate_authorization": 2,
+   "correct_ci": [
+    0.3,
+    0.75
+   ]
+  },
+  "M": {
+   "n": 20,
+   "correct_authorization": 0,
+   "inappropriate_authorization": 0,
+   "correct_ci": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "n_requests": 20
+}

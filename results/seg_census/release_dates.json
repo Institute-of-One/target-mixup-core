@@ -1,0 +1,102 @@
+[
+ {
+  "patient": "LIDC-IDRI-0811",
+  "status": "match",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 19:57:21 UTC 2020",
+  "ct_released": "Fri Feb 21 19:58:43 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 19:58:43 UTC 2020",
+  "ct_images": "371",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0965",
+  "status": "match",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 20:44:03 UTC 2020",
+  "ct_released": "Fri Feb 21 20:47:17 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 20:47:17 UTC 2020",
+  "ct_images": "328",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-1012",
+  "status": "match",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 20:57:08 UTC 2020",
+  "ct_released": "Fri Feb 21 20:57:09 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 20:57:09 UTC 2020",
+  "ct_images": "166",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0314",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 16:26:09 UTC 2020",
+  "ct_released": "Fri Feb 21 16:29:17 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 16:29:17 UTC 2020",
+  "ct_images": "275",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0325",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 16:31:50 UTC 2020",
+  "ct_released": "Fri Feb 21 16:32:56 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 16:32:56 UTC 2020",
+  "ct_images": "278",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0580",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 18:20:47 UTC 2020",
+  "ct_released": "Fri Feb 21 18:24:05 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 18:24:05 UTC 2020",
+  "ct_images": "250",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0766",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 19:41:13 UTC 2020",
+  "ct_released": "Fri Feb 21 19:42:44 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 19:42:44 UTC 2020",
+  "ct_images": "280",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0771",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 19:41:42 UTC 2020",
+  "ct_released": "Fri Feb 21 19:43:56 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 19:43:56 UTC 2020",
+  "ct_images": "280",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0905",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 20:29:50 UTC 2020",
+  "ct_released": "Fri Feb 21 20:30:46 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 20:30:46 UTC 2020",
+  "ct_images": "245",
+  "ct_description": null
+ },
+ {
+  "patient": "LIDC-IDRI-0963",
+  "status": "mismatch",
+  "seg_series_date": "Fri Nov 07 00:00:00 UTC 2014",
+  "seg_released": "Fri Feb 21 20:44:37 UTC 2020",
+  "ct_released": "Fri Feb 21 20:46:41 UTC 2020",
+  "ct_timestamp": "Fri Feb 21 20:46:41 UTC 2020",
+  "ct_images": "481",
+  "ct_description": null
+ }
+]

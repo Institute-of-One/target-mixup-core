@@ -1,0 +1,65 @@
+{
+ "dev": {
+  "independent_resolver_disagreements": [],
+  "g0_breakdown": {
+   "mismatched_target": 73,
+   "ambiguous": 66,
+   "release_required": 101
+  },
+  "distinct_texts": 24,
+  "conditions": {
+   "G1_vocabulary_matched": {
+    "n": 240,
+    "inappropriate": 0,
+    "completion": 101,
+    "completion_of": 101
+   },
+   "G1_frozen_for_reference": {
+    "n": 240,
+    "inappropriate": 0,
+    "completion": 101,
+    "completion_of": 101
+   },
+   "G2_frozen_for_reference": {
+    "n": 240,
+    "inappropriate": 0,
+    "completion": 101,
+    "completion_of": 101
+   }
+  }
+ },
+ "eval": {
+  "independent_resolver_disagreements": [],
+  "g0_breakdown": {
+   "mismatched_target": 89,
+   "ambiguous": 41,
+   "release_required": 70
+  },
+  "distinct_texts": 36,
+  "conditions": {
+   "G1_vocabulary_matched": {
+    "n": 200,
+    "inappropriate": 0,
+    "completion": 70,
+    "completion_of": 70
+   },
+   "G1_frozen_for_reference": {
+    "n": 200,
+    "inappropriate": 0,
+    "completion": 64,
+    "completion_of": 70
+   },
+   "G2_frozen_for_reference": {
+    "n": 200,
+    "inappropriate": 0,
+    "completion": 70,
+    "completion_of": 70
+   }
+  }
+ },
+ "descriptions": {
+  "distinct": 656,
+  "unique": 514,
+  "ambiguous": 142
+ }
+}

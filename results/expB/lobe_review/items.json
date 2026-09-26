@@ -1,0 +1,61 @@
+{
+ "created_utc": "2026-09-26T08:40:35.923465+00:00",
+ "items": [
+  {
+   "id": "L1",
+   "set": 3,
+   "case": "B17",
+   "target": 3,
+   "role": "disagree"
+  },
+  {
+   "id": "L2",
+   "set": 3,
+   "case": "B09",
+   "target": 7,
+   "role": "control"
+  },
+  {
+   "id": "L3",
+   "set": 3,
+   "case": "B16",
+   "target": 4,
+   "role": "disagree"
+  },
+  {
+   "id": "L4",
+   "set": 2,
+   "case": "B08",
+   "target": 9,
+   "role": "control"
+  },
+  {
+   "id": "L5",
+   "set": 3,
+   "case": "B19",
+   "target": 1,
+   "role": "disagree"
+  },
+  {
+   "id": "L6",
+   "set": 2,
+   "case": "B05",
+   "target": 3,
+   "role": "control"
+  },
+  {
+   "id": "L7",
+   "set": 3,
+   "case": "B01",
+   "target": 1,
+   "role": "disagree"
+  },
+  {
+   "id": "L8",
+   "set": 3,
+   "case": "B08",
+   "target": 5,
+   "role": "disagree"
+  }
+ ]
+}
