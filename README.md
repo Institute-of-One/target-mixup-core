@@ -100,4 +100,4 @@ UIDs.
 ## Citation
 
 See `CITATION.cff`. All versions: https://doi.org/10.5281/zenodo.22978585 (concept DOI). The version used in the
-manuscript: v0.1.2 (version DOI added at release). First release, v0.1.0: https://doi.org/10.5281/zenodo.22978586.
+manuscript, v0.1.2: https://doi.org/10.5281/zenodo.22980164 (version DOI).

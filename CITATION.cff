@@ -40,6 +40,12 @@ identifiers:
       Concept DOI, resolving to the latest archived version. Cite this one
       unless a specific version is meant.
   - type: doi
+    value: 10.5281/zenodo.22980164
+    description: Version DOI for v0.1.2, the release used in IORN-015.
+  - type: doi
+    value: 10.5281/zenodo.22979712
+    description: Version DOI for v0.1.1.
+  - type: doi
     value: 10.5281/zenodo.22978586
     description: Version DOI for v0.1.0, the first release.
 # TODO: add the paper's DOI under preferred-citation once it is accepted.
