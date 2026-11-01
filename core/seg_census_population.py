@@ -110,9 +110,12 @@ def main(argv=None):
     # clock reading on every run made this file - a released result - differ from the
     # copy in the archive by a timestamp and nothing else, which keeps check_release red
     # and trains everyone to ignore it.
+    # data is carried over from the file, so it still holds the previous timestamp:
+    # drop it from both sides or the payloads never compare equal.
     was = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
-    unchanged = {k: v for k, v in was.items() if k != 'verified'}
-    data['verified'] = (was.get('verified') if unchanged == data and was.get('verified')
+    before = {k: v for k, v in was.items() if k != 'verified'}
+    now = {k: v for k, v in data.items() if k != 'verified'}
+    data['verified'] = (was['verified'] if before == now and was.get('verified')
                         else time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
     path.write_text(json.dumps(data, indent=1), encoding='utf-8')
     print('%d strata; listing of %s accessed %s'
