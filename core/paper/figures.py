@@ -1,19 +1,31 @@
 """Manuscript figures from frozen result files (no hand-entered values).
 
-Figure 1: census by producer — share of SEG series whose FoR matches the referenced CT, differs
-          although every reference resolves, or that carry no source reference.
-Figure 2: Experiment A — outcome of every challenge episode by condition.
-Figure 3: Experiment B — per request set and reader, resolution to the intended or another nodule.
+The file numbers here are not the manuscript's: the viewer screenshot is its Figure 1, so every
+file below appears one number later in the paper. Name the file, never a bare figure number.
+
+Figure1.png (manuscript Figure 2): census by producer — share of SEG series whose FoR matches the
+          referenced CT, differs although every reference resolves, or that carry no source reference.
+Figure2.png (manuscript Figure 3): Experiment A — outcome of every challenge episode by condition.
+Figure3.png (manuscript Figure 4): Experiment B — per request set and reader, resolution to the
+          intended or another nodule.
 
     python figures.py --census <census dir> --expa <expA dir> --expb <expB dir> --out <build dir>
 """
 import argparse
 import json
+import sys
 from pathlib import Path
 
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import labels  # noqa: E402
+from labels import CONDITIONS_A, OUTCOMES, READERS_B, figure_form, stratum_figure_form  # noqa: E402
+
+sys.stdout.reconfigure(encoding='utf-8')   # the data here is Japanese; a cp932 console kills the first print
+
 
 # Reference palette, light mode, fixed order (validated: CVD ΔE 9.2, normal-vision 27.6; slot 3
 # below 3:1 contrast, so every segment carries a direct label and a hatch for grayscale print).
@@ -22,18 +34,8 @@ INK, INK2, GRID, SURFACE = '#0b0b0b', '#52514e', '#e4e3df', '#ffffff'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 8, 'axes.edgecolor': INK2, 'axes.labelcolor': INK,
                      'xtick.color': INK2, 'ytick.color': INK2, 'axes.spines.top': False, 'axes.spines.right': False})
 
-STRATA = [  # (key in summary.json, label)
-    ('LIDC-IDRI | QIICR', 'LIDC · QIICR 2019'),
-    ('LIDC-IDRI | QIN challenge alg01', 'LIDC · QIN alg01'),
-    ('LIDC-IDRI | QIN challenge alg02', 'LIDC · QIN alg02'),
-    ('LIDC-IDRI | QIN challenge alg03', 'LIDC · QIN alg03'),
-    ('RIDER Lung CT | QIICR', 'RIDER · QIICR'),
-    ('RIDER Lung CT | QIN challenge alg01', 'RIDER · QIN alg01'),
-    ('RIDER Lung CT | QIN challenge alg02', 'RIDER · QIN alg02'),
-    ('RIDER Lung CT | QIN challenge alg03', 'RIDER · QIN alg03'),
-    ('RIDER Lung CT | Siemens Corporate Research', 'RIDER · Siemens 2012'),
-    ('RIDER Lung CT | pydicom-seg', 'RIDER · pydicom-seg'),
-]
+STRATA = [(key, stratum_figure_form(collection, producer))
+          for key, collection, producer in labels.STRATA]
 CATS = [('match', 'FoR matches CT', BLUE, None),
         ('mismatch', 'FoR differs; all references resolve', ORANGE, '////'),
         ('no_referenced_series', 'No source reference', AQUA, '....')]
@@ -59,6 +61,9 @@ def figure1(summary, out):
                 left += share
         ax.text(1.01, y, f'n = {total}', va='center', fontsize=7, color=INK2)
     ax.set_yticks(range(len(rows)), [lab for _, lab in rows])
+    # Recorded bottom-to-top, as drawn: barh puts the first row lowest, so this
+    # list is labels.STRATA reversed and the gate reverses it back.
+    record_drawn_labels(out, 'Figure1', [lab for _, lab in rows])
     ax.set_xlim(0, 1)
     ax.set_xticks([0, 0.25, 0.5, 0.75, 1], ['0%', '25%', '50%', '75%', '100%'])
     ax.set_xlabel('Share of SEG series in stratum')
@@ -72,11 +77,21 @@ def figure1(summary, out):
     plt.close(fig)
 
 
-OUTCOMES = [('appropriate', 'Authorized, intended target', BLUE, None),
-            ('mismatched', 'Authorized, mismatched target', ORANGE, '////'),
-            ('ambiguous', 'Authorized despite ambiguity', '#4a3aa7', 'xxxx'),  # violet: yellow failed next to orange
-            ('deferred_ok', 'Deferred appropriately', '#c9c7c0', None),
-            ('deferred_unneeded', 'Deferred, target was resolvable', AQUA, '....')]
+# OUTCOMES, CONDITIONS_A and READERS_B come from labels.py, which is the only
+# place a name is written; see the note there.
+
+
+def record_drawn_labels(out, figure, y_labels):
+    """Write the axis labels a figure actually drew, for check_labels_agree.py.
+
+    The gate compares the manuscript against this file rather than against the
+    source of figures.py: a label that is composed at draw time is only known
+    once it has been drawn.
+    """
+    path = out / 'figure_labels.json'
+    data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+    data[figure] = y_labels
+    path.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding='utf-8')
 
 
 def episode_outcomes(expa):
@@ -110,9 +125,7 @@ def episode_outcomes(expa):
 
 
 def figure2(expa, out):
-    rows = [('G0', 'G0 Header checks only'), ('G1', 'G1 Rule parser (frozen)'),
-            ('G1m', 'G1 + 2 synonyms (post hoc)'), ('G2', 'G2 Choice-constrained model'),
-            ('G3', 'G3 Reference specification')]
+    rows = [(code, figure_form(code, words)) for code, words in CONDITIONS_A]
     data = episode_outcomes(expa)
     (out / 'figure2_counts.json').write_text(json.dumps(data, indent=1))
     fig, ax = plt.subplots(figsize=(6.3, 2.9), dpi=300)
@@ -127,25 +140,23 @@ def figure2(expa, out):
                             bbox=dict(boxstyle='round,pad=0.2', facecolor='white', edgecolor='none', alpha=0.85))
                 left += v / total
     ax.set_yticks(range(len(rows)), [lab for _, lab in reversed(rows)])
+    record_drawn_labels(out, 'Figure2', [lab for _, lab in rows])
     ax.set_xlim(0, 1)
     ax.set_xticks([0, 0.25, 0.5, 0.75, 1], ['0%', '25%', '50%', '75%', '100%'])
     ax.set_xlabel(f'Share of {sum(data["G0"].values())} evaluation requests')
     ax.tick_params(axis='y', length=0)
     handles = [plt.Rectangle((0, 0), 1, 1, facecolor=c, hatch=h, edgecolor=SURFACE) for _, _, c, h in OUTCOMES]
-    ax.legend(handles, [lab for _, lab, *_ in OUTCOMES], loc='upper center', bbox_to_anchor=(0.4, 1.3), ncol=3,
-              frameon=False, fontsize=6.5, handlelength=1.4)
-    fig.tight_layout()
+    # Anchored to the figure, not to the axes: the condition names are long, so the
+    # axes sit to the right of centre and a legend centred on them ran off the canvas,
+    # which cut the last entry in half in the submitted PDF.
+    fig.legend(handles, [lab for _, lab, *_ in OUTCOMES], loc='upper center',
+               bbox_to_anchor=(0.5, 1.0), ncol=3, frameon=False, fontsize=6.5, handlelength=1.4)
+    fig.tight_layout(rect=(0, 0, 1, 0.87))
     for ext in ('png', 'tif'):
         fig.savefig(out / f'Figure2.{ext}', dpi=300, facecolor=SURFACE)
     plt.close(fig)
 
 
-READERS_B = [  # (key in paper_results.json, label); groups separated by a gap
-    [('R1', 'Rules, v1 (frozen)'), ('M1', 'Model, v1 (frozen)'), ('D1', 'Consensus, v1')],
-    [('R2', 'Rules, v2'), ('M2', 'Model, v2'), ('A2', 'Author intent, v2 gate')],
-    [('R3', 'Rules, v3 gate'), ('M3', 'Model, v3 gate'), ('A3', 'Author intent, v3 gate'),
-     ('D3t', 'Consensus, v3 (same target)'), ('D3r', 'Consensus, v3 (same fields)')],
-]
 SETS_B = [(1, 'Set 1 · development'), (2, 'Set 2 · evaluation of v2'), (3, 'Set 3 · confirmatory, v3')]
 
 
@@ -155,8 +166,9 @@ def figure3(expb, out):
     res = json.loads((expb / 'paper_results.json').read_text(encoding='utf-8'))['sets']
     rows, ys, y = [], [], 0
     for g, group in enumerate(READERS_B):
-        for key, label in group:
-            rows.append((key, label))
+        for key, words in group:
+            # The code is drawn: the body and the abstract name parsers by code only.
+            rows.append((key, figure_form(key, words)))
             ys.append(y)
             y -= 1
         y -= 0.6
@@ -179,7 +191,9 @@ def figure3(expb, out):
         ax.set_title(title, fontsize=7.5, loc='left', color=INK)
         ax.tick_params(axis='y', length=0)
     axes[0].set_yticks(ys, [lab for _, lab in rows], fontsize=7)
-    axes[1].set_xlabel('Requests (of 20): wrong nodule ←  → intended nodule', fontsize=7)
+    record_drawn_labels(out, 'Figure3', [lab for _, lab in rows])
+    # n comes from the result file; the count is not typed here either.
+    axes[1].set_xlabel(f'Requests (of {n}): wrong nodule ←  → intended nodule', fontsize=7)
     handles = [plt.Rectangle((0, 0), 1, 1, facecolor=BLUE, edgecolor=SURFACE),
                plt.Rectangle((0, 0), 1, 1, facecolor=ORANGE, hatch='////', edgecolor=SURFACE)]
     fig.legend(handles, ['Resolved to the intended nodule', 'Resolved to another nodule'], loc='upper center',

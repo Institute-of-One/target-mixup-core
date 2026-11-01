@@ -1,0 +1,5 @@
+{
+  "ts_version": "2.18.0",
+  "torch": "2.14.0+cpu",
+  "read_from": "ts-venv/\u2026dist-info"
+}

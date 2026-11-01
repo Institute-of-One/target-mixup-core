@@ -34,7 +34,9 @@ jobs:
         run: python -m unittest discover -s imaging_tests -q
 
   reproduce:
-    # Regenerate every derived result the manuscript quotes from the released inputs and compare.
+    # Regenerate every shipped result that a released script writes, and compare.
+    # The list is not kept by hand: check_release_metadata.py fails if a step of the
+    # paper build writes a shipped result this job does not regenerate and compare.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -50,14 +52,20 @@ jobs:
       - name: Regenerate
         working-directory: core
         run: |
-          python expB_score_v3.py --expb ../results/expB --expa ../results/expA
+          python seg_census_population.py --census ../results/seg_census
+          python expB_timeline.py --expa ../results/expA --expb ../results/expB
           python expB_paper_results.py --expb ../results/expB --expa ../results/expA
+          python expB_score_v3.py --expb ../results/expB --expa ../results/expA
+          python expB_contingency.py --expb ../results/expB
+          python expB_decision.py --expb ../results/expB
           python expB_rank_ablation.py --expb ../results/expB --expa ../results/expA
           python paper/manuscript_numbers.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../results
-          python paper/figures.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../figures
+      - name: Draw the figures the paper shows
+        working-directory: core
+        run: python paper/figures.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../figures
       - name: Compare with the released results
         working-directory: core
-        run: python check_reproduced.py --released /tmp/released --regenerated ../results expB/results_v3.json expB/paper_results.json expB/rank_ablation.json numbers.json
+        run: python check_reproduced.py --released /tmp/released --regenerated ../results --ignore verified expB/contingency_v3.json expB/decision_v3.json expB/paper_results.json expB/per_request_supplementary.csv expB/per_request_v3.json expB/rank_ablation.json expB/results_v3.json expB/timeline.json numbers.json seg_census/population.json
       - name: Qualitative claims
         working-directory: core
         run: python expB_claims_check.py --expb ../results/expB --expa ../results/expA

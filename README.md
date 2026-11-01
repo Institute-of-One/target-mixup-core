@@ -5,10 +5,11 @@
 
 Code, derived results and pre-specification records for the study
 
-> **Correctly Parsed, Wrong Lesion: Where Target Mix-Ups Arise When AI Binds Measurement Requests to Lung CT Nodules — A Staged Evaluation** (Shuji Yamamoto; manuscript under review).
+> **Correctly Parsed, Wrong Lesion: Where Target Mix-Ups Arise When AI Binds Measurement Requests to Lung CT Nodules — A Staged, Hypothesis-Generating Evaluation** (Shuji Yamamoto; manuscript under review).
 
 The study asks where an AI pipeline that measures a lesion on request can end up measuring the wrong lesion, and
-which safeguards stop which failures. It has three stages on public lung CT from The Cancer Imaging Archive (TCIA):
+which failures each measure prevented in the episodes tested; none is validated as a safeguard. It has three stages on
+public lung CT from The Cancer Imaging Archive (TCIA):
 
 1. **Stratified audit** (the code calls it the census) of public DICOM Segmentation (SEG) series: header checks (source references, Frame of Reference, plane
    placement) and whether recorded semantics distinguish targets (`seg_census*.py`, `series_integrity.py`).
@@ -26,9 +27,9 @@ their UIDs and contains results derived from them.
 | `core/` | Analysis code (flat modules, run from this directory) and unit tests |
 | `core/imaging_tests/` | Tests of the DICOM checks on synthetic CT–SEG pairs |
 | `core/paper/` | `manuscript_numbers.py` (every number the manuscript quotes) and `figures.py` (the audit, Experiment A and Experiment B figures; Figures 2–4 of the manuscript) |
-| `results/seg_census/` | Audit records, summary, target-semantics analysis, visual spot-check answers |
+| `results/seg_census/` | Audit records, summary, sampled population, coded fields and the per-pair table, target-semantics analysis, visual spot-check answers and the acquisitions they were made on, RIDER target positions |
 | `results/expA/` | Experiment A requests, model responses, results, freeze records |
-| `results/expB/` | Experiment B requests, author labels, model responses, lobes, positions, results, freeze records, lobe adjudication |
+| `results/expB/` | Experiment B requests, author labels, model responses, lobes, positions, results, freeze records, lobe adjudication with each item's series, coordinates and answer times, the outcomes contingency, the decision table, the per-request tables and the freeze timeline |
 | `results/numbers.json` | All numbers quoted in the manuscript, with their source files |
 | `protocol/` | Design documents and amendments whose hashes the freeze records contain |
 
@@ -44,8 +45,13 @@ cd core
 python -m unittest discover -s . -q
 python -m unittest discover -s imaging_tests -q
 python verify_freezes.py --root ..
-python expB_score_v3.py --expb ../results/expB --expa ../results/expA
+python seg_census_population.py --census ../results/seg_census
+python expB_timeline.py --expa ../results/expA --expb ../results/expB
 python expB_paper_results.py --expb ../results/expB --expa ../results/expA
+python expB_score_v3.py --expb ../results/expB --expa ../results/expA
+python expB_contingency.py --expb ../results/expB
+python expB_decision.py --expb ../results/expB
+python expB_rank_ablation.py --expb ../results/expB --expa ../results/expA
 python expB_claims_check.py --expb ../results/expB --expa ../results/expA
 python paper/manuscript_numbers.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../results
 python paper/figures.py --census ../results/seg_census --expa ../results/expA --expb ../results/expB --out ../figures
@@ -56,15 +62,30 @@ python paper/figures.py --census ../results/seg_census --expa ../results/expA --
   the study itself documented are listed with their reasons in `results/freeze_exceptions.json`.
 - `expB_claims_check.py` checks the qualitative statements the manuscript makes about Experiment B. For example, it
   checks that the model reader never returned a rank.
-- CI runs all of the above and compares the regenerated JSON files with the released ones.
+- CI runs all of the above and compares every regenerated result with the released one, JSON
+  parsed and CSV row by row, excluding only `population.json`'s record of when its check ran.
+  The four scripts listed below, whose inputs are not redistributed, are not among them.
 
 The following steps need data that this repository does not redistribute:
 
 - **Downloading the TCIA objects:** `seg_census.py`, `seg_spot_fetch.py` and `seg_fetch_pairs.py` use the public
   NBIA API.
+- **Four scripts whose inputs are not redistributed.** Each released JSON carries its output, and the
+  manuscript quotes it from there; what is withheld is the input, not the result.
+  - `rider_documented_lesion.py` (`seg_census/rider_targets.json`, the source of Table S3) reads the RIDER
+    lesion notes distributed with that collection.
+  - `seg_census_coded_fields.py` (`seg_census/coded_fields.json` and `cross_target_pairs.csv`, Table S2)
+    re-reads the cached SEG objects themselves.
+  - `seg_census_spot_detail.py` (`seg_census/spot_detail.json`) reads the fetch manifest of the spot checks.
+  - `expB_adjudication_table.py` (`expB/lobe_adjudication_items.json`) reads the adjudication case folders.
+- **`record_environment.py`** reads the TotalSegmentator virtual environment that computed the lobe masks, so
+  it runs only there; `results/expB/environment.json` carries what it read, and the reproducibility table is
+  regenerated from that file.
 - **Recomputing lobes:** `expB_lobes.py` and `expB_regions*.py` use
   [TotalSegmentator](https://github.com/wasserth/TotalSegmentator); see `requirements-segmentation.txt`.
-- **Figure 4:** it is an image rendering from the private viewer.
+- **Figures 1 and 5:** they are image renderings from the private viewer (the
+  adjudication viewer itself, and one adjudicated request in it). Figures 2-4 are
+  drawn by `core/paper/figures.py` from the released results.
 
 Visual judgements come from the author, recorded through a local viewer that is not part of this repository:
 - the audit spot checks;

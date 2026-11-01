@@ -1,0 +1,381 @@
+{
+ "cells": [
+  "auth_intended",
+  "auth_nearest",
+  "auth_other",
+  "defer_resolvable",
+  "defer_unresolved"
+ ],
+ "reference": "A3",
+ "sets": {
+  "1": {
+   "R1": {
+    "auth_intended": 11,
+    "auth_nearest": 2,
+    "auth_other": 5,
+    "defer_resolvable": 0,
+    "defer_unresolved": 2,
+    "n": 20,
+    "correct": 11,
+    "episode_wrong": 2,
+    "any_wrong": 7
+   },
+   "M1": {
+    "auth_intended": 0,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 16,
+    "n": 20,
+    "correct": 0,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D1": {
+    "auth_intended": 0,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 16,
+    "n": 20,
+    "correct": 0,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "R2": {
+    "auth_intended": 7,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 13,
+    "n": 20,
+    "correct": 7,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "M2": {
+    "auth_intended": 7,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 13,
+    "n": 20,
+    "correct": 7,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "A2": {
+    "auth_intended": 7,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 13,
+    "n": 20,
+    "correct": 7,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "R3": {
+    "auth_intended": 5,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 15,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "M3": {
+    "auth_intended": 5,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 15,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "A3": {
+    "auth_intended": 4,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 16,
+    "n": 20,
+    "correct": 4,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D3t": {
+    "auth_intended": 5,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 15,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D3r": {
+    "auth_intended": 5,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 15,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   }
+  },
+  "2": {
+   "R1": {
+    "auth_intended": 13,
+    "auth_nearest": 3,
+    "auth_other": 3,
+    "defer_resolvable": 0,
+    "defer_unresolved": 1,
+    "n": 20,
+    "correct": 13,
+    "episode_wrong": 3,
+    "any_wrong": 6
+   },
+   "M1": {
+    "auth_intended": 6,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 6,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D1": {
+    "auth_intended": 6,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 6,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "R2": {
+    "auth_intended": 9,
+    "auth_nearest": 0,
+    "auth_other": 1,
+    "defer_resolvable": 2,
+    "defer_unresolved": 8,
+    "n": 20,
+    "correct": 9,
+    "episode_wrong": 0,
+    "any_wrong": 1
+   },
+   "M2": {
+    "auth_intended": 3,
+    "auth_nearest": 0,
+    "auth_other": 1,
+    "defer_resolvable": 7,
+    "defer_unresolved": 9,
+    "n": 20,
+    "correct": 3,
+    "episode_wrong": 0,
+    "any_wrong": 1
+   },
+   "A2": {
+    "auth_intended": 8,
+    "auth_nearest": 1,
+    "auth_other": 0,
+    "defer_resolvable": 3,
+    "defer_unresolved": 8,
+    "n": 20,
+    "correct": 8,
+    "episode_wrong": 1,
+    "any_wrong": 1
+   },
+   "R3": {
+    "auth_intended": 10,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 10,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "M3": {
+    "auth_intended": 9,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 1,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 9,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "A3": {
+    "auth_intended": 9,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 0,
+    "defer_unresolved": 11,
+    "n": 20,
+    "correct": 9,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D3t": {
+    "auth_intended": 9,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 1,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 9,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   },
+   "D3r": {
+    "auth_intended": 6,
+    "auth_nearest": 0,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 6,
+    "episode_wrong": 0,
+    "any_wrong": 0
+   }
+  },
+  "3": {
+   "R1": {
+    "auth_intended": 2,
+    "auth_nearest": 6,
+    "auth_other": 9,
+    "defer_resolvable": 0,
+    "defer_unresolved": 3,
+    "n": 20,
+    "correct": 2,
+    "episode_wrong": 6,
+    "any_wrong": 15
+   },
+   "M1": {
+    "auth_intended": 1,
+    "auth_nearest": 1,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 14,
+    "n": 20,
+    "correct": 1,
+    "episode_wrong": 1,
+    "any_wrong": 1
+   },
+   "D1": {
+    "auth_intended": 1,
+    "auth_nearest": 1,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 14,
+    "n": 20,
+    "correct": 1,
+    "episode_wrong": 1,
+    "any_wrong": 1
+   },
+   "R2": {
+    "auth_intended": 5,
+    "auth_nearest": 4,
+    "auth_other": 1,
+    "defer_resolvable": 1,
+    "defer_unresolved": 9,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 4,
+    "any_wrong": 5
+   },
+   "M2": {
+    "auth_intended": 2,
+    "auth_nearest": 1,
+    "auth_other": 0,
+    "defer_resolvable": 4,
+    "defer_unresolved": 13,
+    "n": 20,
+    "correct": 2,
+    "episode_wrong": 1,
+    "any_wrong": 1
+   },
+   "A2": {
+    "auth_intended": 5,
+    "auth_nearest": 2,
+    "auth_other": 1,
+    "defer_resolvable": 1,
+    "defer_unresolved": 11,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 2,
+    "any_wrong": 3
+   },
+   "R3": {
+    "auth_intended": 3,
+    "auth_nearest": 2,
+    "auth_other": 1,
+    "defer_resolvable": 2,
+    "defer_unresolved": 12,
+    "n": 20,
+    "correct": 3,
+    "episode_wrong": 2,
+    "any_wrong": 3
+   },
+   "M3": {
+    "auth_intended": 4,
+    "auth_nearest": 2,
+    "auth_other": 2,
+    "defer_resolvable": 2,
+    "defer_unresolved": 10,
+    "n": 20,
+    "correct": 4,
+    "episode_wrong": 2,
+    "any_wrong": 4
+   },
+   "A3": {
+    "auth_intended": 5,
+    "auth_nearest": 1,
+    "auth_other": 1,
+    "defer_resolvable": 0,
+    "defer_unresolved": 13,
+    "n": 20,
+    "correct": 5,
+    "episode_wrong": 1,
+    "any_wrong": 2
+   },
+   "D3t": {
+    "auth_intended": 3,
+    "auth_nearest": 2,
+    "auth_other": 1,
+    "defer_resolvable": 2,
+    "defer_unresolved": 12,
+    "n": 20,
+    "correct": 3,
+    "episode_wrong": 2,
+    "any_wrong": 3
+   },
+   "D3r": {
+    "auth_intended": 2,
+    "auth_nearest": 2,
+    "auth_other": 1,
+    "defer_resolvable": 3,
+    "defer_unresolved": 12,
+    "n": 20,
+    "correct": 2,
+    "episode_wrong": 2,
+    "any_wrong": 3
+   }
+  }
+ }
+}

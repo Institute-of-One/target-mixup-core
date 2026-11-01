@@ -1,0 +1,275 @@
+{
+ "series": 1785,
+ "segments": 1843,
+ "per_stratum": {
+  "LIDC-IDRI | QIICR": {
+   "series": 851,
+   "segments": 851,
+   "category_present": 851,
+   "type_present": 851,
+   "anatomic_region_present": 851,
+   "label_present": 851,
+   "description_present": 851,
+   "tracking_id_present": 851,
+   "tracking_uid_present": 851
+  },
+  "LIDC-IDRI | QIN challenge alg01": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "LIDC-IDRI | QIN challenge alg02": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "LIDC-IDRI | QIN challenge alg03": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "RIDER Lung CT | QIICR": {
+   "series": 59,
+   "segments": 117,
+   "category_present": 117,
+   "type_present": 117,
+   "anatomic_region_present": 117,
+   "label_present": 117,
+   "description_present": 117,
+   "tracking_id_absent": 117,
+   "tracking_uid_absent": 117
+  },
+  "RIDER Lung CT | QIN challenge alg01": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "RIDER Lung CT | QIN challenge alg02": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "RIDER Lung CT | QIN challenge alg03": {
+   "series": 30,
+   "segments": 30,
+   "category_present": 30,
+   "type_present": 30,
+   "anatomic_region_absent": 30,
+   "label_present": 30,
+   "description_absent": 30,
+   "tracking_id_absent": 30,
+   "tracking_uid_absent": 30
+  },
+  "RIDER Lung CT | Siemens Corporate Research": {
+   "series": 320,
+   "segments": 320,
+   "category_present": 320,
+   "type_present": 320,
+   "anatomic_region_present": 320,
+   "label_present": 320,
+   "description_absent": 320,
+   "tracking_id_absent": 320,
+   "tracking_uid_absent": 320
+  },
+  "RIDER Lung CT | pydicom-seg": {
+   "series": 375,
+   "segments": 375,
+   "category_present": 375,
+   "type_present": 375,
+   "anatomic_region_present": 363,
+   "label_present": 375,
+   "description_present": 375,
+   "tracking_id_absent": 375,
+   "tracking_uid_absent": 375,
+   "anatomic_region_absent": 12
+  }
+ },
+ "distinct_concepts": {
+  "category": [
+   {
+    "scheme": "SRT",
+    "value": "M-01000",
+    "meaning": "Morphological Abnormal Structure",
+    "segments": 851,
+    "producers": [
+     "LIDC-IDRI | QIICR"
+    ]
+   },
+   {
+    "scheme": "SRT",
+    "value": "M-01000",
+    "meaning": "Morphologically Altered Structure",
+    "segments": 617,
+    "producers": [
+     "LIDC-IDRI | QIN challenge alg01",
+     "LIDC-IDRI | QIN challenge alg02",
+     "LIDC-IDRI | QIN challenge alg03",
+     "RIDER Lung CT | QIICR",
+     "RIDER Lung CT | QIN challenge alg01",
+     "RIDER Lung CT | QIN challenge alg02",
+     "RIDER Lung CT | QIN challenge alg03",
+     "RIDER Lung CT | Siemens Corporate Research"
+    ]
+   },
+   {
+    "scheme": "SCT",
+    "value": "49755003",
+    "meaning": "Morphologically Altered Structure",
+    "segments": 363,
+    "producers": [
+     "RIDER Lung CT | pydicom-seg"
+    ]
+   },
+   {
+    "scheme": "SCT",
+    "value": "49755003",
+    "meaning": "Type of Tumor",
+    "segments": 12,
+    "producers": [
+     "RIDER Lung CT | pydicom-seg"
+    ]
+   }
+  ],
+  "type": [
+   {
+    "scheme": "SRT",
+    "value": "M-03010",
+    "meaning": "Nodule",
+    "segments": 851,
+    "producers": [
+     "LIDC-IDRI | QIICR"
+    ]
+   },
+   {
+    "scheme": "SCT",
+    "value": "108369006",
+    "meaning": "Neoplasm",
+    "segments": 363,
+    "producers": [
+     "RIDER Lung CT | pydicom-seg"
+    ]
+   },
+   {
+    "scheme": "SRT",
+    "value": "M-8FFFF",
+    "meaning": "Neoplasm",
+    "segments": 320,
+    "producers": [
+     "RIDER Lung CT | Siemens Corporate Research"
+    ]
+   },
+   {
+    "scheme": "SRT",
+    "value": "M-03000",
+    "meaning": "Mass",
+    "segments": 180,
+    "producers": [
+     "LIDC-IDRI | QIN challenge alg01",
+     "LIDC-IDRI | QIN challenge alg02",
+     "LIDC-IDRI | QIN challenge alg03",
+     "RIDER Lung CT | QIN challenge alg01",
+     "RIDER Lung CT | QIN challenge alg02",
+     "RIDER Lung CT | QIN challenge alg03"
+    ]
+   },
+   {
+    "scheme": "SRT",
+    "value": "M-80003",
+    "meaning": "Neoplasm, Primary",
+    "segments": 117,
+    "producers": [
+     "RIDER Lung CT | QIICR"
+    ]
+   },
+   {
+    "scheme": "SCT",
+    "value": "108369006",
+    "meaning": "lung",
+    "segments": 12,
+    "producers": [
+     "RIDER Lung CT | pydicom-seg"
+    ]
+   }
+  ],
+  "anatomic_region": [
+   {
+    "scheme": "SRT",
+    "value": "T-28000",
+    "meaning": "Lung",
+    "segments": 968,
+    "producers": [
+     "LIDC-IDRI | QIICR",
+     "RIDER Lung CT | QIICR"
+    ]
+   },
+   {
+    "scheme": "SCT",
+    "value": "39607008",
+    "meaning": "Lung",
+    "segments": 363,
+    "producers": [
+     "RIDER Lung CT | pydicom-seg"
+    ]
+   },
+   {
+    "scheme": "SRT",
+    "value": "T-D0010",
+    "meaning": "Entire body",
+    "segments": 320,
+    "producers": [
+     "RIDER Lung CT | Siemens Corporate Research"
+    ]
+   }
+  ]
+ },
+ "tracking": {
+  "segments": 851,
+  "tracking_id_is_nodule_number": 851,
+  "nodules": 344,
+  "nodules_with_one_uid": 344,
+  "uids_with_one_nodule": 344,
+  "uids": 344,
+  "stratum": "LIDC-IDRI | QIICR"
+ },
+ "cross_target_pairs": {
+  "ct_series": 59,
+  "targets": 304,
+  "segments": 728,
+  "pairs": 5192,
+  "concepts_identical": 5192,
+  "labels_identical": 0,
+  "collection": "LIDC-IDRI",
+  "same_target_mm": 3.0,
+  "rule": "The comparison rule of Section 3.1: the three concepts, each as scheme, value and meaning, must be equal element for element."
+ }
+}

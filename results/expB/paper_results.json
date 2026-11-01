@@ -667,6 +667,10 @@
   "max_latency_s": 0.68
  },
  "b15": {
+  "case": "B15",
+  "set": 2,
+  "patient": "LIDC-IDRI-0489",
+  "target": 7,
   "ml_whole_lung": 0.443,
   "ml_slice_local": 0.394
  },
@@ -793,7 +797,7 @@
    "B17",
    "B19"
   ],
-  "d3t_wrong_mislocalized": 2,
+  "d3t_wrong_discordant": 2,
   "d3t_wrong_unassignable": 1,
   "d3t_wrong_other": 0
  },

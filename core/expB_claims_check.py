@@ -13,6 +13,8 @@ from expB_readers_v3 import read_model_v3, resolve_v3
 from expB_score import load_jsonl
 from expB_score_v2 import author_to_v2
 
+sys.stdout.reconfigure(encoding='utf-8')   # the data here is Japanese; a cp932 console kills the first print
+
 
 def main(argv=None):
     ap = argparse.ArgumentParser()

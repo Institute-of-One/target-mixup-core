@@ -1,0 +1,398 @@
+{
+ "questions": {
+  "q1": {
+   "ja": "問1. 輪郭の結節は、どの肺葉にありますか？（画像のみで判定）",
+   "en": "Q1. Which lobe contains the outlined nodule? (images only)",
+   "options": [
+    "RUL",
+    "RML",
+    "RLL",
+    "LUL",
+    "LLL",
+    "undecidable"
+   ]
+  },
+  "q2": {
+   "ja": "問2. 色分けされた自動の肺葉の境界は、この結節の付近で正しいですか？",
+   "en": "Q2. Is the automatic lobe boundary near this nodule correct?",
+   "options": [
+    "correct",
+    "incorrect",
+    "undecidable"
+   ]
+  }
+ },
+ "near_threshold_mm": 10.0,
+ "items": [
+  {
+   "item": "L1",
+   "role": "disagree",
+   "set": 3,
+   "case": "B17",
+   "patient": "LIDC-IDRI-0429",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.392861216720727557882279374324",
+   "target": 3,
+   "nodule_centroid_lps_mm": [
+    -51.98,
+    -47.52,
+    -133.14
+   ],
+   "request_click_lps_mm": [
+    -52.57,
+    -44.86,
+    -131.62
+   ],
+   "request_click_instance_number": 220,
+   "q1_saved_utc": "2026-09-26T09:47:30.142577+00:00",
+   "q2_saved_utc": "2026-09-26T10:33:28.860762+00:00",
+   "q1_after_the_assistant_was_asked": false,
+   "q2_after_the_assistant_was_asked": false,
+   "lobe_named_in_request": "RUL",
+   "lobe_of_the_map": "RML",
+   "q1_expert_lobe": "RML",
+   "q2": "correct",
+   "distance_to_nearest_other_lobe_mm": 2.9,
+   "boundary_within_near_threshold": true,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": true,
+   "note_says_boundary_not_near": false,
+   "note": "矢状断で結節の一部が葉間裂に接しており、結節近傍の自動肺葉境界は同裂と整合する。",
+   "slice_thickness_mm": 1.25,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 0.625,
+   "pixel_spacing_mm": [
+    0.703125,
+    0.703125
+   ],
+   "instances": 436
+  },
+  {
+   "item": "L2",
+   "role": "control",
+   "set": 3,
+   "case": "B09",
+   "patient": "LIDC-IDRI-0637",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.227796349777753378641347819780",
+   "target": 7,
+   "nodule_centroid_lps_mm": [
+    -78.35,
+    -225.34,
+    -377.14
+   ],
+   "request_click_lps_mm": [
+    -78.87,
+    -225.09,
+    -376.4
+   ],
+   "request_click_instance_number": 238,
+   "q1_saved_utc": "2026-09-26T11:12:48.508178+00:00",
+   "q2_saved_utc": "2026-09-26T11:36:20.132600+00:00",
+   "q1_after_the_assistant_was_asked": false,
+   "q2_after_the_assistant_was_asked": false,
+   "lobe_named_in_request": "RUL",
+   "lobe_of_the_map": "RUL",
+   "q1_expert_lobe": "undecidable",
+   "q2": "correct",
+   "distance_to_nearest_other_lobe_mm": 2.1,
+   "boundary_within_near_threshold": true,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": true,
+   "note_says_boundary_not_near": false,
+   "note": "結節は、葉間裂上にあります。",
+   "slice_thickness_mm": 0.75,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 0.7,
+   "pixel_spacing_mm": [
+    0.69921875,
+    0.69921875
+   ],
+   "instances": 506
+  },
+  {
+   "item": "L3",
+   "role": "disagree",
+   "set": 3,
+   "case": "B16",
+   "patient": "LIDC-IDRI-0368",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.326084450802794941185111945926",
+   "target": 4,
+   "nodule_centroid_lps_mm": [
+    102.69,
+    40.92,
+    1563.87
+   ],
+   "request_click_lps_mm": [
+    103.42,
+    41.97,
+    1565.0
+   ],
+   "request_click_instance_number": 49,
+   "q1_saved_utc": "2026-09-26T11:42:10.405169+00:00",
+   "q2_saved_utc": "2026-09-26T11:44:11.844643+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "LLL",
+   "lobe_of_the_map": "LUL",
+   "q1_expert_lobe": "undecidable",
+   "q2": "correct",
+   "distance_to_nearest_other_lobe_mm": 1.7,
+   "boundary_within_near_threshold": true,
+   "fissure_reported_not_visible": true,
+   "thick_slice_reported": true,
+   "nodule_reported_on_the_fissure": true,
+   "note_says_boundary_not_near": false,
+   "note": "スライス厚が厚く、冠状断でも矢状断でも葉間裂が同定できない。自動の肺葉の境界は、葉間裂上にあります。",
+   "slice_thickness_mm": 3.0,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 3.0,
+   "pixel_spacing_mm": [
+    0.714,
+    0.714
+   ],
+   "instances": 111
+  },
+  {
+   "item": "L4",
+   "role": "control",
+   "set": 2,
+   "case": "B08",
+   "patient": "LIDC-IDRI-0450",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.215640837032688688030770057224",
+   "target": 9,
+   "nodule_centroid_lps_mm": [
+    -67.44,
+    80.94,
+    -169.52
+   ],
+   "request_click_lps_mm": [
+    -66.81,
+    81.33,
+    -170.48
+   ],
+   "request_click_instance_number": 120,
+   "q1_saved_utc": "2026-09-26T11:46:40.263835+00:00",
+   "q2_saved_utc": "2026-09-26T11:48:10.003058+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "RLL",
+   "lobe_of_the_map": "RLL",
+   "q1_expert_lobe": "RLL",
+   "q2": "incorrect",
+   "distance_to_nearest_other_lobe_mm": 33.0,
+   "boundary_within_near_threshold": false,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": false,
+   "note_says_boundary_not_near": true,
+   "note": "葉間裂と結節は付近とはいえない。",
+   "slice_thickness_mm": 1.25,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 1.25,
+   "pixel_spacing_mm": [
+    0.537109,
+    0.537109
+   ],
+   "instances": 235
+  },
+  {
+   "item": "L5",
+   "role": "disagree",
+   "set": 3,
+   "case": "B19",
+   "patient": "LIDC-IDRI-0972",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.881807066375601978080868510714",
+   "target": 1,
+   "nodule_centroid_lps_mm": [
+    77.8,
+    51.81,
+    1570.49
+   ],
+   "request_click_lps_mm": [
+    78.09,
+    52.64,
+    1568.0
+   ],
+   "request_click_instance_number": 26,
+   "q1_saved_utc": "2026-09-26T11:50:50.966578+00:00",
+   "q2_saved_utc": "2026-09-26T11:52:39.680374+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "LLL",
+   "lobe_of_the_map": "LUL",
+   "q1_expert_lobe": "undecidable",
+   "q2": "incorrect",
+   "distance_to_nearest_other_lobe_mm": 21.7,
+   "boundary_within_near_threshold": false,
+   "fissure_reported_not_visible": true,
+   "thick_slice_reported": true,
+   "nodule_reported_on_the_fissure": false,
+   "note_says_boundary_not_near": true,
+   "note": "結節は、左上葉S1＋2と左下葉S6の区別が必要な位置だが、スライス厚が厚すぎて、矢状断や冠状断で葉間裂が同定できない。\n自動の葉間裂と結節は付近であると言えない。",
+   "slice_thickness_mm": 3.0,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 3.0,
+   "pixel_spacing_mm": [
+    0.698,
+    0.698
+   ],
+   "instances": 99
+  },
+  {
+   "item": "L6",
+   "role": "control",
+   "set": 2,
+   "case": "B05",
+   "patient": "LIDC-IDRI-0757",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.148935306123327835217659769212",
+   "target": 3,
+   "nodule_centroid_lps_mm": [
+    83.0,
+    41.22,
+    -122.75
+   ],
+   "request_click_lps_mm": [
+    83.14,
+    39.98,
+    -123.75
+   ],
+   "request_click_instance_number": 229,
+   "q1_saved_utc": "2026-09-26T11:53:47.280224+00:00",
+   "q2_saved_utc": "2026-09-26T11:54:02.687651+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "LLL",
+   "lobe_of_the_map": "LLL",
+   "q1_expert_lobe": "undecidable",
+   "q2": "correct",
+   "distance_to_nearest_other_lobe_mm": 4.4,
+   "boundary_within_near_threshold": true,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": true,
+   "note_says_boundary_not_near": false,
+   "note": "結節は葉間裂上にあります。",
+   "slice_thickness_mm": 1.25,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 0.625,
+   "pixel_spacing_mm": [
+    0.664062,
+    0.664062
+   ],
+   "instances": 477
+  },
+  {
+   "item": "L7",
+   "role": "disagree",
+   "set": 3,
+   "case": "B01",
+   "patient": "LIDC-IDRI-0569",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.121824995088859376862458155637",
+   "target": 1,
+   "nodule_centroid_lps_mm": [
+    63.65,
+    -130.3,
+    -125.14
+   ],
+   "request_click_lps_mm": [
+    64.81,
+    -130.19,
+    -124.9
+   ],
+   "request_click_instance_number": 44,
+   "q1_saved_utc": "2026-09-26T12:31:09.436034+00:00",
+   "q2_saved_utc": "2026-09-26T12:32:26.256651+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "LLL",
+   "lobe_of_the_map": "LUL",
+   "q1_expert_lobe": "LUL",
+   "q2": "incorrect",
+   "distance_to_nearest_other_lobe_mm": 44.8,
+   "boundary_within_near_threshold": false,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": false,
+   "note_says_boundary_not_near": true,
+   "note": "自動の肺葉の境界が結節の付近とはいえません。",
+   "slice_thickness_mm": 2.0,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 1.8,
+   "pixel_spacing_mm": [
+    0.625,
+    0.625
+   ],
+   "instances": 197
+  },
+  {
+   "item": "L8",
+   "role": "disagree",
+   "set": 3,
+   "case": "B08",
+   "patient": "LIDC-IDRI-0450",
+   "ct_series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.215640837032688688030770057224",
+   "target": 5,
+   "nodule_centroid_lps_mm": [
+    -67.81,
+    75.91,
+    -121.04
+   ],
+   "request_click_lps_mm": [
+    -68.15,
+    77.57,
+    -120.48
+   ],
+   "request_click_instance_number": 80,
+   "q1_saved_utc": "2026-09-26T12:35:50.267445+00:00",
+   "q2_saved_utc": "2026-09-26T12:36:48.051702+00:00",
+   "q1_after_the_assistant_was_asked": true,
+   "q2_after_the_assistant_was_asked": true,
+   "lobe_named_in_request": "RLL",
+   "lobe_of_the_map": "RUL",
+   "q1_expert_lobe": "RUL",
+   "q2": "correct",
+   "distance_to_nearest_other_lobe_mm": 5.0,
+   "boundary_within_near_threshold": true,
+   "fissure_reported_not_visible": false,
+   "thick_slice_reported": false,
+   "nodule_reported_on_the_fissure": false,
+   "note_says_boundary_not_near": false,
+   "note": null,
+   "slice_thickness_mm": 1.25,
+   "spacing_between_slices_mm": null,
+   "reconstruction_interval_mm": 1.25,
+   "pixel_spacing_mm": [
+    0.537109,
+    0.537109
+   ],
+   "instances": 235
+  }
+ ],
+ "n_items": 8,
+ "guidance_asked_utc": [
+  "2026-09-26T11:35:09Z",
+  "2026-09-26T11:38:53Z"
+ ],
+ "n_answers": 16,
+ "first_answer_utc": "2026-09-26T09:47:30.142577+00:00",
+ "last_answer_utc": "2026-09-26T12:36:48.051702+00:00",
+ "n_answers_after_the_assistant_was_asked": 12,
+ "n_answers_before_the_assistant_was_asked": 3,
+ "q1_undecidable": [
+  "L2",
+  "L3",
+  "L5",
+  "L6"
+ ],
+ "q1_undecidable_after_the_assistant_was_asked": [
+  "L3",
+  "L5",
+  "L6"
+ ],
+ "n_applicable": 5,
+ "n_applicable_correct": 5,
+ "n_not_applicable": 3,
+ "n_not_applicable_answered_incorrect": 3,
+ "n_not_applicable_note_says_not_near": 3
+}

@@ -13,6 +13,8 @@ import json
 import sys
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding='utf-8')   # the data here is Japanese; a cp932 console kills the first print
+
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()

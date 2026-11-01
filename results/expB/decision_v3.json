@@ -1,0 +1,276 @@
+{
+ "note": "paired comparison of a consensus against the reader it is built from; the consensus authorizes only where that reader did, so no wrong authorization is added",
+ "reps": 2000,
+ "seed": 20260926,
+ "pairs": {
+  "D3t_vs_R3": {
+   "prespecified": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 1,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 1,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   },
+   "posthoc": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 1,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 1,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   }
+  },
+  "D3t_vs_M3": {
+   "prespecified": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 1,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   },
+   "posthoc": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 1,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 1,
+    "correct_lost": 1,
+    "wrong_added": 0,
+    "cost": 1.0,
+    "cost_ci": [
+     0.0,
+     3.0
+    ],
+    "resamples_with_a_removal": 1257
+   }
+  },
+  "D3r_vs_D3t": {
+   "prespecified": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 3,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 4,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   },
+   "posthoc": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 3,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 4,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   }
+  },
+  "D1_vs_R1": {
+   "prespecified": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 2,
+      "correct_lost": 11,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 3,
+      "correct_lost": 7,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 5,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 10,
+    "correct_lost": 19,
+    "wrong_added": 0,
+    "cost": 1.9,
+    "cost_ci": [
+     1.27,
+     3.17
+    ],
+    "resamples_with_a_removal": 2000
+   },
+   "posthoc": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 7,
+      "correct_lost": 11,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 6,
+      "correct_lost": 7,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 14,
+      "correct_lost": 1,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 27,
+    "correct_lost": 19,
+    "wrong_added": 0,
+    "cost": 0.7,
+    "cost_ci": [
+     0.42,
+     1.11
+    ],
+    "resamples_with_a_removal": 2000
+   }
+  },
+  "D1_vs_M1": {
+   "prespecified": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 0,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   },
+   "posthoc": {
+    "per_set": {
+     "1": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "2": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     },
+     "3": {
+      "wrong_removed": 0,
+      "correct_lost": 0,
+      "wrong_added": 0
+     }
+    },
+    "wrong_removed": 0,
+    "correct_lost": 0,
+    "wrong_added": 0,
+    "cost": null,
+    "cost_ci": null,
+    "resamples_with_a_removal": 0
+   }
+  }
+ }
+}

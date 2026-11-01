@@ -1,0 +1,508 @@
+{
+ "source": "MSKCC-RepeatCT-Lesion-notes-for-RIDER.xls, shipped with RIDER Lung CT",
+ "note_meaning": "Location of a voxel around the lesion center (origin: top-left)",
+ "z_tolerance_mm": 0.75,
+ "cases": [
+  {
+   "folder": "RIDER-2357766186_1329674063",
+   "patient": "RIDER-2357766186",
+   "ct_series": "1.3.6.1.4.1.9328.50.1.245630263591502535745452645381329674063",
+   "scan": "1",
+   "slice_thickness_mm": 1.25,
+   "pixel_spacing_mm": [
+    0.756,
+    0.756
+   ],
+   "ct_slices": 249,
+   "note": {
+    "readings": {
+     "y_from_top": [
+      -90.2,
+      -35.5,
+      -94.8
+     ],
+     "y_from_bottom": [
+      -90.2,
+      34.8,
+      -94.8
+     ]
+    },
+    "slice_instance": 79,
+    "slice_sop": "1.3.6.1.4.1.9328.50.1.151488782056751324601595481201163413945",
+    "z_mm": -94.75,
+    "noted_pixel": [
+     125.0,
+     209.0
+    ],
+    "noted_image_number": 79.0,
+    "reading": "y_from_bottom",
+    "lps_mm": [
+     -90.2,
+     34.8,
+     -94.8
+    ],
+    "anchor_distance_mm": {
+     "y_from_top": 66.3,
+     "y_from_bottom": 6.9
+    }
+   },
+   "segments": [
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1565948079.2848.1345144135.446",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 307,
+     "centroid_mm": [
+      34.4,
+      35.2,
+      -69.7
+     ],
+     "distance_to_note_centroid_mm": 127.1,
+     "distance_to_note_nearest_mm": 123.2,
+     "separation_x_mm": 124.6,
+     "separation_z_mm": 25.1,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.4148549909.2316.1344855738.65",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 3063,
+     "centroid_mm": [
+      44.0,
+      30.6,
+      -75.1
+     ],
+     "distance_to_note_centroid_mm": 135.7,
+     "distance_to_note_nearest_mm": 126.3,
+     "separation_x_mm": 134.2,
+     "separation_z_mm": 19.7,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1231426215.1428.1345547156.320",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 4049,
+     "centroid_mm": [
+      44.7,
+      29.9,
+      -76.9
+     ],
+     "distance_to_note_centroid_mm": 136.1,
+     "distance_to_note_nearest_mm": 127.7,
+     "separation_x_mm": 134.9,
+     "separation_z_mm": 17.9,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1031255639.1400.1345986988.27",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 911,
+     "centroid_mm": [
+      36.2,
+      34.3,
+      -71.8
+     ],
+     "distance_to_note_centroid_mm": 128.5,
+     "distance_to_note_nearest_mm": 122.5,
+     "separation_x_mm": 126.4,
+     "separation_z_mm": 22.9,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1231426215.2152.1345732744.405",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 4281,
+     "centroid_mm": [
+      42.6,
+      30.1,
+      -75.5
+     ],
+     "distance_to_note_centroid_mm": 134.3,
+     "distance_to_note_nearest_mm": 124.2,
+     "separation_x_mm": 132.8,
+     "separation_z_mm": 19.2,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.14205.1554820902.237181",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 25538,
+     "centroid_mm": [
+      -86.4,
+      30.8,
+      -98.9
+     ],
+     "distance_to_note_centroid_mm": 6.9,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 3.8,
+     "separation_z_mm": 4.1,
+     "covers_noted_voxel": true
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.14205.1554820902.237181",
+     "segment": 2,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 29512,
+     "centroid_mm": [
+      -85.2,
+      30.5,
+      -97.9
+     ],
+     "distance_to_note_centroid_mm": 7.3,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 5.0,
+     "separation_z_mm": 3.2,
+     "covers_noted_voxel": true
+    }
+   ]
+  },
+  {
+   "folder": "RIDER-2357766186_8104412505",
+   "patient": "RIDER-2357766186",
+   "ct_series": "1.3.6.1.4.1.9328.50.1.160525591228102999616019562758104412505",
+   "scan": "2",
+   "slice_thickness_mm": 1.25,
+   "pixel_spacing_mm": [
+    0.732,
+    0.732
+   ],
+   "ct_slices": 214,
+   "note": {
+    "readings": {
+     "y_from_top": [
+      -107.1,
+      -39.8,
+      -108.0
+     ],
+     "y_from_bottom": [
+      -107.1,
+      22.5,
+      -108.0
+     ]
+    },
+    "slice_instance": 64,
+    "slice_sop": "1.3.6.1.4.1.9328.50.1.328556351865493730901148305887358886032",
+    "z_mm": -108.0,
+    "noted_pixel": [
+     124.0,
+     213.0
+    ],
+    "noted_image_number": 64.0,
+    "reading": "y_from_bottom",
+    "lps_mm": [
+     -107.1,
+     22.5,
+     -108.0
+    ],
+    "anchor_distance_mm": {
+     "y_from_top": 56.8,
+     "y_from_bottom": 6.2
+    }
+   },
+   "segments": [
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1565948079.2848.1345144135.439",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 426,
+     "centroid_mm": [
+      13.0,
+      30.1,
+      -81.2
+     ],
+     "distance_to_note_centroid_mm": 123.3,
+     "distance_to_note_nearest_mm": 119.3,
+     "separation_x_mm": 120.1,
+     "separation_z_mm": 26.8,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.4148549909.2316.1344855738.72",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 3230,
+     "centroid_mm": [
+      25.7,
+      25.8,
+      -88.3
+     ],
+     "distance_to_note_centroid_mm": 134.3,
+     "distance_to_note_nearest_mm": 127.9,
+     "separation_x_mm": 132.8,
+     "separation_z_mm": 19.7,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1231426215.1428.1345547156.327",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 4525,
+     "centroid_mm": [
+      23.9,
+      26.0,
+      -87.2
+     ],
+     "distance_to_note_centroid_mm": 132.7,
+     "distance_to_note_nearest_mm": 123.0,
+     "separation_x_mm": 131.0,
+     "separation_z_mm": 20.8,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1031255639.1400.1345986988.34",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 483,
+     "centroid_mm": [
+      13.5,
+      30.0,
+      -81.9
+     ],
+     "distance_to_note_centroid_mm": 123.6,
+     "distance_to_note_nearest_mm": 119.3,
+     "separation_x_mm": 120.6,
+     "separation_z_mm": 26.1,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1231426215.2152.1345732744.412",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 4276,
+     "centroid_mm": [
+      22.6,
+      27.0,
+      -86.4
+     ],
+     "distance_to_note_centroid_mm": 131.5,
+     "distance_to_note_nearest_mm": 118.7,
+     "separation_x_mm": 129.7,
+     "separation_z_mm": 21.6,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.30717.1554842934.942943",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 34079,
+     "centroid_mm": [
+      -102.3,
+      16.7,
+      -112.0
+     ],
+     "distance_to_note_centroid_mm": 8.5,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 4.8,
+     "separation_z_mm": 4.0,
+     "covers_noted_voxel": true
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.30717.1554842934.942943",
+     "segment": 2,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 32080,
+     "centroid_mm": [
+      -105.2,
+      17.2,
+      -110.6
+     ],
+     "distance_to_note_centroid_mm": 6.2,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 1.9,
+     "separation_z_mm": 2.6,
+     "covers_noted_voxel": true
+    }
+   ]
+  },
+  {
+   "folder": "RIDER-5195703382_1061719104",
+   "patient": "RIDER-5195703382",
+   "ct_series": "1.3.6.1.4.1.9328.50.1.286170493057098735157197376891061719104",
+   "scan": "1",
+   "slice_thickness_mm": 1.25,
+   "pixel_spacing_mm": [
+    0.736,
+    0.736
+   ],
+   "ct_slices": 245,
+   "note": {
+    "readings": {
+     "y_from_top": [
+      -28.0,
+      -40.1,
+      -193.2
+     ],
+     "y_from_bottom": [
+      -28.0,
+      54.9,
+      -193.2
+     ]
+    },
+    "slice_instance": 145,
+    "slice_sop": "1.3.6.1.4.1.9328.50.1.284157198774053161366517223362767723500",
+    "z_mm": -193.25,
+    "noted_pixel": [
+     187.0,
+     191.0
+    ],
+    "noted_image_number": 145.0,
+    "reading": "y_from_bottom",
+    "lps_mm": [
+     -28.0,
+     54.9,
+     -193.2
+    ],
+    "anchor_distance_mm": {
+     "y_from_top": 97.1,
+     "y_from_bottom": 2.9
+    }
+   },
+   "segments": [
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.309938702.2504.1345117697.197",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 538,
+     "centroid_mm": [
+      -74.6,
+      22.5,
+      -121.8
+     ],
+     "distance_to_note_centroid_mm": 91.3,
+     "distance_to_note_nearest_mm": 86.0,
+     "separation_x_mm": 46.6,
+     "separation_z_mm": 71.5,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.3426864066.612.1345230812.452",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 920,
+     "centroid_mm": [
+      -73.6,
+      22.5,
+      -122.4
+     ],
+     "distance_to_note_centroid_mm": 90.2,
+     "distance_to_note_nearest_mm": 83.8,
+     "separation_x_mm": 45.6,
+     "separation_z_mm": 70.8,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.11554.1554820706.857013",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 51629,
+     "centroid_mm": [
+      -26.2,
+      57.0,
+      -194.1
+     ],
+     "distance_to_note_centroid_mm": 2.9,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 1.8,
+     "separation_z_mm": 0.9,
+     "covers_noted_voxel": true
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.8323329.11554.1554820706.857013",
+     "segment": 2,
+     "stratum": "RIDER Lung CT | QIICR",
+     "label": "Neoplasm, Primary",
+     "voxels": 53461,
+     "centroid_mm": [
+      -24.9,
+      57.9,
+      -195.3
+     ],
+     "distance_to_note_centroid_mm": 4.8,
+     "distance_to_note_nearest_mm": 0.0,
+     "separation_x_mm": 3.1,
+     "separation_z_mm": 2.0,
+     "covers_noted_voxel": true
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1231426215.1472.1345739029.112",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 666,
+     "centroid_mm": [
+      -74.5,
+      22.5,
+      -121.8
+     ],
+     "distance_to_note_centroid_mm": 91.2,
+     "distance_to_note_nearest_mm": 85.7,
+     "separation_x_mm": 46.5,
+     "separation_z_mm": 71.5,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.505801377.400.1345913933.319",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 954,
+     "centroid_mm": [
+      -73.5,
+      22.5,
+      -122.3
+     ],
+     "distance_to_note_centroid_mm": 90.3,
+     "distance_to_note_nearest_mm": 83.5,
+     "separation_x_mm": 45.5,
+     "separation_z_mm": 70.9,
+     "covers_noted_voxel": false
+    },
+    {
+     "seg_series": "1.2.276.0.7230010.3.1.3.1031255639.2932.1345990551.150",
+     "segment": 1,
+     "stratum": "RIDER Lung CT | Siemens Corporate Research",
+     "label": "Test Label",
+     "voxels": 753,
+     "centroid_mm": [
+      -73.6,
+      22.5,
+      -122.4
+     ],
+     "distance_to_note_centroid_mm": 90.3,
+     "distance_to_note_nearest_mm": 84.1,
+     "separation_x_mm": 45.6,
+     "separation_z_mm": 70.9,
+     "covers_noted_voxel": false
+    }
+   ]
+  }
+ ],
+ "tally": {
+  "note z matches several slices": 3,
+  "reading y_from_bottom": 3,
+  "misses | RIDER Lung CT | Siemens Corporate Research": 15,
+  "covers | RIDER Lung CT | QIICR": 6
+ }
+}

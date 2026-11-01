@@ -79,7 +79,12 @@ def main(argv=None):
         t['D3t'] = t['R3'] if t['R3'] is not None and t['R3'] == t['M3'] else None
         t['D3r'] = t['D3t'] if same_reason(r2, mm3) else None
         for name, chosen in t.items():
-            rows.append(dict(reader=name, set=q.get('set', 1), series=q['ct_series'], id=sid,
+            # 'chosen', 'case' and the nearest-other id are recorded so the outcome of every
+            # request can be classified afterwards without re-running the readers; the two
+            # scored fields below are unchanged.
+            rows.append(dict(reader=name, set=q.get('set') or 1, series=q['ct_series'], id=sid,
+                             case=q['case'], patient=q.get('patient'),
+                             chosen=chosen, target=q['target'], nearest_other=other['target'],
                              intended='authorize' if chosen == q['target'] else 'defer',
                              other='authorize' if chosen == other['target'] else 'defer'))
     order = ('D3t', 'D3r', 'D1', 'R1', 'M1', 'R2', 'M2', 'A2', 'R3', 'M3', 'A3')
@@ -94,6 +99,13 @@ def main(argv=None):
                 per[name] = res
         out[f'set{s}'] = dict(role=ROLE.get(s, ''), n_requests=len({r['id'] for r in rows if r['set'] == s}), readers=per)
     (args.expb / 'results_v3.json').write_text(json.dumps(out, indent=1))
+    # Every request as one row per reader, for the contingency table and the per-request
+    # supplementary table. This is a record of the same scoring, not a second scoring.
+    (args.expb / 'per_request_v3.json').write_text(
+        json.dumps(dict(note='one row per reader and request; chosen is the resolved target '
+                             'or null when the reader deferred',
+                        rows=sorted(rows, key=lambda r: (r['set'], r['case'], r['reader']))),
+                   indent=1))
     for s, x in out.items():
         print(s, x['n_requests'], x['role'])
         for k, v in x['readers'].items():

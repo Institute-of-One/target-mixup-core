@@ -1,0 +1,112 @@
+{
+ "api": "https://services.cancerimagingarchive.net/nbia-api/services/v1",
+ "collections": [
+  "LIDC-IDRI",
+  "RIDER Lung CT"
+ ],
+ "accessed": "2026-10-31T01:13:44Z",
+ "sampled_stratum": "LIDC-IDRI | QIICR",
+ "listed": {
+  "LIDC-IDRI | QIN challenge alg01": {
+   "series": 30,
+   "patients": 10
+  },
+  "LIDC-IDRI | QIN challenge alg03": {
+   "series": 30,
+   "patients": 10
+  },
+  "LIDC-IDRI | QIN challenge alg02": {
+   "series": 30,
+   "patients": 10
+  },
+  "LIDC-IDRI | QIICR": {
+   "series": 6859,
+   "patients": 875
+  },
+  "RIDER Lung CT | QIN challenge alg01": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIN challenge alg02": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIN challenge alg03": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIICR": {
+   "series": 59,
+   "patients": 31
+  },
+  "RIDER Lung CT | Siemens Corporate Research": {
+   "series": 320,
+   "patients": 32
+  },
+  "RIDER Lung CT | pydicom-seg": {
+   "series": 375,
+   "patients": 32
+  }
+ },
+ "drawn": {
+  "LIDC-IDRI | QIICR": {
+   "series": 851,
+   "patients": 100
+  },
+  "LIDC-IDRI | QIN challenge alg01": {
+   "series": 30,
+   "patients": 10
+  },
+  "LIDC-IDRI | QIN challenge alg02": {
+   "series": 30,
+   "patients": 10
+  },
+  "LIDC-IDRI | QIN challenge alg03": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIICR": {
+   "series": 59,
+   "patients": 31
+  },
+  "RIDER Lung CT | QIN challenge alg01": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIN challenge alg02": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | QIN challenge alg03": {
+   "series": 30,
+   "patients": 10
+  },
+  "RIDER Lung CT | Siemens Corporate Research": {
+   "series": 320,
+   "patients": 32
+  },
+  "RIDER Lung CT | pydicom-seg": {
+   "series": 375,
+   "patients": 32
+  }
+ },
+ "verified": "2026-11-01T04:29:55Z",
+ "totals": {
+  "listed_series": 7793,
+  "drawn_series": 1785,
+  "taken_whole": [
+   "LIDC-IDRI | QIN challenge alg01",
+   "LIDC-IDRI | QIN challenge alg02",
+   "LIDC-IDRI | QIN challenge alg03",
+   "RIDER Lung CT | QIICR",
+   "RIDER Lung CT | QIN challenge alg01",
+   "RIDER Lung CT | QIN challenge alg02",
+   "RIDER Lung CT | QIN challenge alg03",
+   "RIDER Lung CT | Siemens Corporate Research",
+   "RIDER Lung CT | pydicom-seg"
+  ]
+ },
+ "seed": 20260924,
+ "planned_patients": 100,
+ "plan_created": "2026-09-24T02:39:13Z"
+}

@@ -12,6 +12,7 @@ import json
 import random
 import re
 import statistics
+import sys
 from pathlib import Path
 
 from expB_readers import read_model, read_rules, resolve
@@ -19,6 +20,9 @@ from expB_readers_v2 import read_model_v2, read_rules_v2, resolve_v2
 from expB_readers_v3 import read_model_v3, resolve_v3, same_reason
 from expB_score import load_jsonl
 from expB_score_v2 import MODEL_V1, MODEL_V2, author_to_v2
+
+sys.stdout.reconfigure(encoding='utf-8')   # the data here is Japanese; a cp932 console kills the first print
+
 
 READERS = ('R1', 'M1', 'D1', 'R2', 'M2', 'A2', 'R3', 'M3', 'A3', 'D3t', 'D3r')
 
@@ -120,10 +124,13 @@ def main(argv=None):
     out['model_calls'] = dict(n=n_calls, ok=ok, median_latency_s=round(statistics.median(lat), 2),
                               max_latency_s=round(max(lat), 2))
 
-    # B15 (set 2): the expert's 'lateral' against whole-lung and slice-local inner-to-outer position
+    # B15 (set 2): the expert's 'lateral' against whole-lung and slice-local inner-to-outer position.
+    # A case is a series, so it appears once per set with a different target; the set is part of the
+    # record, not only of this comment, because the manuscript names the request.
     q15 = next(q for q in reqs if q.get('set') == 2 and q['case'] == 'B15')
     uid, tgt = q15['ct_series'], str(q15['target'])
-    out['b15'] = dict(ml_whole_lung=reg2[uid][tgt]['ml'], ml_slice_local=reg3[uid][tgt]['ml'])
+    out['b15'] = dict(case='B15', set=2, patient=q15.get('patient'), target=q15['target'],
+                      ml_whole_lung=reg2[uid][tgt]['ml'], ml_slice_local=reg3[uid][tgt]['ml'])
 
     # Lobe adjudication (post hoc)
     items = {i['id']: i for i in json.loads((B / 'lobe_review' / 'items.json').read_text())['items']}
@@ -155,9 +162,11 @@ def main(argv=None):
     by_case = {x['case']: x for x in dis if x['set'] == 3}
     d3t = wrong_cases.get('3:D3t', [])
     out['lobes']['d3t_wrong_cases'] = d3t
-    out['lobes']['d3t_wrong_mislocalized'] = sum(c in by_case and by_case[c]['q1'] == by_case[c]['map_lobe'] for c in d3t)
+    # "Discordant", not "mislocalized": the adjudication shows the request and the
+    # image disagree, and does not establish which of them is wrong (Reviewer 3).
+    out['lobes']['d3t_wrong_discordant'] = sum(c in by_case and by_case[c]['q1'] == by_case[c]['map_lobe'] for c in d3t)
     out['lobes']['d3t_wrong_unassignable'] = sum(c in by_case and by_case[c]['q1'] == 'undecidable' for c in d3t)
-    out['lobes']['d3t_wrong_other'] = len(d3t) - out['lobes']['d3t_wrong_mislocalized'] - out['lobes']['d3t_wrong_unassignable']
+    out['lobes']['d3t_wrong_other'] = len(d3t) - out['lobes']['d3t_wrong_discordant'] - out['lobes']['d3t_wrong_unassignable']
     out['wrong_cases'] = wrong_cases
     (B / 'paper_results.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
     print(json.dumps({k: v for k, v in out.items() if k not in ('sets',)}, ensure_ascii=False, indent=1)[:3000])
