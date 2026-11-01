@@ -121,4 +121,4 @@ UIDs.
 ## Citation
 
 See `CITATION.cff`. All versions: https://doi.org/10.5281/zenodo.22978585 (concept DOI). The version used in the
-manuscript, v0.1.2: https://doi.org/10.5281/zenodo.22980164 (version DOI).
+manuscript, v0.1.3: https://doi.org/10.5281/zenodo.23852616 (version DOI).

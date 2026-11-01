@@ -101,11 +101,19 @@ def main(argv=None):
         print('FAIL %s: plan asked for %d patients, drew %d'
               % (SAMPLED, plan['lidc_qiicr_patients'], drawn[SAMPLED]['patients']))
         return 1
-    data['verified'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     data['totals'] = dict(
         listed_series=sum(v['series'] for v in listed.values()),
         drawn_series=sum(v['series'] for v in drawn.values()),
         taken_whole=sorted(k for k in drawn if k != SAMPLED))
+
+    # When the audit says the same thing, say it was verified at the same moment. A new
+    # clock reading on every run made this file - a released result - differ from the
+    # copy in the archive by a timestamp and nothing else, which keeps check_release red
+    # and trains everyone to ignore it.
+    was = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+    unchanged = {k: v for k, v in was.items() if k != 'verified'}
+    data['verified'] = (was.get('verified') if unchanged == data and was.get('verified')
+                        else time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
     path.write_text(json.dumps(data, indent=1), encoding='utf-8')
     print('%d strata; listing of %s accessed %s'
           % (len(drawn), ', '.join(COLLECTIONS), data['accessed']))
